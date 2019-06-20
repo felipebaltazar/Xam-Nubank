@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Nubank"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:views="clr-namespace:Nubank.Views"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Nubank.MainPage"
+             BackgroundColor="#7b159a">
+    <ContentPage.Resources>
+        <Color x:Key="PrimaryColor">#7b159a</Color>
+        <Color x:Key="SecondaryColor">#ffeeff</Color>
+        <Color x:Key="ThirtyColor">Gray</Color>
+        <Style x:Key="LabelPageHeadingStyle" TargetType="Label">
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="TextColor" Value="{StaticResource SecondaryColor}" />
+        </Style>
+        <Style x:Key="LabelPageBodyStyle" TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="TextColor" Value="{StaticResource ThirtyColor}" />
+        </Style>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Grid BackgroundColor="Transparent"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="62*"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="0" Grid.Column="1"
+                   Source="ic_nu_log_white.png" />
+
+            <Label Text="Felipe" Grid.Row="0" Grid.Column="2" FontSize="Medium"
+                   HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"
+                   Style="{StaticResource Key=LabelPageHeadingStyle}"/>
+
+            <Frame Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="20,30,20,0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                   BackgroundColor="{StaticResource Key=SecondaryColor}">
+            
+            <Grid BackgroundColor="Transparent" 
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="30*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="15*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Grid.Row="0" Grid.Column="0" Source="ic_balance_ico.png"
+                       VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+                
+                <Image Grid.Row="0" Grid.Column="2" Source="ic_eye_hide.png"
+                       VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+                
+                <Label Text="Saldo disponível" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Small"
+                       HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"
+                       Style="{StaticResource Key=LabelPageBodyStyle}"/>
+            </Grid>
+        </Frame>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

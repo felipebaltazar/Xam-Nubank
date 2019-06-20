@@ -26,6 +26,2196 @@ namespace Nubank.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::Nubank.Droid.Resource.Animation.abc_fade_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::Nubank.Droid.Resource.Animation.abc_fade_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Nubank.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_enter = global::Nubank.Droid.Resource.Animation.abc_popup_enter;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_exit = global::Nubank.Droid.Resource.Animation.abc_popup_exit;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Nubank.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_bottom = global::Nubank.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_top = global::Nubank.Droid.Resource.Animation.abc_slide_in_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_bottom = global::Nubank.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_top = global::Nubank.Droid.Resource.Animation.abc_slide_out_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Nubank.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Nubank.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_in = global::Nubank.Droid.Resource.Animation.design_snackbar_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_out = global::Nubank.Droid.Resource.Animation.design_snackbar_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animator.design_appbar_state_list_animator = global::Nubank.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarDivider = global::Nubank.Droid.Resource.Attribute.actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarItemBackground = global::Nubank.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarPopupTheme = global::Nubank.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSize = global::Nubank.Droid.Resource.Attribute.actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSplitStyle = global::Nubank.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarStyle = global::Nubank.Droid.Resource.Attribute.actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabBarStyle = global::Nubank.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabStyle = global::Nubank.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabTextStyle = global::Nubank.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTheme = global::Nubank.Droid.Resource.Attribute.actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarWidgetTheme = global::Nubank.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionButtonStyle = global::Nubank.Droid.Resource.Attribute.actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionDropDownStyle = global::Nubank.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionLayout = global::Nubank.Droid.Resource.Attribute.actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextAppearance = global::Nubank.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextColor = global::Nubank.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeBackground = global::Nubank.Droid.Resource.Attribute.actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Nubank.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseDrawable = global::Nubank.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCopyDrawable = global::Nubank.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCutDrawable = global::Nubank.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeFindDrawable = global::Nubank.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePasteDrawable = global::Nubank.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::Nubank.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Nubank.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeShareDrawable = global::Nubank.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSplitBackground = global::Nubank.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeStyle = global::Nubank.Droid.Resource.Attribute.actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Nubank.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::Nubank.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::Nubank.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionProviderClass = global::Nubank.Droid.Resource.Attribute.actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionViewClass = global::Nubank.Droid.Resource.Attribute.actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.activityChooserViewStyle = global::Nubank.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Nubank.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogCenterButtons = global::Nubank.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogStyle = global::Nubank.Droid.Resource.Attribute.alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::Nubank.Droid.Resource.Attribute.alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.allowStacking = global::Nubank.Droid.Resource.Attribute.allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alpha = global::Nubank.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::Nubank.Droid.Resource.Attribute.arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::Nubank.Droid.Resource.Attribute.arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Nubank.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.background = global::Nubank.Droid.Resource.Attribute.background;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::Nubank.Droid.Resource.Attribute.backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::Nubank.Droid.Resource.Attribute.backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTint = global::Nubank.Droid.Resource.Attribute.backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTintMode = global::Nubank.Droid.Resource.Attribute.backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.barLength = global::Nubank.Droid.Resource.Attribute.barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_autoHide = global::Nubank.Droid.Resource.Attribute.behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_hideable = global::Nubank.Droid.Resource.Attribute.behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_overlapTop = global::Nubank.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_peekHeight = global::Nubank.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_skipCollapsed = global::Nubank.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderWidth = global::Nubank.Droid.Resource.Attribute.borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderlessButtonStyle = global::Nubank.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::Nubank.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetStyle = global::Nubank.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarButtonStyle = global::Nubank.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Nubank.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Nubank.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Nubank.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarStyle = global::Nubank.Droid.Resource.Attribute.buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonGravity = global::Nubank.Droid.Resource.Attribute.buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonPanelSideLayout = global::Nubank.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyle = global::Nubank.Droid.Resource.Attribute.buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyleSmall = global::Nubank.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTint = global::Nubank.Droid.Resource.Attribute.buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTintMode = global::Nubank.Droid.Resource.Attribute.buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardBackgroundColor = global::Nubank.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardCornerRadius = global::Nubank.Droid.Resource.Attribute.cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardElevation = global::Nubank.Droid.Resource.Attribute.cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardMaxElevation = global::Nubank.Droid.Resource.Attribute.cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::Nubank.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardUseCompatPadding = global::Nubank.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkboxStyle = global::Nubank.Droid.Resource.Attribute.checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkedTextViewStyle = global::Nubank.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeIcon = global::Nubank.Droid.Resource.Attribute.closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeItemLayout = global::Nubank.Droid.Resource.Attribute.closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseContentDescription = global::Nubank.Droid.Resource.Attribute.collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseIcon = global::Nubank.Droid.Resource.Attribute.collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleGravity = global::Nubank.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Nubank.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.color = global::Nubank.Droid.Resource.Attribute.color;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorAccent = global::Nubank.Droid.Resource.Attribute.colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorBackgroundFloating = global::Nubank.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorButtonNormal = global::Nubank.Droid.Resource.Attribute.colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::Nubank.Droid.Resource.Attribute.colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::Nubank.Droid.Resource.Attribute.colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::Nubank.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::Nubank.Droid.Resource.Attribute.colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::Nubank.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::Nubank.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.commitIcon = global::Nubank.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::Nubank.Droid.Resource.Attribute.contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::Nubank.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::Nubank.Droid.Resource.Attribute.contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetRight = global::Nubank.Droid.Resource.Attribute.contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStart = global::Nubank.Droid.Resource.Attribute.contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::Nubank.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPadding = global::Nubank.Droid.Resource.Attribute.contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingBottom = global::Nubank.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingLeft = global::Nubank.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingRight = global::Nubank.Droid.Resource.Attribute.contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingTop = global::Nubank.Droid.Resource.Attribute.contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentScrim = global::Nubank.Droid.Resource.Attribute.contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.controlBackground = global::Nubank.Droid.Resource.Attribute.controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterEnabled = global::Nubank.Droid.Resource.Attribute.counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterMaxLength = global::Nubank.Droid.Resource.Attribute.counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::Nubank.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterTextAppearance = global::Nubank.Droid.Resource.Attribute.counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.customNavigationLayout = global::Nubank.Droid.Resource.Attribute.customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.defaultQueryHint = global::Nubank.Droid.Resource.Attribute.defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogPreferredPadding = global::Nubank.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogTheme = global::Nubank.Droid.Resource.Attribute.dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.displayOptions = global::Nubank.Droid.Resource.Attribute.displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.divider = global::Nubank.Droid.Resource.Attribute.divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerHorizontal = global::Nubank.Droid.Resource.Attribute.dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerPadding = global::Nubank.Droid.Resource.Attribute.dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerVertical = global::Nubank.Droid.Resource.Attribute.dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawableSize = global::Nubank.Droid.Resource.Attribute.drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawerArrowStyle = global::Nubank.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropDownListViewStyle = global::Nubank.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Nubank.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextBackground = global::Nubank.Droid.Resource.Attribute.editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextColor = global::Nubank.Droid.Resource.Attribute.editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextStyle = global::Nubank.Droid.Resource.Attribute.editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.elevation = global::Nubank.Droid.Resource.Attribute.elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorEnabled = global::Nubank.Droid.Resource.Attribute.errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorTextAppearance = global::Nubank.Droid.Resource.Attribute.errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Nubank.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expanded = global::Nubank.Droid.Resource.Attribute.expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleGravity = global::Nubank.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMargin = global::Nubank.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::Nubank.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::Nubank.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginStart = global::Nubank.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::Nubank.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::Nubank.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::Nubank.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fabSize = global::Nubank.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::Nubank.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::Nubank.Droid.Resource.Attribute.gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.goIcon = global::Nubank.Droid.Resource.Attribute.goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.headerLayout = global::Nubank.Droid.Resource.Attribute.headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.height = global::Nubank.Droid.Resource.Attribute.height;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hideOnContentScroll = global::Nubank.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintAnimationEnabled = global::Nubank.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintEnabled = global::Nubank.Droid.Resource.Attribute.hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintTextAppearance = global::Nubank.Droid.Resource.Attribute.hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::Nubank.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeLayout = global::Nubank.Droid.Resource.Attribute.homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.icon = global::Nubank.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::Nubank.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::Nubank.Droid.Resource.Attribute.imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::Nubank.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.initialActivityCount = global::Nubank.Droid.Resource.Attribute.initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.insetForeground = global::Nubank.Droid.Resource.Attribute.insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.isLightTheme = global::Nubank.Droid.Resource.Attribute.isLightTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemBackground = global::Nubank.Droid.Resource.Attribute.itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemIconTint = global::Nubank.Droid.Resource.Attribute.itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemPadding = global::Nubank.Droid.Resource.Attribute.itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextAppearance = global::Nubank.Droid.Resource.Attribute.itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextColor = global::Nubank.Droid.Resource.Attribute.itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.keylines = global::Nubank.Droid.Resource.Attribute.keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout = global::Nubank.Droid.Resource.Attribute.layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layoutManager = global::Nubank.Droid.Resource.Attribute.layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchor = global::Nubank.Droid.Resource.Attribute.layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchorGravity = global::Nubank.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_behavior = global::Nubank.Droid.Resource.Attribute.layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseMode = global::Nubank.Droid.Resource.Attribute.layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Nubank.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::Nubank.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_insetEdge = global::Nubank.Droid.Resource.Attribute.layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_keyline = global::Nubank.Droid.Resource.Attribute.layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollFlags = global::Nubank.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollInterpolator = global::Nubank.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Nubank.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listDividerAlertDialog = global::Nubank.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listItemLayout = global::Nubank.Droid.Resource.Attribute.listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listLayout = global::Nubank.Droid.Resource.Attribute.listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listMenuViewStyle = global::Nubank.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPopupWindowStyle = global::Nubank.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeight = global::Nubank.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Nubank.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Nubank.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Nubank.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Nubank.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logo = global::Nubank.Droid.Resource.Attribute.logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logoDescription = global::Nubank.Droid.Resource.Attribute.logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxActionInlineWidth = global::Nubank.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxButtonHeight = global::Nubank.Droid.Resource.Attribute.maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.measureWithLargestChild = global::Nubank.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteButtonStyle = global::Nubank.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Nubank.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::Nubank.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::Nubank.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteStopDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTheme = global::Nubank.Droid.Resource.Attribute.mediaRouteTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::Nubank.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.menu = global::Nubank.Droid.Resource.Attribute.menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.multiChoiceItemLayout = global::Nubank.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::Nubank.Droid.Resource.Attribute.navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::Nubank.Droid.Resource.Attribute.navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationMode = global::Nubank.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::Nubank.Droid.Resource.Attribute.overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::Nubank.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::Nubank.Droid.Resource.Attribute.paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingStart = global::Nubank.Droid.Resource.Attribute.paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingTopNoTitle = global::Nubank.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelBackground = global::Nubank.Droid.Resource.Attribute.panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListTheme = global::Nubank.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListWidth = global::Nubank.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleContentDescription = global::Nubank.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleDrawable = global::Nubank.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleEnabled = global::Nubank.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTint = global::Nubank.Droid.Resource.Attribute.passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTintMode = global::Nubank.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupMenuStyle = global::Nubank.Droid.Resource.Attribute.popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupTheme = global::Nubank.Droid.Resource.Attribute.popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupWindowStyle = global::Nubank.Droid.Resource.Attribute.popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.preserveIconSpacing = global::Nubank.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.pressedTranslationZ = global::Nubank.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarPadding = global::Nubank.Droid.Resource.Attribute.progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarStyle = global::Nubank.Droid.Resource.Attribute.progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryBackground = global::Nubank.Droid.Resource.Attribute.queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryHint = global::Nubank.Droid.Resource.Attribute.queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.radioButtonStyle = global::Nubank.Droid.Resource.Attribute.radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyle = global::Nubank.Droid.Resource.Attribute.ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::Nubank.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleSmall = global::Nubank.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.reverseLayout = global::Nubank.Droid.Resource.Attribute.reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.rippleColor = global::Nubank.Droid.Resource.Attribute.rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimAnimationDuration = global::Nubank.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::Nubank.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchHintIcon = global::Nubank.Droid.Resource.Attribute.searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchIcon = global::Nubank.Droid.Resource.Attribute.searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchViewStyle = global::Nubank.Droid.Resource.Attribute.searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.seekBarStyle = global::Nubank.Droid.Resource.Attribute.seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackground = global::Nubank.Droid.Resource.Attribute.selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Nubank.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showAsAction = global::Nubank.Droid.Resource.Attribute.showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showDividers = global::Nubank.Droid.Resource.Attribute.showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showText = global::Nubank.Droid.Resource.Attribute.showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showTitle = global::Nubank.Droid.Resource.Attribute.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.singleChoiceItemLayout = global::Nubank.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spanCount = global::Nubank.Droid.Resource.Attribute.spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinBars = global::Nubank.Droid.Resource.Attribute.spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Nubank.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerStyle = global::Nubank.Droid.Resource.Attribute.spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.splitTrack = global::Nubank.Droid.Resource.Attribute.splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.srcCompat = global::Nubank.Droid.Resource.Attribute.srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.stackFromEnd = global::Nubank.Droid.Resource.Attribute.stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_above_anchor = global::Nubank.Droid.Resource.Attribute.state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsed = global::Nubank.Droid.Resource.Attribute.state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsible = global::Nubank.Droid.Resource.Attribute.state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarBackground = global::Nubank.Droid.Resource.Attribute.statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarScrim = global::Nubank.Droid.Resource.Attribute.statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subMenuArrow = global::Nubank.Droid.Resource.Attribute.subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.submitBackground = global::Nubank.Droid.Resource.Attribute.submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitle = global::Nubank.Droid.Resource.Attribute.subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextAppearance = global::Nubank.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextColor = global::Nubank.Droid.Resource.Attribute.subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextStyle = global::Nubank.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.suggestionRowLayout = global::Nubank.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchMinWidth = global::Nubank.Droid.Resource.Attribute.switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchPadding = global::Nubank.Droid.Resource.Attribute.switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchStyle = global::Nubank.Droid.Resource.Attribute.switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchTextAppearance = global::Nubank.Droid.Resource.Attribute.switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabBackground = global::Nubank.Droid.Resource.Attribute.tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabContentStart = global::Nubank.Droid.Resource.Attribute.tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabGravity = global::Nubank.Droid.Resource.Attribute.tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorColor = global::Nubank.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorHeight = global::Nubank.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMaxWidth = global::Nubank.Droid.Resource.Attribute.tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMinWidth = global::Nubank.Droid.Resource.Attribute.tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMode = global::Nubank.Droid.Resource.Attribute.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPadding = global::Nubank.Droid.Resource.Attribute.tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingBottom = global::Nubank.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingEnd = global::Nubank.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingStart = global::Nubank.Droid.Resource.Attribute.tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingTop = global::Nubank.Droid.Resource.Attribute.tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabSelectedTextColor = global::Nubank.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextAppearance = global::Nubank.Droid.Resource.Attribute.tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextColor = global::Nubank.Droid.Resource.Attribute.tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAllCaps = global::Nubank.Droid.Resource.Attribute.textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Nubank.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItem = global::Nubank.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::Nubank.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::Nubank.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::Nubank.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Nubank.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Nubank.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Nubank.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::Nubank.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorError = global::Nubank.Droid.Resource.Attribute.textColorError;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorSearchUrl = global::Nubank.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.theme = global::Nubank.Droid.Resource.Attribute.theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thickness = global::Nubank.Droid.Resource.Attribute.thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTextPadding = global::Nubank.Droid.Resource.Attribute.thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTint = global::Nubank.Droid.Resource.Attribute.thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTintMode = global::Nubank.Droid.Resource.Attribute.thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMark = global::Nubank.Droid.Resource.Attribute.tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTint = global::Nubank.Droid.Resource.Attribute.tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTintMode = global::Nubank.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tint = global::Nubank.Droid.Resource.Attribute.tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tintMode = global::Nubank.Droid.Resource.Attribute.tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.title = global::Nubank.Droid.Resource.Attribute.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleEnabled = global::Nubank.Droid.Resource.Attribute.titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargin = global::Nubank.Droid.Resource.Attribute.titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginBottom = global::Nubank.Droid.Resource.Attribute.titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginEnd = global::Nubank.Droid.Resource.Attribute.titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginStart = global::Nubank.Droid.Resource.Attribute.titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginTop = global::Nubank.Droid.Resource.Attribute.titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargins = global::Nubank.Droid.Resource.Attribute.titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextAppearance = global::Nubank.Droid.Resource.Attribute.titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextColor = global::Nubank.Droid.Resource.Attribute.titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextStyle = global::Nubank.Droid.Resource.Attribute.titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarId = global::Nubank.Droid.Resource.Attribute.toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Nubank.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::Nubank.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.track = global::Nubank.Droid.Resource.Attribute.track;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTint = global::Nubank.Droid.Resource.Attribute.trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::Nubank.Droid.Resource.Attribute.trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.useCompatPadding = global::Nubank.Droid.Resource.Attribute.useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.voiceIcon = global::Nubank.Droid.Resource.Attribute.voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCentered = global::Nubank.Droid.Resource.Attribute.vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCirclePageIndicatorStyle = global::Nubank.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiFillColor = global::Nubank.Droid.Resource.Attribute.vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiOrientation = global::Nubank.Droid.Resource.Attribute.vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiPageColor = global::Nubank.Droid.Resource.Attribute.vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiRadius = global::Nubank.Droid.Resource.Attribute.vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiSnap = global::Nubank.Droid.Resource.Attribute.vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeColor = global::Nubank.Droid.Resource.Attribute.vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeWidth = global::Nubank.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBar = global::Nubank.Droid.Resource.Attribute.windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBarOverlay = global::Nubank.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionModeOverlay = global::Nubank.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMajor = global::Nubank.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMinor = global::Nubank.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMajor = global::Nubank.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMinor = global::Nubank.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMajor = global::Nubank.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMinor = global::Nubank.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowNoTitle = global::Nubank.Droid.Resource.Attribute.windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Nubank.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::Nubank.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Nubank.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Nubank.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Nubank.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_centered = global::Nubank.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_snap = global::Nubank.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Nubank.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Nubank.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::Nubank.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_text_material = global::Nubank.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_color_highlight_material = global::Nubank.Droid.Resource.Color.abc_color_highlight_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::Nubank.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_light = global::Nubank.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_input_method_navigation_guard = global::Nubank.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Nubank.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Nubank.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_dark = global::Nubank.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_light = global::Nubank.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text = global::Nubank.Droid.Resource.Color.abc_search_url_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_normal = global::Nubank.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_pressed = global::Nubank.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_selected = global::Nubank.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_dark = global::Nubank.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_light = global::Nubank.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_btn_checkable = global::Nubank.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_default = global::Nubank.Droid.Resource.Color.abc_tint_default;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_edittext = global::Nubank.Droid.Resource.Color.abc_tint_edittext;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_seek_thumb = global::Nubank.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_spinner = global::Nubank.Droid.Resource.Color.abc_tint_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_switch_track = global::Nubank.Droid.Resource.Color.abc_tint_switch_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_dark = global::Nubank.Droid.Resource.Color.accent_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_light = global::Nubank.Droid.Resource.Color.accent_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_dark = global::Nubank.Droid.Resource.Color.background_floating_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_light = global::Nubank.Droid.Resource.Color.background_floating_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_dark = global::Nubank.Droid.Resource.Color.background_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_light = global::Nubank.Droid.Resource.Color.background_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Nubank.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::Nubank.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Nubank.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::Nubank.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_dark = global::Nubank.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_light = global::Nubank.Droid.Resource.Color.bright_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_dark = global::Nubank.Droid.Resource.Color.button_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_light = global::Nubank.Droid.Resource.Color.button_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_dark_background = global::Nubank.Droid.Resource.Color.cardview_dark_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_light_background = global::Nubank.Droid.Resource.Color.cardview_light_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_end_color = global::Nubank.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_start_color = global::Nubank.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_fill_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_page_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_stroke_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Nubank.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_error = global::Nubank.Droid.Resource.Color.design_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_end_color = global::Nubank.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_mid_color = global::Nubank.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_start_color = global::Nubank.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Nubank.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Nubank.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Nubank.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Nubank.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_snackbar_background_color = global::Nubank.Droid.Resource.Color.design_snackbar_background_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_tint_password_toggle = global::Nubank.Droid.Resource.Color.design_tint_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Nubank.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::Nubank.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_dark = global::Nubank.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_light = global::Nubank.Droid.Resource.Color.dim_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_dark = global::Nubank.Droid.Resource.Color.foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_light = global::Nubank.Droid.Resource.Color.foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_dark = global::Nubank.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_light = global::Nubank.Droid.Resource.Color.highlighted_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_800 = global::Nubank.Droid.Resource.Color.material_blue_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_900 = global::Nubank.Droid.Resource.Color.material_blue_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_950 = global::Nubank.Droid.Resource.Color.material_blue_grey_950;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_200 = global::Nubank.Droid.Resource.Color.material_deep_teal_200;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_500 = global::Nubank.Droid.Resource.Color.material_deep_teal_500;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_100 = global::Nubank.Droid.Resource.Color.material_grey_100;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_300 = global::Nubank.Droid.Resource.Color.material_grey_300;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_50 = global::Nubank.Droid.Resource.Color.material_grey_50;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_600 = global::Nubank.Droid.Resource.Color.material_grey_600;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_800 = global::Nubank.Droid.Resource.Color.material_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_850 = global::Nubank.Droid.Resource.Color.material_grey_850;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_900 = global::Nubank.Droid.Resource.Color.material_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_action_color_filter = global::Nubank.Droid.Resource.Color.notification_action_color_filter;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_icon_bg_color = global::Nubank.Droid.Resource.Color.notification_icon_bg_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_material_background_media_default_color = global::Nubank.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_dark = global::Nubank.Droid.Resource.Color.primary_dark_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_light = global::Nubank.Droid.Resource.Color.primary_dark_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_dark = global::Nubank.Droid.Resource.Color.primary_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_light = global::Nubank.Droid.Resource.Color.primary_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_dark = global::Nubank.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_light = global::Nubank.Droid.Resource.Color.primary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_dark = global::Nubank.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_light = global::Nubank.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_dark = global::Nubank.Droid.Resource.Color.ripple_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_light = global::Nubank.Droid.Resource.Color.ripple_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_dark = global::Nubank.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_light = global::Nubank.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::Nubank.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_light = global::Nubank.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Nubank.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::Nubank.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_dark = global::Nubank.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::Nubank.Droid.Resource.Color.switch_thumb_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::Nubank.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::Nubank.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_dark = global::Nubank.Droid.Resource.Color.vpi__background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_light = global::Nubank.Droid.Resource.Color.vpi__background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Nubank.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::Nubank.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Nubank.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Nubank.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Nubank.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::Nubank.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::Nubank.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Nubank.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Nubank.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Nubank.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Nubank.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Nubank.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Nubank.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Nubank.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Nubank.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_corner_material = global::Nubank.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_inset_material = global::Nubank.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_padding_material = global::Nubank.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Nubank.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Nubank.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Nubank.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Nubank.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Nubank.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Nubank.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::Nubank.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Nubank.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_material = global::Nubank.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Nubank.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::Nubank.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Nubank.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Nubank.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Nubank.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Nubank.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Nubank.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Nubank.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Nubank.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Nubank.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_floating_window_z = global::Nubank.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Nubank.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::Nubank.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::Nubank.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::Nubank.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::Nubank.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Nubank.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Nubank.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Nubank.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_switch_padding = global::Nubank.Droid.Resource.Dimension.abc_switch_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_button_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_caption_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_headline_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_large_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_medium_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_small_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Nubank.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material = global::Nubank.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Nubank.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Nubank.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::Nubank.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::Nubank.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_radius = global::Nubank.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_stroke_width = global::Nubank.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::Nubank.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_height = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::Nubank.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Nubank.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Nubank.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_border_width = global::Nubank.Droid.Resource.Dimension.design_fab_border_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_elevation = global::Nubank.Droid.Resource.Dimension.design_fab_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_image_size = global::Nubank.Droid.Resource.Dimension.design_fab_image_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_mini = global::Nubank.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_normal = global::Nubank.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Nubank.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_elevation = global::Nubank.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_padding = global::Nubank.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_size = global::Nubank.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_max_width = global::Nubank.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::Nubank.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Nubank.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Nubank.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Nubank.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_elevation = global::Nubank.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Nubank.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_max_width = global::Nubank.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_min_width = global::Nubank.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Nubank.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Nubank.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Nubank.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_text_size = global::Nubank.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_max_width = global::Nubank.Droid.Resource.Dimension.design_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Nubank.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size = global::Nubank.Droid.Resource.Dimension.design_tab_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::Nubank.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::Nubank.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::Nubank.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::Nubank.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::Nubank.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::Nubank.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_dark = global::Nubank.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_light = global::Nubank.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::Nubank.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::Nubank.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Nubank.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Nubank.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Nubank.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Nubank.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Nubank.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Nubank.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Nubank.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::Nubank.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::Nubank.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_icon_size = global::Nubank.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_text_size = global::Nubank.Droid.Resource.Dimension.notification_action_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_big_circle_margin = global::Nubank.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_content_margin_start = global::Nubank.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_height = global::Nubank.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_width = global::Nubank.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_main_column_padding_top = global::Nubank.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_media_narrow_margin = global::Nubank.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_icon_size = global::Nubank.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_side_padding_top = global::Nubank.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::Nubank.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::Nubank.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::Nubank.Droid.Resource.Dimension.notification_subtext_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::Nubank.Droid.Resource.Dimension.notification_top_pad;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::Nubank.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Nubank.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::Nubank.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_material = global::Nubank.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Nubank.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Nubank.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_colored_material = global::Nubank.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Nubank.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_material = global::Nubank.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Nubank.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Nubank.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Nubank.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Nubank.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Nubank.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_material = global::Nubank.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_control_background_material = global::Nubank.Droid.Resource.Drawable.abc_control_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_dialog_material_background = global::Nubank.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_edit_text_material = global::Nubank.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::Nubank.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Nubank.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_clear_material = global::Nubank.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::Nubank.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_search_api_material = global::Nubank.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::Nubank.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::Nubank.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::Nubank.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_light = global::Nubank.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_focused_holo = global::Nubank.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::Nubank.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Nubank.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Nubank.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Nubank.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Nubank.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Nubank.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Nubank.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Nubank.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::Nubank.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Nubank.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Nubank.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Nubank.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_material = global::Nubank.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::Nubank.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Nubank.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Nubank.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Nubank.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::Nubank.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_track_material = global::Nubank.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Nubank.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Nubank.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_thumb_material = global::Nubank.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_material = global::Nubank.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_cursor_material = global::Nubank.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Nubank.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Nubank.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_material = global::Nubank.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_vector_test = global::Nubank.Droid.Resource.Drawable.abc_vector_test;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password = global::Nubank.Droid.Resource.Drawable.avd_hide_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_1 = global::Nubank.Droid.Resource.Drawable.avd_hide_password_1;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_2 = global::Nubank.Droid.Resource.Drawable.avd_hide_password_2;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password_3 = global::Nubank.Droid.Resource.Drawable.avd_hide_password_3;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password = global::Nubank.Droid.Resource.Drawable.avd_show_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_1 = global::Nubank.Droid.Resource.Drawable.avd_show_password_1;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_2 = global::Nubank.Droid.Resource.Drawable.avd_show_password_2;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password_3 = global::Nubank.Droid.Resource.Drawable.avd_show_password_3;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::Nubank.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_fab_background = global::Nubank.Droid.Resource.Drawable.design_fab_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility = global::Nubank.Droid.Resource.Drawable.design_ic_visibility;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::Nubank.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::Nubank.Droid.Resource.Drawable.design_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::Nubank.Droid.Resource.Drawable.design_snackbar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Down = global::Nubank.Droid.Resource.Drawable.Down;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::Nubank.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::Nubank.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::Nubank.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_light = global::Nubank.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_00 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_01 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_02 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_03 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_04 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_05 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_06 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_07 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_08 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_09 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_10 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_11 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_12 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_13 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_14 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_15 = global::Nubank.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_00 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_01 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_02 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_03 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_04 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_05 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_06 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_07 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_08 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_09 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_10 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_11 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_12 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_13 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_14 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_15 = global::Nubank.Droid.Resource.Drawable.ic_group_expand_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_dark = global::Nubank.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_light = global::Nubank.Droid.Resource.Drawable.ic_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_dark = global::Nubank.Droid.Resource.Drawable.ic_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_light = global::Nubank.Droid.Resource.Drawable.ic_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_dark = global::Nubank.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_light = global::Nubank.Droid.Resource.Drawable.ic_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::Nubank.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::Nubank.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_grey = global::Nubank.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::Nubank.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Nubank.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::Nubank.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::Nubank.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::Nubank.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_light = global::Nubank.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_dark = global::Nubank.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_light = global::Nubank.Droid.Resource.Drawable.mr_button_connected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_dark = global::Nubank.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_light = global::Nubank.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_dark = global::Nubank.Droid.Resource.Drawable.mr_button_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_light = global::Nubank.Droid.Resource.Drawable.mr_button_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_dark = global::Nubank.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_light = global::Nubank.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::Nubank.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_light = global::Nubank.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_collapse = global::Nubank.Droid.Resource.Drawable.mr_group_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_expand = global::Nubank.Droid.Resource.Drawable.mr_group_expand;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_dark = global::Nubank.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_light = global::Nubank.Droid.Resource.Drawable.mr_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_dark = global::Nubank.Droid.Resource.Drawable.mr_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_light = global::Nubank.Droid.Resource.Drawable.mr_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_dark = global::Nubank.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_light = global::Nubank.Droid.Resource.Drawable.mr_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Nubank.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::Nubank.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.navigation_empty_icon = global::Nubank.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Next = global::Nubank.Droid.Resource.Drawable.Next;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_action_background = global::Nubank.Droid.Resource.Drawable.notification_action_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg = global::Nubank.Droid.Resource.Drawable.notification_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low = global::Nubank.Droid.Resource.Drawable.notification_bg_low;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_normal = global::Nubank.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_pressed = global::Nubank.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal = global::Nubank.Droid.Resource.Drawable.notification_bg_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::Nubank.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_icon_background = global::Nubank.Droid.Resource.Drawable.notification_icon_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_bg = global::Nubank.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::Nubank.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::Nubank.Droid.Resource.Drawable.notification_tile_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Nubank.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Prev = global::Nubank.Droid.Resource.Drawable.Prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Up = global::Nubank.Droid.Resource.Drawable.Up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action0 = global::Nubank.Droid.Resource.Id.action0;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar = global::Nubank.Droid.Resource.Id.action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::Nubank.Droid.Resource.Id.action_bar_activity_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_container = global::Nubank.Droid.Resource.Id.action_bar_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_root = global::Nubank.Droid.Resource.Id.action_bar_root;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_spinner = global::Nubank.Droid.Resource.Id.action_bar_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_subtitle = global::Nubank.Droid.Resource.Id.action_bar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_title = global::Nubank.Droid.Resource.Id.action_bar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_container = global::Nubank.Droid.Resource.Id.action_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_context_bar = global::Nubank.Droid.Resource.Id.action_context_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_divider = global::Nubank.Droid.Resource.Id.action_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_image = global::Nubank.Droid.Resource.Id.action_image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_divider = global::Nubank.Droid.Resource.Id.action_menu_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_presenter = global::Nubank.Droid.Resource.Id.action_menu_presenter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar = global::Nubank.Droid.Resource.Id.action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar_stub = global::Nubank.Droid.Resource.Id.action_mode_bar_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_close_button = global::Nubank.Droid.Resource.Id.action_mode_close_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_text = global::Nubank.Droid.Resource.Id.action_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.actions = global::Nubank.Droid.Resource.Id.actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.activity_chooser_view_content = global::Nubank.Droid.Resource.Id.activity_chooser_view_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.add = global::Nubank.Droid.Resource.Id.add;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.alertTitle = global::Nubank.Droid.Resource.Id.alertTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.all = global::Nubank.Droid.Resource.Id.all;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.always = global::Nubank.Droid.Resource.Id.always;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.auto = global::Nubank.Droid.Resource.Id.auto;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.beginning = global::Nubank.Droid.Resource.Id.beginning;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.bottom = global::Nubank.Droid.Resource.Id.bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.buttonPanel = global::Nubank.Droid.Resource.Id.buttonPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.cancel_action = global::Nubank.Droid.Resource.Id.cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center = global::Nubank.Droid.Resource.Id.center;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_horizontal = global::Nubank.Droid.Resource.Id.center_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_vertical = global::Nubank.Droid.Resource.Id.center_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.checkbox = global::Nubank.Droid.Resource.Id.checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.chronometer = global::Nubank.Droid.Resource.Id.chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_horizontal = global::Nubank.Droid.Resource.Id.clip_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_vertical = global::Nubank.Droid.Resource.Id.clip_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.collapseActionView = global::Nubank.Droid.Resource.Id.collapseActionView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.container = global::Nubank.Droid.Resource.Id.container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.contentPanel = global::Nubank.Droid.Resource.Id.contentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.coordinator = global::Nubank.Droid.Resource.Id.coordinator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.custom = global::Nubank.Droid.Resource.Id.custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.customPanel = global::Nubank.Droid.Resource.Id.customPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.decor_content_parent = global::Nubank.Droid.Resource.Id.decor_content_parent;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.default_activity_button = global::Nubank.Droid.Resource.Id.default_activity_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_bottom_sheet = global::Nubank.Droid.Resource.Id.design_bottom_sheet;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area = global::Nubank.Droid.Resource.Id.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area_stub = global::Nubank.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_text = global::Nubank.Droid.Resource.Id.design_menu_item_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_navigation_view = global::Nubank.Droid.Resource.Id.design_navigation_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.disableHome = global::Nubank.Droid.Resource.Id.disableHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.edit_query = global::Nubank.Droid.Resource.Id.edit_query;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end = global::Nubank.Droid.Resource.Id.end;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end_padder = global::Nubank.Droid.Resource.Id.end_padder;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlways = global::Nubank.Droid.Resource.Id.enterAlways;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlwaysCollapsed = global::Nubank.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.exitUntilCollapsed = global::Nubank.Droid.Resource.Id.exitUntilCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expand_activities_button = global::Nubank.Droid.Resource.Id.expand_activities_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expanded_menu = global::Nubank.Droid.Resource.Id.expanded_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill = global::Nubank.Droid.Resource.Id.fill;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_horizontal = global::Nubank.Droid.Resource.Id.fill_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_vertical = global::Nubank.Droid.Resource.Id.fill_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.@fixed = global::Nubank.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.home = global::Nubank.Droid.Resource.Id.home;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.homeAsUp = global::Nubank.Droid.Resource.Id.homeAsUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.horizontal = global::Nubank.Droid.Resource.Id.horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon = global::Nubank.Droid.Resource.Id.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon_group = global::Nubank.Droid.Resource.Id.icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.ifRoom = global::Nubank.Droid.Resource.Id.ifRoom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.image = global::Nubank.Droid.Resource.Id.image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.indicator = global::Nubank.Droid.Resource.Id.indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.info = global::Nubank.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::Nubank.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.largeLabel = global::Nubank.Droid.Resource.Id.largeLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.left = global::Nubank.Droid.Resource.Id.left;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line1 = global::Nubank.Droid.Resource.Id.line1;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line3 = global::Nubank.Droid.Resource.Id.line3;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.listMode = global::Nubank.Droid.Resource.Id.listMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.list_item = global::Nubank.Droid.Resource.Id.list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.masked = global::Nubank.Droid.Resource.Id.masked;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.media_actions = global::Nubank.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.middle = global::Nubank.Droid.Resource.Id.middle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mini = global::Nubank.Droid.Resource.Id.mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_art = global::Nubank.Droid.Resource.Id.mr_art;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_list = global::Nubank.Droid.Resource.Id.mr_chooser_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_desc = global::Nubank.Droid.Resource.Id.mr_chooser_route_desc;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_icon = global::Nubank.Droid.Resource.Id.mr_chooser_route_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_name = global::Nubank.Droid.Resource.Id.mr_chooser_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_title = global::Nubank.Droid.Resource.Id.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_close = global::Nubank.Droid.Resource.Id.mr_close;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_divider = global::Nubank.Droid.Resource.Id.mr_control_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_playback_ctrl = global::Nubank.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_subtitle = global::Nubank.Droid.Resource.Id.mr_control_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title = global::Nubank.Droid.Resource.Id.mr_control_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title_container = global::Nubank.Droid.Resource.Id.mr_control_title_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_custom_control = global::Nubank.Droid.Resource.Id.mr_custom_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_default_control = global::Nubank.Droid.Resource.Id.mr_default_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_dialog_area = global::Nubank.Droid.Resource.Id.mr_dialog_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_expandable_area = global::Nubank.Droid.Resource.Id.mr_expandable_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_group_expand_collapse = global::Nubank.Droid.Resource.Id.mr_group_expand_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_media_main_control = global::Nubank.Droid.Resource.Id.mr_media_main_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_name = global::Nubank.Droid.Resource.Id.mr_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_playback_control = global::Nubank.Droid.Resource.Id.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_title_bar = global::Nubank.Droid.Resource.Id.mr_title_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_control = global::Nubank.Droid.Resource.Id.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_group_list = global::Nubank.Droid.Resource.Id.mr_volume_group_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_item_icon = global::Nubank.Droid.Resource.Id.mr_volume_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_slider = global::Nubank.Droid.Resource.Id.mr_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.multiply = global::Nubank.Droid.Resource.Id.multiply;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.navigation_header_container = global::Nubank.Droid.Resource.Id.navigation_header_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.never = global::Nubank.Droid.Resource.Id.never;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.next = global::Nubank.Droid.Resource.Id.next;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.nextArrow = global::Nubank.Droid.Resource.Id.nextArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.none = global::Nubank.Droid.Resource.Id.none;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.normal = global::Nubank.Droid.Resource.Id.normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_background = global::Nubank.Droid.Resource.Id.notification_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column = global::Nubank.Droid.Resource.Id.notification_main_column;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column_container = global::Nubank.Droid.Resource.Id.notification_main_column_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pager = global::Nubank.Droid.Resource.Id.pager;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parallax = global::Nubank.Droid.Resource.Id.parallax;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parentPanel = global::Nubank.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pin = global::Nubank.Droid.Resource.Id.pin;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prev = global::Nubank.Droid.Resource.Id.prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prevArrow = global::Nubank.Droid.Resource.Id.prevArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_circular = global::Nubank.Droid.Resource.Id.progress_circular;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_horizontal = global::Nubank.Droid.Resource.Id.progress_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.radio = global::Nubank.Droid.Resource.Id.radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right = global::Nubank.Droid.Resource.Id.right;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_icon = global::Nubank.Droid.Resource.Id.right_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_side = global::Nubank.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.screen = global::Nubank.Droid.Resource.Id.screen;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scroll = global::Nubank.Droid.Resource.Id.scroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::Nubank.Droid.Resource.Id.scrollIndicatorDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorUp = global::Nubank.Droid.Resource.Id.scrollIndicatorUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollView = global::Nubank.Droid.Resource.Id.scrollView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollable = global::Nubank.Droid.Resource.Id.scrollable;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_badge = global::Nubank.Droid.Resource.Id.search_badge;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_bar = global::Nubank.Droid.Resource.Id.search_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_button = global::Nubank.Droid.Resource.Id.search_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_close_btn = global::Nubank.Droid.Resource.Id.search_close_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_edit_frame = global::Nubank.Droid.Resource.Id.search_edit_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_go_btn = global::Nubank.Droid.Resource.Id.search_go_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_mag_icon = global::Nubank.Droid.Resource.Id.search_mag_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_plate = global::Nubank.Droid.Resource.Id.search_plate;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_src_text = global::Nubank.Droid.Resource.Id.search_src_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_voice_btn = global::Nubank.Droid.Resource.Id.search_voice_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.select_dialog_listview = global::Nubank.Droid.Resource.Id.select_dialog_listview;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.shortcut = global::Nubank.Droid.Resource.Id.shortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showCustom = global::Nubank.Droid.Resource.Id.showCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showHome = global::Nubank.Droid.Resource.Id.showHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showTitle = global::Nubank.Droid.Resource.Id.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.smallLabel = global::Nubank.Droid.Resource.Id.smallLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_action = global::Nubank.Droid.Resource.Id.snackbar_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_text = global::Nubank.Droid.Resource.Id.snackbar_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snap = global::Nubank.Droid.Resource.Id.snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.spacer = global::Nubank.Droid.Resource.Id.spacer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.split_action_bar = global::Nubank.Droid.Resource.Id.split_action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_atop = global::Nubank.Droid.Resource.Id.src_atop;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_in = global::Nubank.Droid.Resource.Id.src_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_over = global::Nubank.Droid.Resource.Id.src_over;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.start = global::Nubank.Droid.Resource.Id.start;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.status_bar_latest_event_content = global::Nubank.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submenuarrow = global::Nubank.Droid.Resource.Id.submenuarrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submit_area = global::Nubank.Droid.Resource.Id.submit_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.tabMode = global::Nubank.Droid.Resource.Id.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text = global::Nubank.Droid.Resource.Id.text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text2 = global::Nubank.Droid.Resource.Id.text2;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoButtons = global::Nubank.Droid.Resource.Id.textSpacerNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoTitle = global::Nubank.Droid.Resource.Id.textSpacerNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text_input_password_toggle = global::Nubank.Droid.Resource.Id.text_input_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_counter = global::Nubank.Droid.Resource.Id.textinput_counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_error = global::Nubank.Droid.Resource.Id.textinput_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.time = global::Nubank.Droid.Resource.Id.time;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title = global::Nubank.Droid.Resource.Id.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.titleDividerNoCustom = global::Nubank.Droid.Resource.Id.titleDividerNoCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title_template = global::Nubank.Droid.Resource.Id.title_template;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.top = global::Nubank.Droid.Resource.Id.top;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.topPanel = global::Nubank.Droid.Resource.Id.topPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.touch_outside = global::Nubank.Droid.Resource.Id.touch_outside;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_current_scene = global::Nubank.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::Nubank.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.up = global::Nubank.Droid.Resource.Id.up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.useLogo = global::Nubank.Droid.Resource.Id.useLogo;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.vertical = global::Nubank.Droid.Resource.Id.vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.view_offset_helper = global::Nubank.Droid.Resource.Id.view_offset_helper;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.visible = global::Nubank.Droid.Resource.Id.visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.volume_item_container = global::Nubank.Droid.Resource.Id.volume_item_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.withText = global::Nubank.Droid.Resource.Id.withText;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.wrap_content = global::Nubank.Droid.Resource.Id.wrap_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::Nubank.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityShortDur = global::Nubank.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Nubank.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::Nubank.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::Nubank.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.default_circle_indicator_orientation = global::Nubank.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::Nubank.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::Nubank.Droid.Resource.Integer.hide_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Nubank.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Nubank.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Nubank.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.show_password_duration = global::Nubank.Droid.Resource.Integer.show_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Nubank.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::Nubank.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::Nubank.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::Nubank.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::Nubank.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::Nubank.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::Nubank.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::Nubank.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::Nubank.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view = global::Nubank.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Nubank.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Nubank.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_material = global::Nubank.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::Nubank.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_dialog_title_material = global::Nubank.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_expanded_menu_layout = global::Nubank.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Nubank.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_icon = global::Nubank.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_layout = global::Nubank.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_radio = global::Nubank.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::Nubank.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::Nubank.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_content_include = global::Nubank.Droid.Resource.Layout.abc_screen_content_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple = global::Nubank.Droid.Resource.Layout.abc_screen_simple;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Nubank.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_toolbar = global::Nubank.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Nubank.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_view = global::Nubank.Droid.Resource.Layout.abc_search_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_select_dialog_material = global::Nubank.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_navigation_item = global::Nubank.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::Nubank.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar = global::Nubank.Droid.Resource.Layout.design_layout_snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar_include = global::Nubank.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_icon = global::Nubank.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_text = global::Nubank.Droid.Resource.Layout.design_layout_tab_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_menu_item_action_area = global::Nubank.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item = global::Nubank.Droid.Resource.Layout.design_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_header = global::Nubank.Droid.Resource.Layout.design_navigation_item_header;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_separator = global::Nubank.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_subheader = global::Nubank.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu = global::Nubank.Droid.Resource.Layout.design_navigation_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu_item = global::Nubank.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_text_input_password_icon = global::Nubank.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.horizontal_viewpager = global::Nubank.Droid.Resource.Layout.horizontal_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_dialog = global::Nubank.Droid.Resource.Layout.mr_chooser_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_list_item = global::Nubank.Droid.Resource.Layout.mr_chooser_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_material_dialog_b = global::Nubank.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_volume_item = global::Nubank.Droid.Resource.Layout.mr_controller_volume_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_playback_control = global::Nubank.Droid.Resource.Layout.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_volume_control = global::Nubank.Droid.Resource.Layout.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action = global::Nubank.Droid.Resource.Layout.notification_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action_tombstone = global::Nubank.Droid.Resource.Layout.notification_action_tombstone;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_action = global::Nubank.Droid.Resource.Layout.notification_media_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_cancel_action = global::Nubank.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media = global::Nubank.Droid.Resource.Layout.notification_template_big_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_custom = global::Nubank.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow = global::Nubank.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::Nubank.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_custom_big = global::Nubank.Droid.Resource.Layout.notification_template_custom_big;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_icon_group = global::Nubank.Droid.Resource.Layout.notification_template_icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_lines_media = global::Nubank.Droid.Resource.Layout.notification_template_lines_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media = global::Nubank.Droid.Resource.Layout.notification_template_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media_custom = global::Nubank.Droid.Resource.Layout.notification_template_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_chronometer = global::Nubank.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_time = global::Nubank.Droid.Resource.Layout.notification_template_part_time;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_item_material = global::Nubank.Droid.Resource.Layout.select_dialog_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_multichoice_material = global::Nubank.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::Nubank.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Nubank.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.vertical_viewpager = global::Nubank.Droid.Resource.Layout.vertical_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::Nubank.Droid.Resource.String.abc_action_bar_home_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::Nubank.Droid.Resource.String.abc_action_bar_up_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::Nubank.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::Nubank.Droid.Resource.String.abc_action_mode_done;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::Nubank.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activitychooserview_choose_application = global::Nubank.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_off = global::Nubank.Droid.Resource.String.abc_capital_off;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_on = global::Nubank.Droid.Resource.String.abc_capital_on;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_1_material = global::Nubank.Droid.Resource.String.abc_font_family_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_2_material = global::Nubank.Droid.Resource.String.abc_font_family_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_button_material = global::Nubank.Droid.Resource.String.abc_font_family_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_caption_material = global::Nubank.Droid.Resource.String.abc_font_family_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_1_material = global::Nubank.Droid.Resource.String.abc_font_family_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_2_material = global::Nubank.Droid.Resource.String.abc_font_family_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_3_material = global::Nubank.Droid.Resource.String.abc_font_family_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_4_material = global::Nubank.Droid.Resource.String.abc_font_family_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_headline_material = global::Nubank.Droid.Resource.String.abc_font_family_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_menu_material = global::Nubank.Droid.Resource.String.abc_font_family_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_subhead_material = global::Nubank.Droid.Resource.String.abc_font_family_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_title_material = global::Nubank.Droid.Resource.String.abc_font_family_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_search_hint = global::Nubank.Droid.Resource.String.abc_search_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_clear = global::Nubank.Droid.Resource.String.abc_searchview_description_clear;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_query = global::Nubank.Droid.Resource.String.abc_searchview_description_query;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_search = global::Nubank.Droid.Resource.String.abc_searchview_description_search;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_submit = global::Nubank.Droid.Resource.String.abc_searchview_description_submit;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_voice = global::Nubank.Droid.Resource.String.abc_searchview_description_voice;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with = global::Nubank.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Nubank.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_toolbar_collapse_description = global::Nubank.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::Nubank.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::Nubank.Droid.Resource.String.bottom_sheet_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.character_counter_pattern = global::Nubank.Droid.Resource.String.character_counter_pattern;
+			global::CarouselView.FormsPlugin.Android.Resource.String.library_name = global::Nubank.Droid.Resource.String.library_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_button_content_description = global::Nubank.Droid.Resource.String.mr_button_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connected = global::Nubank.Droid.Resource.String.mr_cast_button_connected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connecting = global::Nubank.Droid.Resource.String.mr_cast_button_connecting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_disconnected = global::Nubank.Droid.Resource.String.mr_cast_button_disconnected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_searching = global::Nubank.Droid.Resource.String.mr_chooser_searching;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_title = global::Nubank.Droid.Resource.String.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_album_art = global::Nubank.Droid.Resource.String.mr_controller_album_art;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_casting_screen = global::Nubank.Droid.Resource.String.mr_controller_casting_screen;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_close_description = global::Nubank.Droid.Resource.String.mr_controller_close_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_collapse_group = global::Nubank.Droid.Resource.String.mr_controller_collapse_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_disconnect = global::Nubank.Droid.Resource.String.mr_controller_disconnect;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_expand_group = global::Nubank.Droid.Resource.String.mr_controller_expand_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_info_available = global::Nubank.Droid.Resource.String.mr_controller_no_info_available;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_media_selected = global::Nubank.Droid.Resource.String.mr_controller_no_media_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_pause = global::Nubank.Droid.Resource.String.mr_controller_pause;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_play = global::Nubank.Droid.Resource.String.mr_controller_play;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop = global::Nubank.Droid.Resource.String.mr_controller_stop;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop_casting = global::Nubank.Droid.Resource.String.mr_controller_stop_casting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_volume_slider = global::Nubank.Droid.Resource.String.mr_controller_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_system_route_name = global::Nubank.Droid.Resource.String.mr_system_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_user_route_category_name = global::Nubank.Droid.Resource.String.mr_user_route_category_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::Nubank.Droid.Resource.String.password_toggle_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye = global::Nubank.Droid.Resource.String.path_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::Nubank.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_visible = global::Nubank.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_strike_through = global::Nubank.Droid.Resource.String.path_password_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.search_menu_title = global::Nubank.Droid.Resource.String.search_menu_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.status_bar_notification_info_overflow = global::Nubank.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat = global::Nubank.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Nubank.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Nubank.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Nubank.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Nubank.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Nubank.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_CardView = global::Nubank.Droid.Resource.Style.Base_CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Nubank.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Nubank.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Nubank.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Nubank.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Nubank.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Nubank.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Nubank.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Nubank.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Nubank.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Nubank.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Nubank.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Nubank.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Nubank.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Nubank.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Nubank.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Nubank.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Nubank.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Nubank.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Nubank.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::Nubank.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Nubank.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView = global::Nubank.Droid.Resource.Style.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Dark = global::Nubank.Droid.Resource.Style.CardView_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Light = global::Nubank.Droid.Resource.Style.CardView_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat = global::Nubank.Droid.Resource.Style.Platform_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Nubank.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Nubank.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V11_AppCompat = global::Nubank.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V11_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V14_AppCompat = global::Nubank.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V14_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat = global::Nubank.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat = global::Nubank.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::Nubank.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Nubank.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Nubank.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Nubank.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Nubank.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Nubank.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Nubank.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Nubank.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Error = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Hint = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Tab = global::Nubank.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Nubank.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Nubank.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::Nubank.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Nubank.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Nubank.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Nubank.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat = global::Nubank.Droid.Resource.Style.Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Nubank.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Nubank.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Nubank.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Nubank.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design = global::Nubank.Droid.Resource.Style.Theme_Design;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Nubank.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light = global::Nubank.Droid.Resource.Style.Theme_Design_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Nubank.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Nubank.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_NoActionBar = global::Nubank.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter = global::Nubank.Droid.Resource.Style.Theme_MediaRouter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light = global::Nubank.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Nubank.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Nubank.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_PageIndicatorDefaults = global::Nubank.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Nubank.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Nubank.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Nubank.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget = global::Nubank.Droid.Resource.Style.Widget;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Nubank.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Nubank.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Nubank.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Nubank.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Nubank.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_EditText = global::Nubank.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Nubank.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Nubank.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Nubank.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Nubank.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Nubank.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::Nubank.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Nubank.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Nubank.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Nubank.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_CirclePageIndicator = global::Nubank.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::Nubank.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::Nubank.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Nubank.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Nubank.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::Nubank.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Nubank.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_NavigationView = global::Nubank.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Nubank.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_Snackbar = global::Nubank.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TabLayout = global::Nubank.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::Nubank.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Nubank.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Nubank.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar = global::Nubank.Droid.Resource.Styleable.ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_background = global::Nubank.Droid.Resource.Styleable.ActionBar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Nubank.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Nubank.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Nubank.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Nubank.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_displayOptions = global::Nubank.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_divider = global::Nubank.Droid.Resource.Styleable.ActionBar_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_elevation = global::Nubank.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_height = global::Nubank.Droid.Resource.Styleable.ActionBar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Nubank.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Nubank.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeLayout = global::Nubank.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_icon = global::Nubank.Droid.Resource.Styleable.ActionBar_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Nubank.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_itemPadding = global::Nubank.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_logo = global::Nubank.Droid.Resource.Styleable.ActionBar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_navigationMode = global::Nubank.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_popupTheme = global::Nubank.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Nubank.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Nubank.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitle = global::Nubank.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Nubank.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_title = global::Nubank.Droid.Resource.Styleable.ActionBar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Nubank.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout = global::Nubank.Droid.Resource.Styleable.ActionBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Nubank.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView = global::Nubank.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Nubank.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuView = global::Nubank.Droid.Resource.Styleable.ActionMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode = global::Nubank.Droid.Resource.Styleable.ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_background = global::Nubank.Droid.Resource.Styleable.ActionMode_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Nubank.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Nubank.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_height = global::Nubank.Droid.Resource.Styleable.ActionMode_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Nubank.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Nubank.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView = global::Nubank.Droid.Resource.Styleable.ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Nubank.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Nubank.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog = global::Nubank.Droid.Resource.Styleable.AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_android_layout = global::Nubank.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Nubank.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Nubank.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listLayout = global::Nubank.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Nubank.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_showTitle = global::Nubank.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Nubank.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::Nubank.Droid.Resource.Styleable.AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::Nubank.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::Nubank.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::Nubank.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::Nubank.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Nubank.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Nubank.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout = global::Nubank.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Nubank.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Nubank.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView = global::Nubank.Droid.Resource.Styleable.AppCompatImageView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::Nubank.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Nubank.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tint = global::Nubank.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::Nubank.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar = global::Nubank.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Nubank.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::Nubank.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Nubank.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Nubank.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Nubank.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::Nubank.Droid.Resource.Styleable.AppCompatTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Nubank.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Nubank.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Nubank.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView = global::Nubank.Droid.Resource.Styleable.BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::Nubank.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::Nubank.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::Nubank.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::Nubank.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_menu = global::Nubank.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::Nubank.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Nubank.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Nubank.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Nubank.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout = global::Nubank.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Nubank.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView = global::Nubank.Droid.Resource.Styleable.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minHeight = global::Nubank.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minWidth = global::Nubank.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Nubank.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::Nubank.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardElevation = global::Nubank.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::Nubank.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Nubank.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Nubank.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPadding = global::Nubank.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Nubank.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Nubank.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::Nubank.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::Nubank.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiCentered = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiRadius = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiSnap = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Nubank.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem = global::Nubank.Droid.Resource.Styleable.ColorStateListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::Nubank.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Nubank.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::Nubank.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton = global::Nubank.Droid.Resource.Styleable.CompoundButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_android_button = global::Nubank.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::Nubank.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Nubank.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Nubank.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme = global::Nubank.Droid.Resource.Styleable.DesignTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Nubank.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Nubank.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_textColorError = global::Nubank.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Nubank.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton = global::Nubank.Droid.Resource.Styleable.FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Nubank.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::Nubank.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Nubank.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Nubank.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Nubank.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Nubank.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow = global::Nubank.Droid.Resource.Styleable.ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Nubank.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Nubank.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton = global::Nubank.Droid.Resource.Styleable.MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::Nubank.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::Nubank.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Nubank.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup = global::Nubank.Droid.Resource.Styleable.MenuGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_id = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_visible = global::Nubank.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem = global::Nubank.Droid.Resource.Styleable.MenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::Nubank.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Nubank.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::Nubank.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Nubank.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::Nubank.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::Nubank.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_enabled = global::Nubank.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_icon = global::Nubank.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_id = global::Nubank.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Nubank.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Nubank.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_onClick = global::Nubank.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Nubank.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::Nubank.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Nubank.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::Nubank.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::Nubank.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView = global::Nubank.Droid.Resource.Styleable.MenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::Nubank.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Nubank.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::Nubank.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Nubank.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Nubank.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Nubank.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Nubank.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Nubank.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::Nubank.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView = global::Nubank.Droid.Resource.Styleable.NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_background = global::Nubank.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Nubank.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Nubank.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_elevation = global::Nubank.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_headerLayout = global::Nubank.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemBackground = global::Nubank.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::Nubank.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Nubank.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::Nubank.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_menu = global::Nubank.Droid.Resource.Styleable.NavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow = global::Nubank.Droid.Resource.Styleable.PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Nubank.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Nubank.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Nubank.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::Nubank.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Nubank.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView = global::Nubank.Droid.Resource.Styleable.RecycleListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Nubank.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Nubank.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::Nubank.Droid.Resource.Styleable.RecyclerView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Nubank.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::Nubank.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::Nubank.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Nubank.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::Nubank.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Nubank.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Nubank.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Nubank.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::Nubank.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Nubank.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView = global::Nubank.Droid.Resource.Styleable.SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_focusable = global::Nubank.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::Nubank.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_inputType = global::Nubank.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::Nubank.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_closeIcon = global::Nubank.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_commitIcon = global::Nubank.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Nubank.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_goIcon = global::Nubank.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Nubank.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_layout = global::Nubank.Droid.Resource.Styleable.SearchView_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryBackground = global::Nubank.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryHint = global::Nubank.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::Nubank.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchIcon = global::Nubank.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_submitBackground = global::Nubank.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Nubank.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_voiceIcon = global::Nubank.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout = global::Nubank.Droid.Resource.Styleable.SnackbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Nubank.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::Nubank.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Nubank.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner = global::Nubank.Droid.Resource.Styleable.Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Nubank.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_entries = global::Nubank.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::Nubank.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_prompt = global::Nubank.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_popupTheme = global::Nubank.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat = global::Nubank.Droid.Resource.Styleable.SwitchCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Nubank.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Nubank.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Nubank.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_showText = global::Nubank.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Nubank.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Nubank.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Nubank.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Nubank.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Nubank.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::Nubank.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::Nubank.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_track = global::Nubank.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::Nubank.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::Nubank.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem = global::Nubank.Droid.Resource.Styleable.TabItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_icon = global::Nubank.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_layout = global::Nubank.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_text = global::Nubank.Droid.Resource.Styleable.TabItem_android_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout = global::Nubank.Droid.Resource.Styleable.TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabBackground = global::Nubank.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::Nubank.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabGravity = global::Nubank.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Nubank.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Nubank.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Nubank.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Nubank.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMode = global::Nubank.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPadding = global::Nubank.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Nubank.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Nubank.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Nubank.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Nubank.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Nubank.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Nubank.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::Nubank.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::Nubank.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::Nubank.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Nubank.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::Nubank.Droid.Resource.Styleable.TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::Nubank.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Nubank.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Nubank.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Nubank.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Nubank.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Nubank.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Nubank.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Nubank.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Nubank.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Nubank.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Nubank.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Nubank.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Nubank.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Nubank.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Nubank.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Nubank.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar = global::Nubank.Droid.Resource.Styleable.Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_gravity = global::Nubank.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::Nubank.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::Nubank.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Nubank.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::Nubank.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Nubank.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logo = global::Nubank.Droid.Resource.Styleable.Toolbar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logoDescription = global::Nubank.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Nubank.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Nubank.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::Nubank.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_popupTheme = global::Nubank.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitle = global::Nubank.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Nubank.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Nubank.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_title = global::Nubank.Droid.Resource.Styleable.Toolbar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargin = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargins = global::Nubank.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Nubank.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::Nubank.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View = global::Nubank.Droid.Resource.Styleable.View;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_focusable = global::Nubank.Droid.Resource.Styleable.View_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_theme = global::Nubank.Droid.Resource.Styleable.View_android_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingEnd = global::Nubank.Droid.Resource.Styleable.View_paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingStart = global::Nubank.Droid.Resource.Styleable.View_paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_theme = global::Nubank.Droid.Resource.Styleable.View_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper = global::Nubank.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Nubank.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Nubank.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Nubank.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator = global::Nubank.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Nubank.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat = global::Nubank.Droid.Resource.Styleable.ViewStubCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::Nubank.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Nubank.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Nubank.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Com.Android.DeskClock.Resource.String.library_name = global::Nubank.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::Nubank.Droid.Resource.Attribute.vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::Nubank.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::Nubank.Droid.Resource.Attribute.vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiOrientation = global::Nubank.Droid.Resource.Attribute.vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiPageColor = global::Nubank.Droid.Resource.Attribute.vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiRadius = global::Nubank.Droid.Resource.Attribute.vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiSnap = global::Nubank.Droid.Resource.Attribute.vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeColor = global::Nubank.Droid.Resource.Attribute.vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeWidth = global::Nubank.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::Nubank.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::Nubank.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::Nubank.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::Nubank.Droid.Resource.Color.vpi__background_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::Nubank.Droid.Resource.Color.vpi__background_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::Nubank.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::Nubank.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::Nubank.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::Nubank.Droid.Resource.Id.horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::Nubank.Droid.Resource.Id.vertical;
+			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::Nubank.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::Com.ViewPagerIndicator.Resource.String.library_name = global::Nubank.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::Nubank.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::Nubank.Droid.Resource.Style.Widget;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::Nubank.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiRadius = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Nubank.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::Nubank.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Nubank.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::Nubank.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::Nubank.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Nubank.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2023,65 +4213,65 @@ namespace Nubank.Droid
 		public partial class Animation
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int abc_fade_in = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int abc_fade_in = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int abc_fade_out = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int abc_fade_out = 2131034113;
 			
-			// aapt resource value: 0x7f040002
-			public const int abc_grow_fade_in_from_bottom = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int abc_grow_fade_in_from_bottom = 2131034114;
 			
-			// aapt resource value: 0x7f040003
-			public const int abc_popup_enter = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int abc_popup_enter = 2131034115;
 			
-			// aapt resource value: 0x7f040004
-			public const int abc_popup_exit = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int abc_popup_exit = 2131034116;
 			
-			// aapt resource value: 0x7f040005
-			public const int abc_shrink_fade_out_from_bottom = 2130968581;
+			// aapt resource value: 0x7f050005
+			public const int abc_shrink_fade_out_from_bottom = 2131034117;
 			
-			// aapt resource value: 0x7f040006
-			public const int abc_slide_in_bottom = 2130968582;
+			// aapt resource value: 0x7f050006
+			public const int abc_slide_in_bottom = 2131034118;
 			
-			// aapt resource value: 0x7f040007
-			public const int abc_slide_in_top = 2130968583;
+			// aapt resource value: 0x7f050007
+			public const int abc_slide_in_top = 2131034119;
 			
-			// aapt resource value: 0x7f040008
-			public const int abc_slide_out_bottom = 2130968584;
+			// aapt resource value: 0x7f050008
+			public const int abc_slide_out_bottom = 2131034120;
 			
-			// aapt resource value: 0x7f040009
-			public const int abc_slide_out_top = 2130968585;
+			// aapt resource value: 0x7f050009
+			public const int abc_slide_out_top = 2131034121;
 			
-			// aapt resource value: 0x7f04000a
-			public const int design_bottom_sheet_slide_in = 2130968586;
+			// aapt resource value: 0x7f05000a
+			public const int design_bottom_sheet_slide_in = 2131034122;
 			
-			// aapt resource value: 0x7f04000b
-			public const int design_bottom_sheet_slide_out = 2130968587;
+			// aapt resource value: 0x7f05000b
+			public const int design_bottom_sheet_slide_out = 2131034123;
 			
-			// aapt resource value: 0x7f04000c
-			public const int design_snackbar_in = 2130968588;
+			// aapt resource value: 0x7f05000c
+			public const int design_snackbar_in = 2131034124;
 			
-			// aapt resource value: 0x7f04000d
-			public const int design_snackbar_out = 2130968589;
+			// aapt resource value: 0x7f05000d
+			public const int design_snackbar_out = 2131034125;
 			
-			// aapt resource value: 0x7f04000e
-			public const int EnterFromLeft = 2130968590;
+			// aapt resource value: 0x7f05000e
+			public const int EnterFromLeft = 2131034126;
 			
-			// aapt resource value: 0x7f04000f
-			public const int EnterFromRight = 2130968591;
+			// aapt resource value: 0x7f05000f
+			public const int EnterFromRight = 2131034127;
 			
-			// aapt resource value: 0x7f040010
-			public const int ExitToLeft = 2130968592;
+			// aapt resource value: 0x7f050010
+			public const int ExitToLeft = 2131034128;
 			
-			// aapt resource value: 0x7f040011
-			public const int ExitToRight = 2130968593;
+			// aapt resource value: 0x7f050011
+			public const int ExitToRight = 2131034129;
 			
-			// aapt resource value: 0x7f040012
-			public const int tooltip_enter = 2130968594;
+			// aapt resource value: 0x7f050012
+			public const int tooltip_enter = 2131034130;
 			
-			// aapt resource value: 0x7f040013
-			public const int tooltip_exit = 2130968595;
+			// aapt resource value: 0x7f050013
+			public const int tooltip_exit = 2131034131;
 			
 			static Animation()
 			{
@@ -2096,8 +4286,8 @@ namespace Nubank.Droid
 		public partial class Animator
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int design_appbar_state_list_animator = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int design_appbar_state_list_animator = 2131099648;
 			
 			static Animator()
 			{
@@ -3195,6 +5385,33 @@ namespace Nubank.Droid
 			// aapt resource value: 0x7f0100f2
 			public const int voiceIcon = 2130772210;
 			
+			// aapt resource value: 0x7f010174
+			public const int vpiCentered = 2130772340;
+			
+			// aapt resource value: 0x7f010173
+			public const int vpiCirclePageIndicatorStyle = 2130772339;
+			
+			// aapt resource value: 0x7f010179
+			public const int vpiFillColor = 2130772345;
+			
+			// aapt resource value: 0x7f010176
+			public const int vpiOrientation = 2130772342;
+			
+			// aapt resource value: 0x7f010175
+			public const int vpiPageColor = 2130772341;
+			
+			// aapt resource value: 0x7f010178
+			public const int vpiRadius = 2130772344;
+			
+			// aapt resource value: 0x7f010177
+			public const int vpiSnap = 2130772343;
+			
+			// aapt resource value: 0x7f01017a
+			public const int vpiStrokeColor = 2130772346;
+			
+			// aapt resource value: 0x7f01017b
+			public const int vpiStrokeWidth = 2130772347;
+			
 			// aapt resource value: 0x7f010056
 			public const int windowActionBar = 2130772054;
 			
@@ -3238,20 +5455,26 @@ namespace Nubank.Droid
 		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7f0d0000
-			public const int abc_action_bar_embed_tabs = 2131558400;
+			// aapt resource value: 0x7f0e0000
+			public const int abc_action_bar_embed_tabs = 2131623936;
 			
-			// aapt resource value: 0x7f0d0001
-			public const int abc_allow_stacked_button_bar = 2131558401;
+			// aapt resource value: 0x7f0e0001
+			public const int abc_allow_stacked_button_bar = 2131623937;
 			
-			// aapt resource value: 0x7f0d0002
-			public const int abc_config_actionMenuItemAllCaps = 2131558402;
+			// aapt resource value: 0x7f0e0002
+			public const int abc_config_actionMenuItemAllCaps = 2131623938;
 			
-			// aapt resource value: 0x7f0d0003
-			public const int abc_config_closeDialogWhenTouchOutside = 2131558403;
+			// aapt resource value: 0x7f0e0003
+			public const int abc_config_closeDialogWhenTouchOutside = 2131623939;
 			
-			// aapt resource value: 0x7f0d0004
-			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131558404;
+			// aapt resource value: 0x7f0e0004
+			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131623940;
+			
+			// aapt resource value: 0x7f0e0005
+			public const int default_circle_indicator_centered = 2131623941;
+			
+			// aapt resource value: 0x7f0e0006
+			public const int default_circle_indicator_snap = 2131623942;
 			
 			static Boolean()
 			{
@@ -3266,314 +5489,347 @@ namespace Nubank.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131492943;
+			// aapt resource value: 0x7f0d005a
+			public const int abc_background_cache_hint_selector_material_dark = 2131558490;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int abc_background_cache_hint_selector_material_light = 2131492944;
+			// aapt resource value: 0x7f0d005b
+			public const int abc_background_cache_hint_selector_material_light = 2131558491;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_btn_colored_borderless_text_material = 2131492945;
+			// aapt resource value: 0x7f0d005c
+			public const int abc_btn_colored_borderless_text_material = 2131558492;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_btn_colored_text_material = 2131492946;
+			// aapt resource value: 0x7f0d005d
+			public const int abc_btn_colored_text_material = 2131558493;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_color_highlight_material = 2131492947;
+			// aapt resource value: 0x7f0d005e
+			public const int abc_color_highlight_material = 2131558494;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_hint_foreground_material_dark = 2131492948;
+			// aapt resource value: 0x7f0d005f
+			public const int abc_hint_foreground_material_dark = 2131558495;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_hint_foreground_material_light = 2131492949;
+			// aapt resource value: 0x7f0d0060
+			public const int abc_hint_foreground_material_light = 2131558496;
 			
-			// aapt resource value: 0x7f0c0004
-			public const int abc_input_method_navigation_guard = 2131492868;
+			// aapt resource value: 0x7f0d0004
+			public const int abc_input_method_navigation_guard = 2131558404;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_primary_text_disable_only_material_dark = 2131492950;
+			// aapt resource value: 0x7f0d0061
+			public const int abc_primary_text_disable_only_material_dark = 2131558497;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_primary_text_disable_only_material_light = 2131492951;
+			// aapt resource value: 0x7f0d0062
+			public const int abc_primary_text_disable_only_material_light = 2131558498;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_primary_text_material_dark = 2131492952;
+			// aapt resource value: 0x7f0d0063
+			public const int abc_primary_text_material_dark = 2131558499;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_primary_text_material_light = 2131492953;
+			// aapt resource value: 0x7f0d0064
+			public const int abc_primary_text_material_light = 2131558500;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_search_url_text = 2131492954;
+			// aapt resource value: 0x7f0d0065
+			public const int abc_search_url_text = 2131558501;
 			
-			// aapt resource value: 0x7f0c0005
-			public const int abc_search_url_text_normal = 2131492869;
+			// aapt resource value: 0x7f0d0005
+			public const int abc_search_url_text_normal = 2131558405;
 			
-			// aapt resource value: 0x7f0c0006
-			public const int abc_search_url_text_pressed = 2131492870;
+			// aapt resource value: 0x7f0d0006
+			public const int abc_search_url_text_pressed = 2131558406;
 			
-			// aapt resource value: 0x7f0c0007
-			public const int abc_search_url_text_selected = 2131492871;
+			// aapt resource value: 0x7f0d0007
+			public const int abc_search_url_text_selected = 2131558407;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_secondary_text_material_dark = 2131492955;
+			// aapt resource value: 0x7f0d0066
+			public const int abc_secondary_text_material_dark = 2131558502;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int abc_secondary_text_material_light = 2131492956;
+			// aapt resource value: 0x7f0d0067
+			public const int abc_secondary_text_material_light = 2131558503;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_btn_checkable = 2131492957;
+			// aapt resource value: 0x7f0d0068
+			public const int abc_tint_btn_checkable = 2131558504;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_default = 2131492958;
+			// aapt resource value: 0x7f0d0069
+			public const int abc_tint_default = 2131558505;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int abc_tint_edittext = 2131492959;
+			// aapt resource value: 0x7f0d006a
+			public const int abc_tint_edittext = 2131558506;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int abc_tint_seek_thumb = 2131492960;
+			// aapt resource value: 0x7f0d006b
+			public const int abc_tint_seek_thumb = 2131558507;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int abc_tint_spinner = 2131492961;
+			// aapt resource value: 0x7f0d006c
+			public const int abc_tint_spinner = 2131558508;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int abc_tint_switch_track = 2131492962;
+			// aapt resource value: 0x7f0d006d
+			public const int abc_tint_switch_track = 2131558509;
 			
-			// aapt resource value: 0x7f0c0008
-			public const int accent_material_dark = 2131492872;
+			// aapt resource value: 0x7f0d0008
+			public const int accent_material_dark = 2131558408;
 			
-			// aapt resource value: 0x7f0c0009
-			public const int accent_material_light = 2131492873;
+			// aapt resource value: 0x7f0d0009
+			public const int accent_material_light = 2131558409;
 			
-			// aapt resource value: 0x7f0c000a
-			public const int background_floating_material_dark = 2131492874;
+			// aapt resource value: 0x7f0d000a
+			public const int background_floating_material_dark = 2131558410;
 			
-			// aapt resource value: 0x7f0c000b
-			public const int background_floating_material_light = 2131492875;
+			// aapt resource value: 0x7f0d000b
+			public const int background_floating_material_light = 2131558411;
 			
-			// aapt resource value: 0x7f0c000c
-			public const int background_material_dark = 2131492876;
+			// aapt resource value: 0x7f0d000c
+			public const int background_material_dark = 2131558412;
 			
-			// aapt resource value: 0x7f0c000d
-			public const int background_material_light = 2131492877;
+			// aapt resource value: 0x7f0d000d
+			public const int background_material_light = 2131558413;
 			
-			// aapt resource value: 0x7f0c000e
-			public const int bright_foreground_disabled_material_dark = 2131492878;
+			// aapt resource value: 0x7f0d000e
+			public const int bright_foreground_disabled_material_dark = 2131558414;
 			
-			// aapt resource value: 0x7f0c000f
-			public const int bright_foreground_disabled_material_light = 2131492879;
+			// aapt resource value: 0x7f0d000f
+			public const int bright_foreground_disabled_material_light = 2131558415;
 			
-			// aapt resource value: 0x7f0c0010
-			public const int bright_foreground_inverse_material_dark = 2131492880;
+			// aapt resource value: 0x7f0d0010
+			public const int bright_foreground_inverse_material_dark = 2131558416;
 			
-			// aapt resource value: 0x7f0c0011
-			public const int bright_foreground_inverse_material_light = 2131492881;
+			// aapt resource value: 0x7f0d0011
+			public const int bright_foreground_inverse_material_light = 2131558417;
 			
-			// aapt resource value: 0x7f0c0012
-			public const int bright_foreground_material_dark = 2131492882;
+			// aapt resource value: 0x7f0d0012
+			public const int bright_foreground_material_dark = 2131558418;
 			
-			// aapt resource value: 0x7f0c0013
-			public const int bright_foreground_material_light = 2131492883;
+			// aapt resource value: 0x7f0d0013
+			public const int bright_foreground_material_light = 2131558419;
 			
-			// aapt resource value: 0x7f0c0014
-			public const int button_material_dark = 2131492884;
+			// aapt resource value: 0x7f0d0014
+			public const int button_material_dark = 2131558420;
 			
-			// aapt resource value: 0x7f0c0015
-			public const int button_material_light = 2131492885;
+			// aapt resource value: 0x7f0d0015
+			public const int button_material_light = 2131558421;
 			
-			// aapt resource value: 0x7f0c0000
-			public const int cardview_dark_background = 2131492864;
+			// aapt resource value: 0x7f0d0000
+			public const int cardview_dark_background = 2131558400;
 			
-			// aapt resource value: 0x7f0c0001
-			public const int cardview_light_background = 2131492865;
+			// aapt resource value: 0x7f0d0001
+			public const int cardview_light_background = 2131558401;
 			
-			// aapt resource value: 0x7f0c0002
-			public const int cardview_shadow_end_color = 2131492866;
+			// aapt resource value: 0x7f0d0002
+			public const int cardview_shadow_end_color = 2131558402;
 			
-			// aapt resource value: 0x7f0c0003
-			public const int cardview_shadow_start_color = 2131492867;
+			// aapt resource value: 0x7f0d0003
+			public const int cardview_shadow_start_color = 2131558403;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int colorAccent = 2131492942;
+			// aapt resource value: 0x7f0d0059
+			public const int colorAccent = 2131558489;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int colorPrimary = 2131492940;
+			// aapt resource value: 0x7f0d0057
+			public const int colorPrimary = 2131558487;
 			
-			// aapt resource value: 0x7f0c004d
-			public const int colorPrimaryDark = 2131492941;
+			// aapt resource value: 0x7f0d0058
+			public const int colorPrimaryDark = 2131558488;
 			
-			// aapt resource value: 0x7f0c0040
-			public const int design_bottom_navigation_shadow_color = 2131492928;
+			// aapt resource value: 0x7f0d0053
+			public const int default_circle_indicator_fill_color = 2131558483;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int design_error = 2131492963;
+			// aapt resource value: 0x7f0d0054
+			public const int default_circle_indicator_page_color = 2131558484;
 			
-			// aapt resource value: 0x7f0c0041
-			public const int design_fab_shadow_end_color = 2131492929;
+			// aapt resource value: 0x7f0d0055
+			public const int default_circle_indicator_stroke_color = 2131558485;
 			
-			// aapt resource value: 0x7f0c0042
-			public const int design_fab_shadow_mid_color = 2131492930;
+			// aapt resource value: 0x7f0d0040
+			public const int design_bottom_navigation_shadow_color = 2131558464;
 			
-			// aapt resource value: 0x7f0c0043
-			public const int design_fab_shadow_start_color = 2131492931;
+			// aapt resource value: 0x7f0d006e
+			public const int design_error = 2131558510;
 			
-			// aapt resource value: 0x7f0c0044
-			public const int design_fab_stroke_end_inner_color = 2131492932;
+			// aapt resource value: 0x7f0d0041
+			public const int design_fab_shadow_end_color = 2131558465;
 			
-			// aapt resource value: 0x7f0c0045
-			public const int design_fab_stroke_end_outer_color = 2131492933;
+			// aapt resource value: 0x7f0d0042
+			public const int design_fab_shadow_mid_color = 2131558466;
 			
-			// aapt resource value: 0x7f0c0046
-			public const int design_fab_stroke_top_inner_color = 2131492934;
+			// aapt resource value: 0x7f0d0043
+			public const int design_fab_shadow_start_color = 2131558467;
 			
-			// aapt resource value: 0x7f0c0047
-			public const int design_fab_stroke_top_outer_color = 2131492935;
+			// aapt resource value: 0x7f0d0044
+			public const int design_fab_stroke_end_inner_color = 2131558468;
 			
-			// aapt resource value: 0x7f0c0048
-			public const int design_snackbar_background_color = 2131492936;
+			// aapt resource value: 0x7f0d0045
+			public const int design_fab_stroke_end_outer_color = 2131558469;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int design_tint_password_toggle = 2131492964;
+			// aapt resource value: 0x7f0d0046
+			public const int design_fab_stroke_top_inner_color = 2131558470;
 			
-			// aapt resource value: 0x7f0c0016
-			public const int dim_foreground_disabled_material_dark = 2131492886;
+			// aapt resource value: 0x7f0d0047
+			public const int design_fab_stroke_top_outer_color = 2131558471;
 			
-			// aapt resource value: 0x7f0c0017
-			public const int dim_foreground_disabled_material_light = 2131492887;
+			// aapt resource value: 0x7f0d0048
+			public const int design_snackbar_background_color = 2131558472;
 			
-			// aapt resource value: 0x7f0c0018
-			public const int dim_foreground_material_dark = 2131492888;
+			// aapt resource value: 0x7f0d006f
+			public const int design_tint_password_toggle = 2131558511;
 			
-			// aapt resource value: 0x7f0c0019
-			public const int dim_foreground_material_light = 2131492889;
+			// aapt resource value: 0x7f0d0016
+			public const int dim_foreground_disabled_material_dark = 2131558422;
 			
-			// aapt resource value: 0x7f0c001a
-			public const int error_color_material = 2131492890;
+			// aapt resource value: 0x7f0d0017
+			public const int dim_foreground_disabled_material_light = 2131558423;
 			
-			// aapt resource value: 0x7f0c001b
-			public const int foreground_material_dark = 2131492891;
+			// aapt resource value: 0x7f0d0018
+			public const int dim_foreground_material_dark = 2131558424;
 			
-			// aapt resource value: 0x7f0c001c
-			public const int foreground_material_light = 2131492892;
+			// aapt resource value: 0x7f0d0019
+			public const int dim_foreground_material_light = 2131558425;
 			
-			// aapt resource value: 0x7f0c001d
-			public const int highlighted_text_material_dark = 2131492893;
+			// aapt resource value: 0x7f0d001a
+			public const int error_color_material = 2131558426;
 			
-			// aapt resource value: 0x7f0c001e
-			public const int highlighted_text_material_light = 2131492894;
+			// aapt resource value: 0x7f0d001b
+			public const int foreground_material_dark = 2131558427;
 			
-			// aapt resource value: 0x7f0c004b
-			public const int launcher_background = 2131492939;
+			// aapt resource value: 0x7f0d001c
+			public const int foreground_material_light = 2131558428;
 			
-			// aapt resource value: 0x7f0c001f
-			public const int material_blue_grey_800 = 2131492895;
+			// aapt resource value: 0x7f0d001d
+			public const int highlighted_text_material_dark = 2131558429;
 			
-			// aapt resource value: 0x7f0c0020
-			public const int material_blue_grey_900 = 2131492896;
+			// aapt resource value: 0x7f0d001e
+			public const int highlighted_text_material_light = 2131558430;
 			
-			// aapt resource value: 0x7f0c0021
-			public const int material_blue_grey_950 = 2131492897;
+			// aapt resource value: 0x7f0d0056
+			public const int launcher_background = 2131558486;
 			
-			// aapt resource value: 0x7f0c0022
-			public const int material_deep_teal_200 = 2131492898;
+			// aapt resource value: 0x7f0d001f
+			public const int material_blue_grey_800 = 2131558431;
 			
-			// aapt resource value: 0x7f0c0023
-			public const int material_deep_teal_500 = 2131492899;
+			// aapt resource value: 0x7f0d0020
+			public const int material_blue_grey_900 = 2131558432;
 			
-			// aapt resource value: 0x7f0c0024
-			public const int material_grey_100 = 2131492900;
+			// aapt resource value: 0x7f0d0021
+			public const int material_blue_grey_950 = 2131558433;
 			
-			// aapt resource value: 0x7f0c0025
-			public const int material_grey_300 = 2131492901;
+			// aapt resource value: 0x7f0d0022
+			public const int material_deep_teal_200 = 2131558434;
 			
-			// aapt resource value: 0x7f0c0026
-			public const int material_grey_50 = 2131492902;
+			// aapt resource value: 0x7f0d0023
+			public const int material_deep_teal_500 = 2131558435;
 			
-			// aapt resource value: 0x7f0c0027
-			public const int material_grey_600 = 2131492903;
+			// aapt resource value: 0x7f0d0024
+			public const int material_grey_100 = 2131558436;
 			
-			// aapt resource value: 0x7f0c0028
-			public const int material_grey_800 = 2131492904;
+			// aapt resource value: 0x7f0d0025
+			public const int material_grey_300 = 2131558437;
 			
-			// aapt resource value: 0x7f0c0029
-			public const int material_grey_850 = 2131492905;
+			// aapt resource value: 0x7f0d0026
+			public const int material_grey_50 = 2131558438;
 			
-			// aapt resource value: 0x7f0c002a
-			public const int material_grey_900 = 2131492906;
+			// aapt resource value: 0x7f0d0027
+			public const int material_grey_600 = 2131558439;
 			
-			// aapt resource value: 0x7f0c0049
-			public const int notification_action_color_filter = 2131492937;
+			// aapt resource value: 0x7f0d0028
+			public const int material_grey_800 = 2131558440;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int notification_icon_bg_color = 2131492938;
+			// aapt resource value: 0x7f0d0029
+			public const int material_grey_850 = 2131558441;
 			
-			// aapt resource value: 0x7f0c003f
-			public const int notification_material_background_media_default_color = 2131492927;
+			// aapt resource value: 0x7f0d002a
+			public const int material_grey_900 = 2131558442;
 			
-			// aapt resource value: 0x7f0c002b
-			public const int primary_dark_material_dark = 2131492907;
+			// aapt resource value: 0x7f0d0049
+			public const int notification_action_color_filter = 2131558473;
 			
-			// aapt resource value: 0x7f0c002c
-			public const int primary_dark_material_light = 2131492908;
+			// aapt resource value: 0x7f0d004a
+			public const int notification_icon_bg_color = 2131558474;
 			
-			// aapt resource value: 0x7f0c002d
-			public const int primary_material_dark = 2131492909;
+			// aapt resource value: 0x7f0d003f
+			public const int notification_material_background_media_default_color = 2131558463;
 			
-			// aapt resource value: 0x7f0c002e
-			public const int primary_material_light = 2131492910;
+			// aapt resource value: 0x7f0d002b
+			public const int primary_dark_material_dark = 2131558443;
 			
-			// aapt resource value: 0x7f0c002f
-			public const int primary_text_default_material_dark = 2131492911;
+			// aapt resource value: 0x7f0d002c
+			public const int primary_dark_material_light = 2131558444;
 			
-			// aapt resource value: 0x7f0c0030
-			public const int primary_text_default_material_light = 2131492912;
+			// aapt resource value: 0x7f0d002d
+			public const int primary_material_dark = 2131558445;
 			
-			// aapt resource value: 0x7f0c0031
-			public const int primary_text_disabled_material_dark = 2131492913;
+			// aapt resource value: 0x7f0d002e
+			public const int primary_material_light = 2131558446;
 			
-			// aapt resource value: 0x7f0c0032
-			public const int primary_text_disabled_material_light = 2131492914;
+			// aapt resource value: 0x7f0d002f
+			public const int primary_text_default_material_dark = 2131558447;
 			
-			// aapt resource value: 0x7f0c0033
-			public const int ripple_material_dark = 2131492915;
+			// aapt resource value: 0x7f0d0030
+			public const int primary_text_default_material_light = 2131558448;
 			
-			// aapt resource value: 0x7f0c0034
-			public const int ripple_material_light = 2131492916;
+			// aapt resource value: 0x7f0d0031
+			public const int primary_text_disabled_material_dark = 2131558449;
 			
-			// aapt resource value: 0x7f0c0035
-			public const int secondary_text_default_material_dark = 2131492917;
+			// aapt resource value: 0x7f0d0032
+			public const int primary_text_disabled_material_light = 2131558450;
 			
-			// aapt resource value: 0x7f0c0036
-			public const int secondary_text_default_material_light = 2131492918;
+			// aapt resource value: 0x7f0d0033
+			public const int ripple_material_dark = 2131558451;
 			
-			// aapt resource value: 0x7f0c0037
-			public const int secondary_text_disabled_material_dark = 2131492919;
+			// aapt resource value: 0x7f0d0034
+			public const int ripple_material_light = 2131558452;
 			
-			// aapt resource value: 0x7f0c0038
-			public const int secondary_text_disabled_material_light = 2131492920;
+			// aapt resource value: 0x7f0d0035
+			public const int secondary_text_default_material_dark = 2131558453;
 			
-			// aapt resource value: 0x7f0c0039
-			public const int switch_thumb_disabled_material_dark = 2131492921;
+			// aapt resource value: 0x7f0d0036
+			public const int secondary_text_default_material_light = 2131558454;
 			
-			// aapt resource value: 0x7f0c003a
-			public const int switch_thumb_disabled_material_light = 2131492922;
+			// aapt resource value: 0x7f0d0037
+			public const int secondary_text_disabled_material_dark = 2131558455;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int switch_thumb_material_dark = 2131492965;
+			// aapt resource value: 0x7f0d0038
+			public const int secondary_text_disabled_material_light = 2131558456;
 			
-			// aapt resource value: 0x7f0c0066
-			public const int switch_thumb_material_light = 2131492966;
+			// aapt resource value: 0x7f0d0039
+			public const int switch_thumb_disabled_material_dark = 2131558457;
 			
-			// aapt resource value: 0x7f0c003b
-			public const int switch_thumb_normal_material_dark = 2131492923;
+			// aapt resource value: 0x7f0d003a
+			public const int switch_thumb_disabled_material_light = 2131558458;
 			
-			// aapt resource value: 0x7f0c003c
-			public const int switch_thumb_normal_material_light = 2131492924;
+			// aapt resource value: 0x7f0d0070
+			public const int switch_thumb_material_dark = 2131558512;
 			
-			// aapt resource value: 0x7f0c003d
-			public const int tooltip_background_dark = 2131492925;
+			// aapt resource value: 0x7f0d0071
+			public const int switch_thumb_material_light = 2131558513;
 			
-			// aapt resource value: 0x7f0c003e
-			public const int tooltip_background_light = 2131492926;
+			// aapt resource value: 0x7f0d003b
+			public const int switch_thumb_normal_material_dark = 2131558459;
+			
+			// aapt resource value: 0x7f0d003c
+			public const int switch_thumb_normal_material_light = 2131558460;
+			
+			// aapt resource value: 0x7f0d003d
+			public const int tooltip_background_dark = 2131558461;
+			
+			// aapt resource value: 0x7f0d003e
+			public const int tooltip_background_light = 2131558462;
+			
+			// aapt resource value: 0x7f0d004b
+			public const int vpi__background_holo_dark = 2131558475;
+			
+			// aapt resource value: 0x7f0d004c
+			public const int vpi__background_holo_light = 2131558476;
+			
+			// aapt resource value: 0x7f0d004f
+			public const int vpi__bright_foreground_disabled_holo_dark = 2131558479;
+			
+			// aapt resource value: 0x7f0d0050
+			public const int vpi__bright_foreground_disabled_holo_light = 2131558480;
+			
+			// aapt resource value: 0x7f0d004d
+			public const int vpi__bright_foreground_holo_dark = 2131558477;
+			
+			// aapt resource value: 0x7f0d004e
+			public const int vpi__bright_foreground_holo_light = 2131558478;
+			
+			// aapt resource value: 0x7f0d0051
+			public const int vpi__bright_foreground_inverse_holo_dark = 2131558481;
+			
+			// aapt resource value: 0x7f0d0052
+			public const int vpi__bright_foreground_inverse_holo_light = 2131558482;
 			
 			static Color()
 			{
@@ -3588,497 +5844,503 @@ namespace Nubank.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f07001b
-			public const int abc_action_bar_content_inset_material = 2131165211;
+			// aapt resource value: 0x7f08001b
+			public const int abc_action_bar_content_inset_material = 2131230747;
 			
-			// aapt resource value: 0x7f07001c
-			public const int abc_action_bar_content_inset_with_nav = 2131165212;
+			// aapt resource value: 0x7f08001c
+			public const int abc_action_bar_content_inset_with_nav = 2131230748;
 			
-			// aapt resource value: 0x7f070010
-			public const int abc_action_bar_default_height_material = 2131165200;
+			// aapt resource value: 0x7f080010
+			public const int abc_action_bar_default_height_material = 2131230736;
 			
-			// aapt resource value: 0x7f07001d
-			public const int abc_action_bar_default_padding_end_material = 2131165213;
+			// aapt resource value: 0x7f08001d
+			public const int abc_action_bar_default_padding_end_material = 2131230749;
 			
-			// aapt resource value: 0x7f07001e
-			public const int abc_action_bar_default_padding_start_material = 2131165214;
+			// aapt resource value: 0x7f08001e
+			public const int abc_action_bar_default_padding_start_material = 2131230750;
 			
-			// aapt resource value: 0x7f070020
-			public const int abc_action_bar_elevation_material = 2131165216;
+			// aapt resource value: 0x7f080020
+			public const int abc_action_bar_elevation_material = 2131230752;
 			
-			// aapt resource value: 0x7f070021
-			public const int abc_action_bar_icon_vertical_padding_material = 2131165217;
+			// aapt resource value: 0x7f080021
+			public const int abc_action_bar_icon_vertical_padding_material = 2131230753;
 			
-			// aapt resource value: 0x7f070022
-			public const int abc_action_bar_overflow_padding_end_material = 2131165218;
+			// aapt resource value: 0x7f080022
+			public const int abc_action_bar_overflow_padding_end_material = 2131230754;
 			
-			// aapt resource value: 0x7f070023
-			public const int abc_action_bar_overflow_padding_start_material = 2131165219;
+			// aapt resource value: 0x7f080023
+			public const int abc_action_bar_overflow_padding_start_material = 2131230755;
 			
-			// aapt resource value: 0x7f070011
-			public const int abc_action_bar_progress_bar_size = 2131165201;
+			// aapt resource value: 0x7f080011
+			public const int abc_action_bar_progress_bar_size = 2131230737;
 			
-			// aapt resource value: 0x7f070024
-			public const int abc_action_bar_stacked_max_height = 2131165220;
+			// aapt resource value: 0x7f080024
+			public const int abc_action_bar_stacked_max_height = 2131230756;
 			
-			// aapt resource value: 0x7f070025
-			public const int abc_action_bar_stacked_tab_max_width = 2131165221;
+			// aapt resource value: 0x7f080025
+			public const int abc_action_bar_stacked_tab_max_width = 2131230757;
 			
-			// aapt resource value: 0x7f070026
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131165222;
+			// aapt resource value: 0x7f080026
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131230758;
 			
-			// aapt resource value: 0x7f070027
-			public const int abc_action_bar_subtitle_top_margin_material = 2131165223;
+			// aapt resource value: 0x7f080027
+			public const int abc_action_bar_subtitle_top_margin_material = 2131230759;
 			
-			// aapt resource value: 0x7f070028
-			public const int abc_action_button_min_height_material = 2131165224;
+			// aapt resource value: 0x7f080028
+			public const int abc_action_button_min_height_material = 2131230760;
 			
-			// aapt resource value: 0x7f070029
-			public const int abc_action_button_min_width_material = 2131165225;
+			// aapt resource value: 0x7f080029
+			public const int abc_action_button_min_width_material = 2131230761;
 			
-			// aapt resource value: 0x7f07002a
-			public const int abc_action_button_min_width_overflow_material = 2131165226;
+			// aapt resource value: 0x7f08002a
+			public const int abc_action_button_min_width_overflow_material = 2131230762;
 			
-			// aapt resource value: 0x7f07000f
-			public const int abc_alert_dialog_button_bar_height = 2131165199;
+			// aapt resource value: 0x7f08000f
+			public const int abc_alert_dialog_button_bar_height = 2131230735;
 			
-			// aapt resource value: 0x7f07002b
-			public const int abc_button_inset_horizontal_material = 2131165227;
+			// aapt resource value: 0x7f08002b
+			public const int abc_button_inset_horizontal_material = 2131230763;
 			
-			// aapt resource value: 0x7f07002c
-			public const int abc_button_inset_vertical_material = 2131165228;
+			// aapt resource value: 0x7f08002c
+			public const int abc_button_inset_vertical_material = 2131230764;
 			
-			// aapt resource value: 0x7f07002d
-			public const int abc_button_padding_horizontal_material = 2131165229;
+			// aapt resource value: 0x7f08002d
+			public const int abc_button_padding_horizontal_material = 2131230765;
 			
-			// aapt resource value: 0x7f07002e
-			public const int abc_button_padding_vertical_material = 2131165230;
+			// aapt resource value: 0x7f08002e
+			public const int abc_button_padding_vertical_material = 2131230766;
 			
-			// aapt resource value: 0x7f07002f
-			public const int abc_cascading_menus_min_smallest_width = 2131165231;
+			// aapt resource value: 0x7f08002f
+			public const int abc_cascading_menus_min_smallest_width = 2131230767;
 			
-			// aapt resource value: 0x7f070014
-			public const int abc_config_prefDialogWidth = 2131165204;
+			// aapt resource value: 0x7f080014
+			public const int abc_config_prefDialogWidth = 2131230740;
 			
-			// aapt resource value: 0x7f070030
-			public const int abc_control_corner_material = 2131165232;
+			// aapt resource value: 0x7f080030
+			public const int abc_control_corner_material = 2131230768;
 			
-			// aapt resource value: 0x7f070031
-			public const int abc_control_inset_material = 2131165233;
+			// aapt resource value: 0x7f080031
+			public const int abc_control_inset_material = 2131230769;
 			
-			// aapt resource value: 0x7f070032
-			public const int abc_control_padding_material = 2131165234;
+			// aapt resource value: 0x7f080032
+			public const int abc_control_padding_material = 2131230770;
 			
-			// aapt resource value: 0x7f070015
-			public const int abc_dialog_fixed_height_major = 2131165205;
+			// aapt resource value: 0x7f080015
+			public const int abc_dialog_fixed_height_major = 2131230741;
 			
-			// aapt resource value: 0x7f070016
-			public const int abc_dialog_fixed_height_minor = 2131165206;
+			// aapt resource value: 0x7f080016
+			public const int abc_dialog_fixed_height_minor = 2131230742;
 			
-			// aapt resource value: 0x7f070017
-			public const int abc_dialog_fixed_width_major = 2131165207;
+			// aapt resource value: 0x7f080017
+			public const int abc_dialog_fixed_width_major = 2131230743;
 			
-			// aapt resource value: 0x7f070018
-			public const int abc_dialog_fixed_width_minor = 2131165208;
+			// aapt resource value: 0x7f080018
+			public const int abc_dialog_fixed_width_minor = 2131230744;
 			
-			// aapt resource value: 0x7f070033
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131165235;
+			// aapt resource value: 0x7f080033
+			public const int abc_dialog_list_padding_bottom_no_buttons = 2131230771;
 			
-			// aapt resource value: 0x7f070034
-			public const int abc_dialog_list_padding_top_no_title = 2131165236;
+			// aapt resource value: 0x7f080034
+			public const int abc_dialog_list_padding_top_no_title = 2131230772;
 			
-			// aapt resource value: 0x7f070019
-			public const int abc_dialog_min_width_major = 2131165209;
+			// aapt resource value: 0x7f080019
+			public const int abc_dialog_min_width_major = 2131230745;
 			
-			// aapt resource value: 0x7f07001a
-			public const int abc_dialog_min_width_minor = 2131165210;
+			// aapt resource value: 0x7f08001a
+			public const int abc_dialog_min_width_minor = 2131230746;
 			
-			// aapt resource value: 0x7f070035
-			public const int abc_dialog_padding_material = 2131165237;
+			// aapt resource value: 0x7f080035
+			public const int abc_dialog_padding_material = 2131230773;
 			
-			// aapt resource value: 0x7f070036
-			public const int abc_dialog_padding_top_material = 2131165238;
+			// aapt resource value: 0x7f080036
+			public const int abc_dialog_padding_top_material = 2131230774;
 			
-			// aapt resource value: 0x7f070037
-			public const int abc_dialog_title_divider_material = 2131165239;
+			// aapt resource value: 0x7f080037
+			public const int abc_dialog_title_divider_material = 2131230775;
 			
-			// aapt resource value: 0x7f070038
-			public const int abc_disabled_alpha_material_dark = 2131165240;
+			// aapt resource value: 0x7f080038
+			public const int abc_disabled_alpha_material_dark = 2131230776;
 			
-			// aapt resource value: 0x7f070039
-			public const int abc_disabled_alpha_material_light = 2131165241;
+			// aapt resource value: 0x7f080039
+			public const int abc_disabled_alpha_material_light = 2131230777;
 			
-			// aapt resource value: 0x7f07003a
-			public const int abc_dropdownitem_icon_width = 2131165242;
+			// aapt resource value: 0x7f08003a
+			public const int abc_dropdownitem_icon_width = 2131230778;
 			
-			// aapt resource value: 0x7f07003b
-			public const int abc_dropdownitem_text_padding_left = 2131165243;
+			// aapt resource value: 0x7f08003b
+			public const int abc_dropdownitem_text_padding_left = 2131230779;
 			
-			// aapt resource value: 0x7f07003c
-			public const int abc_dropdownitem_text_padding_right = 2131165244;
+			// aapt resource value: 0x7f08003c
+			public const int abc_dropdownitem_text_padding_right = 2131230780;
 			
-			// aapt resource value: 0x7f07003d
-			public const int abc_edit_text_inset_bottom_material = 2131165245;
+			// aapt resource value: 0x7f08003d
+			public const int abc_edit_text_inset_bottom_material = 2131230781;
 			
-			// aapt resource value: 0x7f07003e
-			public const int abc_edit_text_inset_horizontal_material = 2131165246;
+			// aapt resource value: 0x7f08003e
+			public const int abc_edit_text_inset_horizontal_material = 2131230782;
 			
-			// aapt resource value: 0x7f07003f
-			public const int abc_edit_text_inset_top_material = 2131165247;
+			// aapt resource value: 0x7f08003f
+			public const int abc_edit_text_inset_top_material = 2131230783;
 			
-			// aapt resource value: 0x7f070040
-			public const int abc_floating_window_z = 2131165248;
+			// aapt resource value: 0x7f080040
+			public const int abc_floating_window_z = 2131230784;
 			
-			// aapt resource value: 0x7f070041
-			public const int abc_list_item_padding_horizontal_material = 2131165249;
+			// aapt resource value: 0x7f080041
+			public const int abc_list_item_padding_horizontal_material = 2131230785;
 			
-			// aapt resource value: 0x7f070042
-			public const int abc_panel_menu_list_width = 2131165250;
+			// aapt resource value: 0x7f080042
+			public const int abc_panel_menu_list_width = 2131230786;
 			
-			// aapt resource value: 0x7f070043
-			public const int abc_progress_bar_height_material = 2131165251;
+			// aapt resource value: 0x7f080043
+			public const int abc_progress_bar_height_material = 2131230787;
 			
-			// aapt resource value: 0x7f070044
-			public const int abc_search_view_preferred_height = 2131165252;
+			// aapt resource value: 0x7f080044
+			public const int abc_search_view_preferred_height = 2131230788;
 			
-			// aapt resource value: 0x7f070045
-			public const int abc_search_view_preferred_width = 2131165253;
+			// aapt resource value: 0x7f080045
+			public const int abc_search_view_preferred_width = 2131230789;
 			
-			// aapt resource value: 0x7f070046
-			public const int abc_seekbar_track_background_height_material = 2131165254;
+			// aapt resource value: 0x7f080046
+			public const int abc_seekbar_track_background_height_material = 2131230790;
 			
-			// aapt resource value: 0x7f070047
-			public const int abc_seekbar_track_progress_height_material = 2131165255;
+			// aapt resource value: 0x7f080047
+			public const int abc_seekbar_track_progress_height_material = 2131230791;
 			
-			// aapt resource value: 0x7f070048
-			public const int abc_select_dialog_padding_start_material = 2131165256;
+			// aapt resource value: 0x7f080048
+			public const int abc_select_dialog_padding_start_material = 2131230792;
 			
-			// aapt resource value: 0x7f07001f
-			public const int abc_switch_padding = 2131165215;
+			// aapt resource value: 0x7f08001f
+			public const int abc_switch_padding = 2131230751;
 			
-			// aapt resource value: 0x7f070049
-			public const int abc_text_size_body_1_material = 2131165257;
+			// aapt resource value: 0x7f080049
+			public const int abc_text_size_body_1_material = 2131230793;
 			
-			// aapt resource value: 0x7f07004a
-			public const int abc_text_size_body_2_material = 2131165258;
+			// aapt resource value: 0x7f08004a
+			public const int abc_text_size_body_2_material = 2131230794;
 			
-			// aapt resource value: 0x7f07004b
-			public const int abc_text_size_button_material = 2131165259;
+			// aapt resource value: 0x7f08004b
+			public const int abc_text_size_button_material = 2131230795;
 			
-			// aapt resource value: 0x7f07004c
-			public const int abc_text_size_caption_material = 2131165260;
+			// aapt resource value: 0x7f08004c
+			public const int abc_text_size_caption_material = 2131230796;
 			
-			// aapt resource value: 0x7f07004d
-			public const int abc_text_size_display_1_material = 2131165261;
+			// aapt resource value: 0x7f08004d
+			public const int abc_text_size_display_1_material = 2131230797;
 			
-			// aapt resource value: 0x7f07004e
-			public const int abc_text_size_display_2_material = 2131165262;
+			// aapt resource value: 0x7f08004e
+			public const int abc_text_size_display_2_material = 2131230798;
 			
-			// aapt resource value: 0x7f07004f
-			public const int abc_text_size_display_3_material = 2131165263;
+			// aapt resource value: 0x7f08004f
+			public const int abc_text_size_display_3_material = 2131230799;
 			
-			// aapt resource value: 0x7f070050
-			public const int abc_text_size_display_4_material = 2131165264;
+			// aapt resource value: 0x7f080050
+			public const int abc_text_size_display_4_material = 2131230800;
 			
-			// aapt resource value: 0x7f070051
-			public const int abc_text_size_headline_material = 2131165265;
+			// aapt resource value: 0x7f080051
+			public const int abc_text_size_headline_material = 2131230801;
 			
-			// aapt resource value: 0x7f070052
-			public const int abc_text_size_large_material = 2131165266;
+			// aapt resource value: 0x7f080052
+			public const int abc_text_size_large_material = 2131230802;
 			
-			// aapt resource value: 0x7f070053
-			public const int abc_text_size_medium_material = 2131165267;
+			// aapt resource value: 0x7f080053
+			public const int abc_text_size_medium_material = 2131230803;
 			
-			// aapt resource value: 0x7f070054
-			public const int abc_text_size_menu_header_material = 2131165268;
+			// aapt resource value: 0x7f080054
+			public const int abc_text_size_menu_header_material = 2131230804;
 			
-			// aapt resource value: 0x7f070055
-			public const int abc_text_size_menu_material = 2131165269;
+			// aapt resource value: 0x7f080055
+			public const int abc_text_size_menu_material = 2131230805;
 			
-			// aapt resource value: 0x7f070056
-			public const int abc_text_size_small_material = 2131165270;
+			// aapt resource value: 0x7f080056
+			public const int abc_text_size_small_material = 2131230806;
 			
-			// aapt resource value: 0x7f070057
-			public const int abc_text_size_subhead_material = 2131165271;
+			// aapt resource value: 0x7f080057
+			public const int abc_text_size_subhead_material = 2131230807;
 			
-			// aapt resource value: 0x7f070012
-			public const int abc_text_size_subtitle_material_toolbar = 2131165202;
+			// aapt resource value: 0x7f080012
+			public const int abc_text_size_subtitle_material_toolbar = 2131230738;
 			
-			// aapt resource value: 0x7f070058
-			public const int abc_text_size_title_material = 2131165272;
+			// aapt resource value: 0x7f080058
+			public const int abc_text_size_title_material = 2131230808;
 			
-			// aapt resource value: 0x7f070013
-			public const int abc_text_size_title_material_toolbar = 2131165203;
+			// aapt resource value: 0x7f080013
+			public const int abc_text_size_title_material_toolbar = 2131230739;
 			
-			// aapt resource value: 0x7f07000c
-			public const int cardview_compat_inset_shadow = 2131165196;
+			// aapt resource value: 0x7f08000c
+			public const int cardview_compat_inset_shadow = 2131230732;
 			
-			// aapt resource value: 0x7f07000d
-			public const int cardview_default_elevation = 2131165197;
+			// aapt resource value: 0x7f08000d
+			public const int cardview_default_elevation = 2131230733;
 			
-			// aapt resource value: 0x7f07000e
-			public const int cardview_default_radius = 2131165198;
+			// aapt resource value: 0x7f08000e
+			public const int cardview_default_radius = 2131230734;
 			
-			// aapt resource value: 0x7f070094
-			public const int compat_button_inset_horizontal_material = 2131165332;
+			// aapt resource value: 0x7f080094
+			public const int compat_button_inset_horizontal_material = 2131230868;
 			
-			// aapt resource value: 0x7f070095
-			public const int compat_button_inset_vertical_material = 2131165333;
+			// aapt resource value: 0x7f080095
+			public const int compat_button_inset_vertical_material = 2131230869;
 			
-			// aapt resource value: 0x7f070096
-			public const int compat_button_padding_horizontal_material = 2131165334;
+			// aapt resource value: 0x7f080096
+			public const int compat_button_padding_horizontal_material = 2131230870;
 			
-			// aapt resource value: 0x7f070097
-			public const int compat_button_padding_vertical_material = 2131165335;
+			// aapt resource value: 0x7f080097
+			public const int compat_button_padding_vertical_material = 2131230871;
 			
-			// aapt resource value: 0x7f070098
-			public const int compat_control_corner_material = 2131165336;
+			// aapt resource value: 0x7f080098
+			public const int compat_control_corner_material = 2131230872;
 			
-			// aapt resource value: 0x7f070072
-			public const int design_appbar_elevation = 2131165298;
+			// aapt resource value: 0x7f0800a4
+			public const int default_circle_indicator_radius = 2131230884;
 			
-			// aapt resource value: 0x7f070073
-			public const int design_bottom_navigation_active_item_max_width = 2131165299;
+			// aapt resource value: 0x7f0800a5
+			public const int default_circle_indicator_stroke_width = 2131230885;
 			
-			// aapt resource value: 0x7f070074
-			public const int design_bottom_navigation_active_text_size = 2131165300;
+			// aapt resource value: 0x7f080072
+			public const int design_appbar_elevation = 2131230834;
 			
-			// aapt resource value: 0x7f070075
-			public const int design_bottom_navigation_elevation = 2131165301;
+			// aapt resource value: 0x7f080073
+			public const int design_bottom_navigation_active_item_max_width = 2131230835;
 			
-			// aapt resource value: 0x7f070076
-			public const int design_bottom_navigation_height = 2131165302;
+			// aapt resource value: 0x7f080074
+			public const int design_bottom_navigation_active_text_size = 2131230836;
 			
-			// aapt resource value: 0x7f070077
-			public const int design_bottom_navigation_item_max_width = 2131165303;
+			// aapt resource value: 0x7f080075
+			public const int design_bottom_navigation_elevation = 2131230837;
 			
-			// aapt resource value: 0x7f070078
-			public const int design_bottom_navigation_item_min_width = 2131165304;
+			// aapt resource value: 0x7f080076
+			public const int design_bottom_navigation_height = 2131230838;
 			
-			// aapt resource value: 0x7f070079
-			public const int design_bottom_navigation_margin = 2131165305;
+			// aapt resource value: 0x7f080077
+			public const int design_bottom_navigation_item_max_width = 2131230839;
 			
-			// aapt resource value: 0x7f07007a
-			public const int design_bottom_navigation_shadow_height = 2131165306;
+			// aapt resource value: 0x7f080078
+			public const int design_bottom_navigation_item_min_width = 2131230840;
 			
-			// aapt resource value: 0x7f07007b
-			public const int design_bottom_navigation_text_size = 2131165307;
+			// aapt resource value: 0x7f080079
+			public const int design_bottom_navigation_margin = 2131230841;
 			
-			// aapt resource value: 0x7f07007c
-			public const int design_bottom_sheet_modal_elevation = 2131165308;
+			// aapt resource value: 0x7f08007a
+			public const int design_bottom_navigation_shadow_height = 2131230842;
 			
-			// aapt resource value: 0x7f07007d
-			public const int design_bottom_sheet_peek_height_min = 2131165309;
+			// aapt resource value: 0x7f08007b
+			public const int design_bottom_navigation_text_size = 2131230843;
 			
-			// aapt resource value: 0x7f07007e
-			public const int design_fab_border_width = 2131165310;
+			// aapt resource value: 0x7f08007c
+			public const int design_bottom_sheet_modal_elevation = 2131230844;
 			
-			// aapt resource value: 0x7f07007f
-			public const int design_fab_elevation = 2131165311;
+			// aapt resource value: 0x7f08007d
+			public const int design_bottom_sheet_peek_height_min = 2131230845;
 			
-			// aapt resource value: 0x7f070080
-			public const int design_fab_image_size = 2131165312;
+			// aapt resource value: 0x7f08007e
+			public const int design_fab_border_width = 2131230846;
 			
-			// aapt resource value: 0x7f070081
-			public const int design_fab_size_mini = 2131165313;
+			// aapt resource value: 0x7f08007f
+			public const int design_fab_elevation = 2131230847;
 			
-			// aapt resource value: 0x7f070082
-			public const int design_fab_size_normal = 2131165314;
+			// aapt resource value: 0x7f080080
+			public const int design_fab_image_size = 2131230848;
 			
-			// aapt resource value: 0x7f070083
-			public const int design_fab_translation_z_pressed = 2131165315;
+			// aapt resource value: 0x7f080081
+			public const int design_fab_size_mini = 2131230849;
 			
-			// aapt resource value: 0x7f070084
-			public const int design_navigation_elevation = 2131165316;
+			// aapt resource value: 0x7f080082
+			public const int design_fab_size_normal = 2131230850;
 			
-			// aapt resource value: 0x7f070085
-			public const int design_navigation_icon_padding = 2131165317;
+			// aapt resource value: 0x7f080083
+			public const int design_fab_translation_z_pressed = 2131230851;
 			
-			// aapt resource value: 0x7f070086
-			public const int design_navigation_icon_size = 2131165318;
+			// aapt resource value: 0x7f080084
+			public const int design_navigation_elevation = 2131230852;
 			
-			// aapt resource value: 0x7f07006a
-			public const int design_navigation_max_width = 2131165290;
+			// aapt resource value: 0x7f080085
+			public const int design_navigation_icon_padding = 2131230853;
 			
-			// aapt resource value: 0x7f070087
-			public const int design_navigation_padding_bottom = 2131165319;
+			// aapt resource value: 0x7f080086
+			public const int design_navigation_icon_size = 2131230854;
 			
-			// aapt resource value: 0x7f070088
-			public const int design_navigation_separator_vertical_padding = 2131165320;
+			// aapt resource value: 0x7f08006a
+			public const int design_navigation_max_width = 2131230826;
 			
-			// aapt resource value: 0x7f07006b
-			public const int design_snackbar_action_inline_max_width = 2131165291;
+			// aapt resource value: 0x7f080087
+			public const int design_navigation_padding_bottom = 2131230855;
 			
-			// aapt resource value: 0x7f07006c
-			public const int design_snackbar_background_corner_radius = 2131165292;
+			// aapt resource value: 0x7f080088
+			public const int design_navigation_separator_vertical_padding = 2131230856;
 			
-			// aapt resource value: 0x7f070089
-			public const int design_snackbar_elevation = 2131165321;
+			// aapt resource value: 0x7f08006b
+			public const int design_snackbar_action_inline_max_width = 2131230827;
 			
-			// aapt resource value: 0x7f07006d
-			public const int design_snackbar_extra_spacing_horizontal = 2131165293;
+			// aapt resource value: 0x7f08006c
+			public const int design_snackbar_background_corner_radius = 2131230828;
 			
-			// aapt resource value: 0x7f07006e
-			public const int design_snackbar_max_width = 2131165294;
+			// aapt resource value: 0x7f080089
+			public const int design_snackbar_elevation = 2131230857;
 			
-			// aapt resource value: 0x7f07006f
-			public const int design_snackbar_min_width = 2131165295;
+			// aapt resource value: 0x7f08006d
+			public const int design_snackbar_extra_spacing_horizontal = 2131230829;
 			
-			// aapt resource value: 0x7f07008a
-			public const int design_snackbar_padding_horizontal = 2131165322;
+			// aapt resource value: 0x7f08006e
+			public const int design_snackbar_max_width = 2131230830;
 			
-			// aapt resource value: 0x7f07008b
-			public const int design_snackbar_padding_vertical = 2131165323;
+			// aapt resource value: 0x7f08006f
+			public const int design_snackbar_min_width = 2131230831;
 			
-			// aapt resource value: 0x7f070070
-			public const int design_snackbar_padding_vertical_2lines = 2131165296;
+			// aapt resource value: 0x7f08008a
+			public const int design_snackbar_padding_horizontal = 2131230858;
 			
-			// aapt resource value: 0x7f07008c
-			public const int design_snackbar_text_size = 2131165324;
+			// aapt resource value: 0x7f08008b
+			public const int design_snackbar_padding_vertical = 2131230859;
 			
-			// aapt resource value: 0x7f07008d
-			public const int design_tab_max_width = 2131165325;
+			// aapt resource value: 0x7f080070
+			public const int design_snackbar_padding_vertical_2lines = 2131230832;
 			
-			// aapt resource value: 0x7f070071
-			public const int design_tab_scrollable_min_width = 2131165297;
+			// aapt resource value: 0x7f08008c
+			public const int design_snackbar_text_size = 2131230860;
 			
-			// aapt resource value: 0x7f07008e
-			public const int design_tab_text_size = 2131165326;
+			// aapt resource value: 0x7f08008d
+			public const int design_tab_max_width = 2131230861;
 			
-			// aapt resource value: 0x7f07008f
-			public const int design_tab_text_size_2line = 2131165327;
+			// aapt resource value: 0x7f080071
+			public const int design_tab_scrollable_min_width = 2131230833;
 			
-			// aapt resource value: 0x7f070059
-			public const int disabled_alpha_material_dark = 2131165273;
+			// aapt resource value: 0x7f08008e
+			public const int design_tab_text_size = 2131230862;
 			
-			// aapt resource value: 0x7f07005a
-			public const int disabled_alpha_material_light = 2131165274;
+			// aapt resource value: 0x7f08008f
+			public const int design_tab_text_size_2line = 2131230863;
 			
-			// aapt resource value: 0x7f070000
-			public const int fastscroll_default_thickness = 2131165184;
+			// aapt resource value: 0x7f080059
+			public const int disabled_alpha_material_dark = 2131230809;
 			
-			// aapt resource value: 0x7f070001
-			public const int fastscroll_margin = 2131165185;
+			// aapt resource value: 0x7f08005a
+			public const int disabled_alpha_material_light = 2131230810;
 			
-			// aapt resource value: 0x7f070002
-			public const int fastscroll_minimum_range = 2131165186;
+			// aapt resource value: 0x7f080000
+			public const int fastscroll_default_thickness = 2131230720;
 			
-			// aapt resource value: 0x7f07005b
-			public const int highlight_alpha_material_colored = 2131165275;
+			// aapt resource value: 0x7f080001
+			public const int fastscroll_margin = 2131230721;
 			
-			// aapt resource value: 0x7f07005c
-			public const int highlight_alpha_material_dark = 2131165276;
+			// aapt resource value: 0x7f080002
+			public const int fastscroll_minimum_range = 2131230722;
 			
-			// aapt resource value: 0x7f07005d
-			public const int highlight_alpha_material_light = 2131165277;
+			// aapt resource value: 0x7f08005b
+			public const int highlight_alpha_material_colored = 2131230811;
 			
-			// aapt resource value: 0x7f07005e
-			public const int hint_alpha_material_dark = 2131165278;
+			// aapt resource value: 0x7f08005c
+			public const int highlight_alpha_material_dark = 2131230812;
 			
-			// aapt resource value: 0x7f07005f
-			public const int hint_alpha_material_light = 2131165279;
+			// aapt resource value: 0x7f08005d
+			public const int highlight_alpha_material_light = 2131230813;
 			
-			// aapt resource value: 0x7f070060
-			public const int hint_pressed_alpha_material_dark = 2131165280;
+			// aapt resource value: 0x7f08005e
+			public const int hint_alpha_material_dark = 2131230814;
 			
-			// aapt resource value: 0x7f070061
-			public const int hint_pressed_alpha_material_light = 2131165281;
+			// aapt resource value: 0x7f08005f
+			public const int hint_alpha_material_light = 2131230815;
 			
-			// aapt resource value: 0x7f070003
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131165187;
+			// aapt resource value: 0x7f080060
+			public const int hint_pressed_alpha_material_dark = 2131230816;
 			
-			// aapt resource value: 0x7f070004
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131165188;
+			// aapt resource value: 0x7f080061
+			public const int hint_pressed_alpha_material_light = 2131230817;
 			
-			// aapt resource value: 0x7f070005
-			public const int item_touch_helper_swipe_escape_velocity = 2131165189;
+			// aapt resource value: 0x7f080003
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131230723;
 			
-			// aapt resource value: 0x7f070006
-			public const int mr_controller_volume_group_list_item_height = 2131165190;
+			// aapt resource value: 0x7f080004
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131230724;
 			
-			// aapt resource value: 0x7f070007
-			public const int mr_controller_volume_group_list_item_icon_size = 2131165191;
+			// aapt resource value: 0x7f080005
+			public const int item_touch_helper_swipe_escape_velocity = 2131230725;
 			
-			// aapt resource value: 0x7f070008
-			public const int mr_controller_volume_group_list_max_height = 2131165192;
+			// aapt resource value: 0x7f080006
+			public const int mr_controller_volume_group_list_item_height = 2131230726;
 			
-			// aapt resource value: 0x7f07000b
-			public const int mr_controller_volume_group_list_padding_top = 2131165195;
+			// aapt resource value: 0x7f080007
+			public const int mr_controller_volume_group_list_item_icon_size = 2131230727;
 			
-			// aapt resource value: 0x7f070009
-			public const int mr_dialog_fixed_width_major = 2131165193;
+			// aapt resource value: 0x7f080008
+			public const int mr_controller_volume_group_list_max_height = 2131230728;
 			
-			// aapt resource value: 0x7f07000a
-			public const int mr_dialog_fixed_width_minor = 2131165194;
+			// aapt resource value: 0x7f08000b
+			public const int mr_controller_volume_group_list_padding_top = 2131230731;
 			
-			// aapt resource value: 0x7f070099
-			public const int notification_action_icon_size = 2131165337;
+			// aapt resource value: 0x7f080009
+			public const int mr_dialog_fixed_width_major = 2131230729;
 			
-			// aapt resource value: 0x7f07009a
-			public const int notification_action_text_size = 2131165338;
+			// aapt resource value: 0x7f08000a
+			public const int mr_dialog_fixed_width_minor = 2131230730;
 			
-			// aapt resource value: 0x7f07009b
-			public const int notification_big_circle_margin = 2131165339;
+			// aapt resource value: 0x7f080099
+			public const int notification_action_icon_size = 2131230873;
 			
-			// aapt resource value: 0x7f070091
-			public const int notification_content_margin_start = 2131165329;
+			// aapt resource value: 0x7f08009a
+			public const int notification_action_text_size = 2131230874;
 			
-			// aapt resource value: 0x7f07009c
-			public const int notification_large_icon_height = 2131165340;
+			// aapt resource value: 0x7f08009b
+			public const int notification_big_circle_margin = 2131230875;
 			
-			// aapt resource value: 0x7f07009d
-			public const int notification_large_icon_width = 2131165341;
+			// aapt resource value: 0x7f080091
+			public const int notification_content_margin_start = 2131230865;
 			
-			// aapt resource value: 0x7f070092
-			public const int notification_main_column_padding_top = 2131165330;
+			// aapt resource value: 0x7f08009c
+			public const int notification_large_icon_height = 2131230876;
 			
-			// aapt resource value: 0x7f070093
-			public const int notification_media_narrow_margin = 2131165331;
+			// aapt resource value: 0x7f08009d
+			public const int notification_large_icon_width = 2131230877;
 			
-			// aapt resource value: 0x7f07009e
-			public const int notification_right_icon_size = 2131165342;
+			// aapt resource value: 0x7f080092
+			public const int notification_main_column_padding_top = 2131230866;
 			
-			// aapt resource value: 0x7f070090
-			public const int notification_right_side_padding_top = 2131165328;
+			// aapt resource value: 0x7f080093
+			public const int notification_media_narrow_margin = 2131230867;
 			
-			// aapt resource value: 0x7f07009f
-			public const int notification_small_icon_background_padding = 2131165343;
+			// aapt resource value: 0x7f08009e
+			public const int notification_right_icon_size = 2131230878;
 			
-			// aapt resource value: 0x7f0700a0
-			public const int notification_small_icon_size_as_large = 2131165344;
+			// aapt resource value: 0x7f080090
+			public const int notification_right_side_padding_top = 2131230864;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int notification_subtext_size = 2131165345;
+			// aapt resource value: 0x7f08009f
+			public const int notification_small_icon_background_padding = 2131230879;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int notification_top_pad = 2131165346;
+			// aapt resource value: 0x7f0800a0
+			public const int notification_small_icon_size_as_large = 2131230880;
 			
-			// aapt resource value: 0x7f0700a3
-			public const int notification_top_pad_large_text = 2131165347;
+			// aapt resource value: 0x7f0800a1
+			public const int notification_subtext_size = 2131230881;
 			
-			// aapt resource value: 0x7f070062
-			public const int tooltip_corner_radius = 2131165282;
+			// aapt resource value: 0x7f0800a2
+			public const int notification_top_pad = 2131230882;
 			
-			// aapt resource value: 0x7f070063
-			public const int tooltip_horizontal_padding = 2131165283;
+			// aapt resource value: 0x7f0800a3
+			public const int notification_top_pad_large_text = 2131230883;
 			
-			// aapt resource value: 0x7f070064
-			public const int tooltip_margin = 2131165284;
+			// aapt resource value: 0x7f080062
+			public const int tooltip_corner_radius = 2131230818;
 			
-			// aapt resource value: 0x7f070065
-			public const int tooltip_precise_anchor_extra_offset = 2131165285;
+			// aapt resource value: 0x7f080063
+			public const int tooltip_horizontal_padding = 2131230819;
 			
-			// aapt resource value: 0x7f070066
-			public const int tooltip_precise_anchor_threshold = 2131165286;
+			// aapt resource value: 0x7f080064
+			public const int tooltip_margin = 2131230820;
 			
-			// aapt resource value: 0x7f070067
-			public const int tooltip_vertical_padding = 2131165287;
+			// aapt resource value: 0x7f080065
+			public const int tooltip_precise_anchor_extra_offset = 2131230821;
 			
-			// aapt resource value: 0x7f070068
-			public const int tooltip_y_offset_non_touch = 2131165288;
+			// aapt resource value: 0x7f080066
+			public const int tooltip_precise_anchor_threshold = 2131230822;
 			
-			// aapt resource value: 0x7f070069
-			public const int tooltip_y_offset_touch = 2131165289;
+			// aapt resource value: 0x7f080067
+			public const int tooltip_vertical_padding = 2131230823;
+			
+			// aapt resource value: 0x7f080068
+			public const int tooltip_y_offset_non_touch = 2131230824;
+			
+			// aapt resource value: 0x7f080069
+			public const int tooltip_y_offset_touch = 2131230825;
 			
 			static Dimension()
 			{
@@ -4343,760 +6605,1120 @@ namespace Nubank.Droid
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int avd_hide_password = 2130837587;
-			
-			// aapt resource value: 0x7f020149
-			public const int avd_hide_password_1 = 2130837833;
-			
-			// aapt resource value: 0x7f02014a
-			public const int avd_hide_password_2 = 2130837834;
-			
-			// aapt resource value: 0x7f02014b
-			public const int avd_hide_password_3 = 2130837835;
+			public const int acq_sign_anim1 = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int avd_show_password = 2130837588;
+			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f02014c
-			public const int avd_show_password_1 = 2130837836;
+			// aapt resource value: 0x7f0201c1
+			public const int avd_hide_password_1 = 2130837953;
 			
-			// aapt resource value: 0x7f02014d
-			public const int avd_show_password_2 = 2130837837;
+			// aapt resource value: 0x7f0201c2
+			public const int avd_hide_password_2 = 2130837954;
 			
-			// aapt resource value: 0x7f02014e
-			public const int avd_show_password_3 = 2130837838;
+			// aapt resource value: 0x7f0201c3
+			public const int avd_hide_password_3 = 2130837955;
 			
 			// aapt resource value: 0x7f020055
-			public const int bg_birthday = 2130837589;
+			public const int avd_show_password = 2130837589;
+			
+			// aapt resource value: 0x7f0201c4
+			public const int avd_show_password_1 = 2130837956;
+			
+			// aapt resource value: 0x7f0201c5
+			public const int avd_show_password_2 = 2130837957;
+			
+			// aapt resource value: 0x7f0201c6
+			public const int avd_show_password_3 = 2130837958;
 			
 			// aapt resource value: 0x7f020056
-			public const int bg_intro_mkt_shell = 2130837590;
+			public const int bg_birthday = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int cc_ic_shipping_card = 2130837591;
+			public const int bg_intro_mkt_shell = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_bottom_navigation_item_background = 2130837592;
+			public const int boleto_barcode_edit = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_fab_background = 2130837593;
+			public const int boleto_simulation_intro = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_ic_visibility = 2130837594;
+			public const int btn_x = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int design_ic_visibility_off = 2130837595;
+			public const int cc_ic_shipping_card = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int design_password_eye = 2130837596;
+			public const int cui_ic_pin_card = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int design_snackbar_background = 2130837597;
+			public const int design_bottom_navigation_item_background = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_adaptive_launcher_shell_background = 2130837598;
+			public const int design_fab_background = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_audiotrack_dark = 2130837599;
+			public const int design_ic_visibility = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_audiotrack_light = 2130837600;
+			public const int design_ic_visibility_off = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_dialog_close_dark = 2130837601;
+			public const int design_password_eye = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_dialog_close_light = 2130837602;
+			public const int design_snackbar_background = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_docs_cropped = 2130837603;
+			public const int Down = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_empty_state = 2130837604;
+			public const int ic_actionbar_white_check = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_00 = 2130837605;
+			public const int ic_actionbar_white_exit = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_01 = 2130837606;
+			public const int ic_adaptive_launcher_shell_background = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_02 = 2130837607;
+			public const int ic_approved = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_03 = 2130837608;
+			public const int ic_audiotrack_dark = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_04 = 2130837609;
+			public const int ic_audiotrack_light = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_05 = 2130837610;
+			public const int ic_back_nucolor = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_06 = 2130837611;
+			public const int ic_balance_ico = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_07 = 2130837612;
+			public const int ic_bill_copy = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_08 = 2130837613;
+			public const int ic_bill_email = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_09 = 2130837614;
+			public const int ic_bill_list_future = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_10 = 2130837615;
+			public const int ic_cardtracking = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_collapse_11 = 2130837616;
+			public const int ic_cardtracking_collapse = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_collapse_12 = 2130837617;
+			public const int ic_cardtracking_expand = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_collapse_13 = 2130837618;
+			public const int ic_cardtracking_main_delivered = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_collapse_14 = 2130837619;
+			public const int ic_cardtracking_main_delivered_expanded = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_collapse_15 = 2130837620;
+			public const int ic_cardtracking_main_empty = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_00 = 2130837621;
+			public const int ic_cardtracking_main_en_route = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_01 = 2130837622;
+			public const int ic_cardtracking_main_error = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_02 = 2130837623;
+			public const int ic_cardtracking_main_factory = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_03 = 2130837624;
+			public const int ic_cardtracking_main_processor = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_04 = 2130837625;
+			public const int ic_chat = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_05 = 2130837626;
+			public const int ic_chat_balloons = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_06 = 2130837627;
+			public const int ic_chilling = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_07 = 2130837628;
+			public const int ic_close_nucolor = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_08 = 2130837629;
+			public const int ic_dialog_close_dark = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_09 = 2130837630;
+			public const int ic_dialog_close_light = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_10 = 2130837631;
+			public const int ic_docs_back = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_group_expand_11 = 2130837632;
+			public const int ic_docs_back_purpleheart = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_group_expand_12 = 2130837633;
+			public const int ic_docs_blur = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_group_expand_13 = 2130837634;
+			public const int ic_docs_blur_purpleheart = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_group_expand_14 = 2130837635;
+			public const int ic_docs_cropped = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_group_expand_15 = 2130837636;
+			public const int ic_docs_front = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_pause_dark = 2130837637;
+			public const int ic_docs_front_purpleheart = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_pause_light = 2130837638;
+			public const int ic_due_day = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_play_dark = 2130837639;
+			public const int ic_email = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_media_play_light = 2130837640;
+			public const int ic_empty_state = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_media_stop_dark = 2130837641;
+			public const int ic_eye_hide = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_media_stop_light = 2130837642;
+			public const int ic_eye_showing = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_00_dark = 2130837643;
+			public const int ic_group_collapse_00 = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_00_light = 2130837644;
+			public const int ic_group_collapse_01 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_01_dark = 2130837645;
+			public const int ic_group_collapse_02 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_01_light = 2130837646;
+			public const int ic_group_collapse_03 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_02_dark = 2130837647;
+			public const int ic_group_collapse_04 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_02_light = 2130837648;
+			public const int ic_group_collapse_05 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_03_dark = 2130837649;
+			public const int ic_group_collapse_06 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_03_light = 2130837650;
+			public const int ic_group_collapse_07 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_04_dark = 2130837651;
+			public const int ic_group_collapse_08 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_04_light = 2130837652;
+			public const int ic_group_collapse_09 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_05_dark = 2130837653;
+			public const int ic_group_collapse_10 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_05_light = 2130837654;
+			public const int ic_group_collapse_11 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_06_dark = 2130837655;
+			public const int ic_group_collapse_12 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_06_light = 2130837656;
+			public const int ic_group_collapse_13 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_07_dark = 2130837657;
+			public const int ic_group_collapse_14 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_07_light = 2130837658;
+			public const int ic_group_collapse_15 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_08_dark = 2130837659;
+			public const int ic_group_expand_00 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_08_light = 2130837660;
+			public const int ic_group_expand_01 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_09_dark = 2130837661;
+			public const int ic_group_expand_02 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_09_light = 2130837662;
+			public const int ic_group_expand_03 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_10_dark = 2130837663;
+			public const int ic_group_expand_04 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_10_light = 2130837664;
+			public const int ic_group_expand_05 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_11_dark = 2130837665;
+			public const int ic_group_expand_06 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_11_light = 2130837666;
+			public const int ic_group_expand_07 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_12_dark = 2130837667;
+			public const int ic_group_expand_08 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_12_light = 2130837668;
+			public const int ic_group_expand_09 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_13_dark = 2130837669;
+			public const int ic_group_expand_10 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_13_light = 2130837670;
+			public const int ic_group_expand_11 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_14_dark = 2130837671;
+			public const int ic_group_expand_12 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_14_light = 2130837672;
+			public const int ic_group_expand_13 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_15_dark = 2130837673;
+			public const int ic_group_expand_14 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_15_light = 2130837674;
+			public const int ic_group_expand_15 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_16_dark = 2130837675;
+			public const int ic_invitation_check = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_16_light = 2130837676;
+			public const int ic_invitation_wait = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_17_dark = 2130837677;
+			public const int ic_lock_float_edittext = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_17_light = 2130837678;
+			public const int ic_media_pause_dark = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_18_dark = 2130837679;
+			public const int ic_media_pause_light = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_18_light = 2130837680;
+			public const int ic_media_play_dark = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_19_dark = 2130837681;
+			public const int ic_media_play_light = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_19_light = 2130837682;
+			public const int ic_media_stop_dark = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_20_dark = 2130837683;
+			public const int ic_media_stop_light = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_20_light = 2130837684;
+			public const int ic_mr_button_connected_00_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_21_dark = 2130837685;
+			public const int ic_mr_button_connected_00_light = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_21_light = 2130837686;
+			public const int ic_mr_button_connected_01_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_22_dark = 2130837687;
+			public const int ic_mr_button_connected_01_light = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_22_light = 2130837688;
+			public const int ic_mr_button_connected_02_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_23_dark = 2130837689;
+			public const int ic_mr_button_connected_02_light = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_23_light = 2130837690;
+			public const int ic_mr_button_connected_03_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_24_dark = 2130837691;
+			public const int ic_mr_button_connected_03_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_24_light = 2130837692;
+			public const int ic_mr_button_connected_04_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_25_dark = 2130837693;
+			public const int ic_mr_button_connected_04_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_25_light = 2130837694;
+			public const int ic_mr_button_connected_05_dark = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_26_dark = 2130837695;
+			public const int ic_mr_button_connected_05_light = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_26_light = 2130837696;
+			public const int ic_mr_button_connected_06_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_27_dark = 2130837697;
+			public const int ic_mr_button_connected_06_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_27_light = 2130837698;
+			public const int ic_mr_button_connected_07_dark = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_28_dark = 2130837699;
+			public const int ic_mr_button_connected_07_light = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_28_light = 2130837700;
+			public const int ic_mr_button_connected_08_dark = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_29_dark = 2130837701;
+			public const int ic_mr_button_connected_08_light = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_29_light = 2130837702;
+			public const int ic_mr_button_connected_09_dark = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connected_30_dark = 2130837703;
+			public const int ic_mr_button_connected_09_light = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connected_30_light = 2130837704;
+			public const int ic_mr_button_connected_10_dark = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_00_dark = 2130837705;
+			public const int ic_mr_button_connected_10_light = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_00_light = 2130837706;
+			public const int ic_mr_button_connected_11_dark = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_01_dark = 2130837707;
+			public const int ic_mr_button_connected_11_light = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_01_light = 2130837708;
+			public const int ic_mr_button_connected_12_dark = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_02_dark = 2130837709;
+			public const int ic_mr_button_connected_12_light = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_02_light = 2130837710;
+			public const int ic_mr_button_connected_13_dark = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_03_dark = 2130837711;
+			public const int ic_mr_button_connected_13_light = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_03_light = 2130837712;
+			public const int ic_mr_button_connected_14_dark = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_04_dark = 2130837713;
+			public const int ic_mr_button_connected_14_light = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_04_light = 2130837714;
+			public const int ic_mr_button_connected_15_dark = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_05_dark = 2130837715;
+			public const int ic_mr_button_connected_15_light = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_05_light = 2130837716;
+			public const int ic_mr_button_connected_16_dark = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_06_dark = 2130837717;
+			public const int ic_mr_button_connected_16_light = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_06_light = 2130837718;
+			public const int ic_mr_button_connected_17_dark = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_07_dark = 2130837719;
+			public const int ic_mr_button_connected_17_light = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_07_light = 2130837720;
+			public const int ic_mr_button_connected_18_dark = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_08_dark = 2130837721;
+			public const int ic_mr_button_connected_18_light = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_08_light = 2130837722;
+			public const int ic_mr_button_connected_19_dark = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_09_dark = 2130837723;
+			public const int ic_mr_button_connected_19_light = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_09_light = 2130837724;
+			public const int ic_mr_button_connected_20_dark = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_10_dark = 2130837725;
+			public const int ic_mr_button_connected_20_light = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_10_light = 2130837726;
+			public const int ic_mr_button_connected_21_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_11_dark = 2130837727;
+			public const int ic_mr_button_connected_21_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_11_light = 2130837728;
+			public const int ic_mr_button_connected_22_dark = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_12_dark = 2130837729;
+			public const int ic_mr_button_connected_22_light = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_12_light = 2130837730;
+			public const int ic_mr_button_connected_23_dark = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_13_dark = 2130837731;
+			public const int ic_mr_button_connected_23_light = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_13_light = 2130837732;
+			public const int ic_mr_button_connected_24_dark = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_14_dark = 2130837733;
+			public const int ic_mr_button_connected_24_light = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_14_light = 2130837734;
+			public const int ic_mr_button_connected_25_dark = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_15_dark = 2130837735;
+			public const int ic_mr_button_connected_25_light = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_15_light = 2130837736;
+			public const int ic_mr_button_connected_26_dark = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_16_dark = 2130837737;
+			public const int ic_mr_button_connected_26_light = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_16_light = 2130837738;
+			public const int ic_mr_button_connected_27_dark = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_17_dark = 2130837739;
+			public const int ic_mr_button_connected_27_light = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_17_light = 2130837740;
+			public const int ic_mr_button_connected_28_dark = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_18_dark = 2130837741;
+			public const int ic_mr_button_connected_28_light = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_18_light = 2130837742;
+			public const int ic_mr_button_connected_29_dark = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_19_dark = 2130837743;
+			public const int ic_mr_button_connected_29_light = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_19_light = 2130837744;
+			public const int ic_mr_button_connected_30_dark = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_20_dark = 2130837745;
+			public const int ic_mr_button_connected_30_light = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_20_light = 2130837746;
+			public const int ic_mr_button_connecting_00_dark = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_21_dark = 2130837747;
+			public const int ic_mr_button_connecting_00_light = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_21_light = 2130837748;
+			public const int ic_mr_button_connecting_01_dark = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_22_dark = 2130837749;
+			public const int ic_mr_button_connecting_01_light = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_22_light = 2130837750;
+			public const int ic_mr_button_connecting_02_dark = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_23_dark = 2130837751;
+			public const int ic_mr_button_connecting_02_light = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_23_light = 2130837752;
+			public const int ic_mr_button_connecting_03_dark = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_24_dark = 2130837753;
+			public const int ic_mr_button_connecting_03_light = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_24_light = 2130837754;
+			public const int ic_mr_button_connecting_04_dark = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_25_dark = 2130837755;
+			public const int ic_mr_button_connecting_04_light = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_25_light = 2130837756;
+			public const int ic_mr_button_connecting_05_dark = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_26_dark = 2130837757;
+			public const int ic_mr_button_connecting_05_light = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_26_light = 2130837758;
+			public const int ic_mr_button_connecting_06_dark = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_27_dark = 2130837759;
+			public const int ic_mr_button_connecting_06_light = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_27_light = 2130837760;
+			public const int ic_mr_button_connecting_07_dark = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_28_dark = 2130837761;
+			public const int ic_mr_button_connecting_07_light = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_28_light = 2130837762;
+			public const int ic_mr_button_connecting_08_dark = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_29_dark = 2130837763;
+			public const int ic_mr_button_connecting_08_light = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_29_light = 2130837764;
+			public const int ic_mr_button_connecting_09_dark = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connecting_30_dark = 2130837765;
+			public const int ic_mr_button_connecting_09_light = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connecting_30_light = 2130837766;
+			public const int ic_mr_button_connecting_10_dark = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_disabled_dark = 2130837767;
+			public const int ic_mr_button_connecting_10_light = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_disabled_light = 2130837768;
+			public const int ic_mr_button_connecting_11_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_disconnected_dark = 2130837769;
+			public const int ic_mr_button_connecting_11_light = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_disconnected_light = 2130837770;
+			public const int ic_mr_button_connecting_12_dark = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_grey = 2130837771;
+			public const int ic_mr_button_connecting_12_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_speaker_dark = 2130837772;
+			public const int ic_mr_button_connecting_13_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_vol_type_speaker_group_dark = 2130837773;
+			public const int ic_mr_button_connecting_13_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_vol_type_speaker_group_light = 2130837774;
+			public const int ic_mr_button_connecting_14_dark = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_vol_type_speaker_light = 2130837775;
+			public const int ic_mr_button_connecting_14_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ic_vol_type_tv_dark = 2130837776;
+			public const int ic_mr_button_connecting_15_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int ic_vol_type_tv_light = 2130837777;
+			public const int ic_mr_button_connecting_15_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int marker_purple = 2130837778;
+			public const int ic_mr_button_connecting_16_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_button_connected_dark = 2130837779;
+			public const int ic_mr_button_connecting_16_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_button_connected_light = 2130837780;
+			public const int ic_mr_button_connecting_17_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_button_connecting_dark = 2130837781;
+			public const int ic_mr_button_connecting_17_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_button_connecting_light = 2130837782;
+			public const int ic_mr_button_connecting_18_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_button_dark = 2130837783;
+			public const int ic_mr_button_connecting_18_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_button_light = 2130837784;
+			public const int ic_mr_button_connecting_19_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_dialog_close_dark = 2130837785;
+			public const int ic_mr_button_connecting_19_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_dialog_close_light = 2130837786;
+			public const int ic_mr_button_connecting_20_dark = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_dialog_material_background_dark = 2130837787;
+			public const int ic_mr_button_connecting_20_light = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_dialog_material_background_light = 2130837788;
+			public const int ic_mr_button_connecting_21_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_group_collapse = 2130837789;
+			public const int ic_mr_button_connecting_21_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_group_expand = 2130837790;
+			public const int ic_mr_button_connecting_22_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_media_pause_dark = 2130837791;
+			public const int ic_mr_button_connecting_22_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_media_pause_light = 2130837792;
+			public const int ic_mr_button_connecting_23_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_media_play_dark = 2130837793;
+			public const int ic_mr_button_connecting_23_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_media_play_light = 2130837794;
+			public const int ic_mr_button_connecting_24_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_media_stop_dark = 2130837795;
+			public const int ic_mr_button_connecting_24_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int mr_media_stop_light = 2130837796;
+			public const int ic_mr_button_connecting_25_dark = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int mr_vol_type_audiotrack_dark = 2130837797;
+			public const int ic_mr_button_connecting_25_light = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int mr_vol_type_audiotrack_light = 2130837798;
+			public const int ic_mr_button_connecting_26_dark = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int navigation_empty_icon = 2130837799;
+			public const int ic_mr_button_connecting_26_light = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int node_modules_reactnavigationstack_dist_views_assets_backiconmask = 2130837800;
+			public const int ic_mr_button_connecting_27_dark = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_action_background = 2130837801;
+			public const int ic_mr_button_connecting_27_light = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notification_bg = 2130837802;
+			public const int ic_mr_button_connecting_28_dark = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int notification_bg_low = 2130837803;
+			public const int ic_mr_button_connecting_28_light = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int notification_bg_low_normal = 2130837804;
+			public const int ic_mr_button_connecting_29_dark = 2130837804;
 			
 			// aapt resource value: 0x7f02012d
-			public const int notification_bg_low_pressed = 2130837805;
+			public const int ic_mr_button_connecting_29_light = 2130837805;
 			
 			// aapt resource value: 0x7f02012e
-			public const int notification_bg_normal = 2130837806;
+			public const int ic_mr_button_connecting_30_dark = 2130837806;
 			
 			// aapt resource value: 0x7f02012f
-			public const int notification_bg_normal_pressed = 2130837807;
+			public const int ic_mr_button_connecting_30_light = 2130837807;
 			
 			// aapt resource value: 0x7f020130
-			public const int notification_icon_background = 2130837808;
-			
-			// aapt resource value: 0x7f020147
-			public const int notification_template_icon_bg = 2130837831;
-			
-			// aapt resource value: 0x7f020148
-			public const int notification_template_icon_low_bg = 2130837832;
+			public const int ic_mr_button_disabled_dark = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int notification_tile_bg = 2130837809;
+			public const int ic_mr_button_disabled_light = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int notify_panel_notification_icon_bg = 2130837810;
+			public const int ic_mr_button_disconnected_dark = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int resources_assets_empty_state_contact_list = 2130837811;
+			public const int ic_mr_button_disconnected_light = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int resources_assets_emptystate = 2130837812;
+			public const int ic_mr_button_grey = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int resources_assets_lovechat = 2130837813;
+			public const int ic_notification_details = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int resources_assets_marketingscreen1 = 2130837814;
+			public const int ic_nu_card_back = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int resources_assets_marketingscreen2 = 2130837815;
+			public const int ic_nu_log_white = 2130837815;
 			
 			// aapt resource value: 0x7f020138
-			public const int resources_assets_marketingscreen3 = 2130837816;
+			public const int ic_nu_logo = 2130837816;
 			
 			// aapt resource value: 0x7f020139
-			public const int resources_assets_marketingscreen4 = 2130837817;
+			public const int ic_panel_blocked = 2130837817;
 			
 			// aapt resource value: 0x7f02013a
-			public const int resources_assets_marketingscreen5 = 2130837818;
+			public const int ic_panel_limitchange = 2130837818;
 			
 			// aapt resource value: 0x7f02013b
-			public const int resources_assets_marketingscreen6 = 2130837819;
+			public const int ic_panel_unblocked = 2130837819;
 			
 			// aapt resource value: 0x7f02013c
-			public const int resources_assets_marketingscreen7 = 2130837820;
+			public const int ic_qm_clicked = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
-			public const int resources_assets_marketingscreen8 = 2130837821;
+			public const int ic_qm_not_clicked = 2130837821;
 			
 			// aapt resource value: 0x7f02013e
-			public const int resources_assets_marketingscreen9 = 2130837822;
+			public const int ic_remove_attach = 2130837822;
 			
 			// aapt resource value: 0x7f02013f
-			public const int resources_assets_nu_conta_boleto = 2130837823;
+			public const int ic_selfie = 2130837823;
 			
 			// aapt resource value: 0x7f020140
-			public const int resources_assets_nu_conta_fatura = 2130837824;
+			public const int ic_selfie_blur = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int resources_assets_nu_conta_request_money_payment_to_self = 2130837825;
+			public const int ic_selfie_blur_purpleheart = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int resources_assets_nu_conta_schedule = 2130837826;
+			public const int ic_selfie_docs = 2130837826;
 			
 			// aapt resource value: 0x7f020143
-			public const int resources_assets_nu_conta_transfer = 2130837827;
+			public const int ic_selfie_docs_blur = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int resources_assets_welcome = 2130837828;
+			public const int ic_selfie_docs_blur_purpleheart = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int tooltip_frame_dark = 2130837829;
+			public const int ic_selfie_docs_purpleheart = 2130837829;
 			
 			// aapt resource value: 0x7f020146
-			public const int tooltip_frame_light = 2130837830;
+			public const int ic_selfie_purpleheart = 2130837830;
+			
+			// aapt resource value: 0x7f020147
+			public const int ic_show_keyboard = 2130837831;
+			
+			// aapt resource value: 0x7f020148
+			public const int ic_tag_details = 2130837832;
+			
+			// aapt resource value: 0x7f020149
+			public const int ic_talk_to_us_chat = 2130837833;
+			
+			// aapt resource value: 0x7f02014a
+			public const int ic_talk_to_us_email = 2130837834;
+			
+			// aapt resource value: 0x7f02014b
+			public const int ic_talk_to_us_faq = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int ic_talk_to_us_phone = 2130837836;
+			
+			// aapt resource value: 0x7f02014d
+			public const int ic_transaction_detail_arrow_down = 2130837837;
+			
+			// aapt resource value: 0x7f02014e
+			public const int ic_vol_type_speaker_dark = 2130837838;
+			
+			// aapt resource value: 0x7f02014f
+			public const int ic_vol_type_speaker_group_dark = 2130837839;
+			
+			// aapt resource value: 0x7f020150
+			public const int ic_vol_type_speaker_group_light = 2130837840;
+			
+			// aapt resource value: 0x7f020151
+			public const int ic_vol_type_speaker_light = 2130837841;
+			
+			// aapt resource value: 0x7f020152
+			public const int ic_vol_type_tv_dark = 2130837842;
+			
+			// aapt resource value: 0x7f020153
+			public const int ic_vol_type_tv_light = 2130837843;
+			
+			// aapt resource value: 0x7f020154
+			public const int ic_whatsapp = 2130837844;
+			
+			// aapt resource value: 0x7f020155
+			public const int ic_whatsapp_disable = 2130837845;
+			
+			// aapt resource value: 0x7f020156
+			public const int icn_attach = 2130837846;
+			
+			// aapt resource value: 0x7f020157
+			public const int image_reissue_card = 2130837847;
+			
+			// aapt resource value: 0x7f020158
+			public const int map_unavailable = 2130837848;
+			
+			// aapt resource value: 0x7f020159
+			public const int marker_purple = 2130837849;
+			
+			// aapt resource value: 0x7f02015a
+			public const int mr_button_connected_dark = 2130837850;
+			
+			// aapt resource value: 0x7f02015b
+			public const int mr_button_connected_light = 2130837851;
+			
+			// aapt resource value: 0x7f02015c
+			public const int mr_button_connecting_dark = 2130837852;
+			
+			// aapt resource value: 0x7f02015d
+			public const int mr_button_connecting_light = 2130837853;
+			
+			// aapt resource value: 0x7f02015e
+			public const int mr_button_dark = 2130837854;
+			
+			// aapt resource value: 0x7f02015f
+			public const int mr_button_light = 2130837855;
+			
+			// aapt resource value: 0x7f020160
+			public const int mr_dialog_close_dark = 2130837856;
+			
+			// aapt resource value: 0x7f020161
+			public const int mr_dialog_close_light = 2130837857;
+			
+			// aapt resource value: 0x7f020162
+			public const int mr_dialog_material_background_dark = 2130837858;
+			
+			// aapt resource value: 0x7f020163
+			public const int mr_dialog_material_background_light = 2130837859;
+			
+			// aapt resource value: 0x7f020164
+			public const int mr_group_collapse = 2130837860;
+			
+			// aapt resource value: 0x7f020165
+			public const int mr_group_expand = 2130837861;
+			
+			// aapt resource value: 0x7f020166
+			public const int mr_media_pause_dark = 2130837862;
+			
+			// aapt resource value: 0x7f020167
+			public const int mr_media_pause_light = 2130837863;
+			
+			// aapt resource value: 0x7f020168
+			public const int mr_media_play_dark = 2130837864;
+			
+			// aapt resource value: 0x7f020169
+			public const int mr_media_play_light = 2130837865;
+			
+			// aapt resource value: 0x7f02016a
+			public const int mr_media_stop_dark = 2130837866;
+			
+			// aapt resource value: 0x7f02016b
+			public const int mr_media_stop_light = 2130837867;
+			
+			// aapt resource value: 0x7f02016c
+			public const int mr_vol_type_audiotrack_dark = 2130837868;
+			
+			// aapt resource value: 0x7f02016d
+			public const int mr_vol_type_audiotrack_light = 2130837869;
+			
+			// aapt resource value: 0x7f02016e
+			public const int navigation_empty_icon = 2130837870;
+			
+			// aapt resource value: 0x7f02016f
+			public const int new_map_unavailable = 2130837871;
+			
+			// aapt resource value: 0x7f020170
+			public const int Next = 2130837872;
+			
+			// aapt resource value: 0x7f020171
+			public const int node_modules_reactnavigationstack_dist_views_assets_backiconmask = 2130837873;
+			
+			// aapt resource value: 0x7f020172
+			public const int notification_action_background = 2130837874;
+			
+			// aapt resource value: 0x7f020173
+			public const int notification_bg = 2130837875;
+			
+			// aapt resource value: 0x7f020174
+			public const int notification_bg_low = 2130837876;
+			
+			// aapt resource value: 0x7f020175
+			public const int notification_bg_low_normal = 2130837877;
+			
+			// aapt resource value: 0x7f020176
+			public const int notification_bg_low_pressed = 2130837878;
+			
+			// aapt resource value: 0x7f020177
+			public const int notification_bg_normal = 2130837879;
+			
+			// aapt resource value: 0x7f020178
+			public const int notification_bg_normal_pressed = 2130837880;
+			
+			// aapt resource value: 0x7f020179
+			public const int notification_icon_background = 2130837881;
+			
+			// aapt resource value: 0x7f0201bf
+			public const int notification_template_icon_bg = 2130837951;
+			
+			// aapt resource value: 0x7f0201c0
+			public const int notification_template_icon_low_bg = 2130837952;
+			
+			// aapt resource value: 0x7f02017a
+			public const int notification_tile_bg = 2130837882;
+			
+			// aapt resource value: 0x7f02017b
+			public const int notify_panel_notification_icon_bg = 2130837883;
+			
+			// aapt resource value: 0x7f02017c
+			public const int nu_check_box_checked = 2130837884;
+			
+			// aapt resource value: 0x7f02017d
+			public const int nu_check_box_unchecked = 2130837885;
+			
+			// aapt resource value: 0x7f02017e
+			public const int nu_icon_search = 2130837886;
+			
+			// aapt resource value: 0x7f02017f
+			public const int nubank_progressbar_indeterminate_holo1 = 2130837887;
+			
+			// aapt resource value: 0x7f020180
+			public const int nubank_progressbar_indeterminate_holo2 = 2130837888;
+			
+			// aapt resource value: 0x7f020181
+			public const int nubank_progressbar_indeterminate_holo3 = 2130837889;
+			
+			// aapt resource value: 0x7f020182
+			public const int nubank_progressbar_indeterminate_holo4 = 2130837890;
+			
+			// aapt resource value: 0x7f020183
+			public const int nubank_progressbar_indeterminate_holo5 = 2130837891;
+			
+			// aapt resource value: 0x7f020184
+			public const int nubank_progressbar_indeterminate_holo6 = 2130837892;
+			
+			// aapt resource value: 0x7f020185
+			public const int nubank_progressbar_indeterminate_holo7 = 2130837893;
+			
+			// aapt resource value: 0x7f020186
+			public const int nubank_progressbar_indeterminate_holo8 = 2130837894;
+			
+			// aapt resource value: 0x7f020187
+			public const int nuchat_chat_ic_arrow_chargeback = 2130837895;
+			
+			// aapt resource value: 0x7f020188
+			public const int nuchat_chat_ic_attachments = 2130837896;
+			
+			// aapt resource value: 0x7f020189
+			public const int nuchat_chat_ic_attachments_disabled = 2130837897;
+			
+			// aapt resource value: 0x7f02018a
+			public const int nuchat_chat_ic_camera = 2130837898;
+			
+			// aapt resource value: 0x7f02018b
+			public const int nuchat_chat_ic_placeholder_file = 2130837899;
+			
+			// aapt resource value: 0x7f02018c
+			public const int pos_animation15 = 2130837900;
+			
+			// aapt resource value: 0x7f02018d
+			public const int Prev = 2130837901;
+			
+			// aapt resource value: 0x7f02018e
+			public const int resources_assets_empty_state_contact_list = 2130837902;
+			
+			// aapt resource value: 0x7f02018f
+			public const int resources_assets_emptystate = 2130837903;
+			
+			// aapt resource value: 0x7f020190
+			public const int resources_assets_lovechat = 2130837904;
+			
+			// aapt resource value: 0x7f020191
+			public const int resources_assets_marketingscreen1 = 2130837905;
+			
+			// aapt resource value: 0x7f020192
+			public const int resources_assets_marketingscreen2 = 2130837906;
+			
+			// aapt resource value: 0x7f020193
+			public const int resources_assets_marketingscreen3 = 2130837907;
+			
+			// aapt resource value: 0x7f020194
+			public const int resources_assets_marketingscreen4 = 2130837908;
+			
+			// aapt resource value: 0x7f020195
+			public const int resources_assets_marketingscreen5 = 2130837909;
+			
+			// aapt resource value: 0x7f020196
+			public const int resources_assets_marketingscreen6 = 2130837910;
+			
+			// aapt resource value: 0x7f020197
+			public const int resources_assets_marketingscreen7 = 2130837911;
+			
+			// aapt resource value: 0x7f020198
+			public const int resources_assets_marketingscreen8 = 2130837912;
+			
+			// aapt resource value: 0x7f020199
+			public const int resources_assets_marketingscreen9 = 2130837913;
+			
+			// aapt resource value: 0x7f02019a
+			public const int resources_assets_nu_conta_boleto = 2130837914;
+			
+			// aapt resource value: 0x7f02019b
+			public const int resources_assets_nu_conta_fatura = 2130837915;
+			
+			// aapt resource value: 0x7f02019c
+			public const int resources_assets_nu_conta_request_money_payment_to_self = 2130837916;
+			
+			// aapt resource value: 0x7f02019d
+			public const int resources_assets_nu_conta_schedule = 2130837917;
+			
+			// aapt resource value: 0x7f02019e
+			public const int resources_assets_nu_conta_transfer = 2130837918;
+			
+			// aapt resource value: 0x7f02019f
+			public const int resources_assets_welcome = 2130837919;
+			
+			// aapt resource value: 0x7f0201a0
+			public const int stats_icn_close = 2130837920;
+			
+			// aapt resource value: 0x7f0201a1
+			public const int stats_icn_total_place = 2130837921;
+			
+			// aapt resource value: 0x7f0201a2
+			public const int stats_icn_total_txn = 2130837922;
+			
+			// aapt resource value: 0x7f0201a3
+			public const int stats_loading_1 = 2130837923;
+			
+			// aapt resource value: 0x7f0201a4
+			public const int stats_loading_10 = 2130837924;
+			
+			// aapt resource value: 0x7f0201a5
+			public const int stats_loading_11 = 2130837925;
+			
+			// aapt resource value: 0x7f0201a6
+			public const int stats_loading_12 = 2130837926;
+			
+			// aapt resource value: 0x7f0201a7
+			public const int stats_loading_13 = 2130837927;
+			
+			// aapt resource value: 0x7f0201a8
+			public const int stats_loading_14 = 2130837928;
+			
+			// aapt resource value: 0x7f0201a9
+			public const int stats_loading_15 = 2130837929;
+			
+			// aapt resource value: 0x7f0201aa
+			public const int stats_loading_16 = 2130837930;
+			
+			// aapt resource value: 0x7f0201ab
+			public const int stats_loading_17 = 2130837931;
+			
+			// aapt resource value: 0x7f0201ac
+			public const int stats_loading_18 = 2130837932;
+			
+			// aapt resource value: 0x7f0201ad
+			public const int stats_loading_19 = 2130837933;
+			
+			// aapt resource value: 0x7f0201ae
+			public const int stats_loading_2 = 2130837934;
+			
+			// aapt resource value: 0x7f0201af
+			public const int stats_loading_20 = 2130837935;
+			
+			// aapt resource value: 0x7f0201b0
+			public const int stats_loading_21 = 2130837936;
+			
+			// aapt resource value: 0x7f0201b1
+			public const int stats_loading_22 = 2130837937;
+			
+			// aapt resource value: 0x7f0201b2
+			public const int stats_loading_23 = 2130837938;
+			
+			// aapt resource value: 0x7f0201b3
+			public const int stats_loading_24 = 2130837939;
+			
+			// aapt resource value: 0x7f0201b4
+			public const int stats_loading_3 = 2130837940;
+			
+			// aapt resource value: 0x7f0201b5
+			public const int stats_loading_4 = 2130837941;
+			
+			// aapt resource value: 0x7f0201b6
+			public const int stats_loading_5 = 2130837942;
+			
+			// aapt resource value: 0x7f0201b7
+			public const int stats_loading_6 = 2130837943;
+			
+			// aapt resource value: 0x7f0201b8
+			public const int stats_loading_7 = 2130837944;
+			
+			// aapt resource value: 0x7f0201b9
+			public const int stats_loading_8 = 2130837945;
+			
+			// aapt resource value: 0x7f0201ba
+			public const int stats_loading_9 = 2130837946;
+			
+			// aapt resource value: 0x7f0201bb
+			public const int thumb_progress = 2130837947;
+			
+			// aapt resource value: 0x7f0201bc
+			public const int tooltip_frame_dark = 2130837948;
+			
+			// aapt resource value: 0x7f0201bd
+			public const int tooltip_frame_light = 2130837949;
+			
+			// aapt resource value: 0x7f0201be
+			public const int Up = 2130837950;
 			
 			static Drawable()
 			{
@@ -5111,647 +7733,671 @@ namespace Nubank.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080032
-			public const int ALT = 2131230770;
+			// aapt resource value: 0x7f090032
+			public const int ALT = 2131296306;
 			
-			// aapt resource value: 0x7f080033
-			public const int CTRL = 2131230771;
+			// aapt resource value: 0x7f090033
+			public const int CTRL = 2131296307;
 			
-			// aapt resource value: 0x7f080034
-			public const int FUNCTION = 2131230772;
+			// aapt resource value: 0x7f090034
+			public const int FUNCTION = 2131296308;
 			
-			// aapt resource value: 0x7f080035
-			public const int META = 2131230773;
+			// aapt resource value: 0x7f090035
+			public const int META = 2131296309;
 			
-			// aapt resource value: 0x7f080036
-			public const int SHIFT = 2131230774;
+			// aapt resource value: 0x7f090036
+			public const int SHIFT = 2131296310;
 			
-			// aapt resource value: 0x7f080037
-			public const int SYM = 2131230775;
+			// aapt resource value: 0x7f090037
+			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int action0 = 2131230906;
+			// aapt resource value: 0x7f0900c2
+			public const int action0 = 2131296450;
 			
-			// aapt resource value: 0x7f08007c
-			public const int action_bar = 2131230844;
+			// aapt resource value: 0x7f09007e
+			public const int action_bar = 2131296382;
 			
-			// aapt resource value: 0x7f080001
-			public const int action_bar_activity_content = 2131230721;
+			// aapt resource value: 0x7f090001
+			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f08007b
-			public const int action_bar_container = 2131230843;
+			// aapt resource value: 0x7f09007d
+			public const int action_bar_container = 2131296381;
 			
-			// aapt resource value: 0x7f080077
-			public const int action_bar_root = 2131230839;
+			// aapt resource value: 0x7f090079
+			public const int action_bar_root = 2131296377;
 			
-			// aapt resource value: 0x7f080002
-			public const int action_bar_spinner = 2131230722;
+			// aapt resource value: 0x7f090002
+			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f08005b
-			public const int action_bar_subtitle = 2131230811;
+			// aapt resource value: 0x7f09005d
+			public const int action_bar_subtitle = 2131296349;
 			
-			// aapt resource value: 0x7f08005a
-			public const int action_bar_title = 2131230810;
+			// aapt resource value: 0x7f09005c
+			public const int action_bar_title = 2131296348;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int action_container = 2131230903;
+			// aapt resource value: 0x7f0900bf
+			public const int action_container = 2131296447;
 			
-			// aapt resource value: 0x7f08007d
-			public const int action_context_bar = 2131230845;
+			// aapt resource value: 0x7f09007f
+			public const int action_context_bar = 2131296383;
 			
-			// aapt resource value: 0x7f0800be
-			public const int action_divider = 2131230910;
+			// aapt resource value: 0x7f0900c6
+			public const int action_divider = 2131296454;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int action_image = 2131230904;
+			// aapt resource value: 0x7f0900c0
+			public const int action_image = 2131296448;
 			
-			// aapt resource value: 0x7f080003
-			public const int action_menu_divider = 2131230723;
+			// aapt resource value: 0x7f090003
+			public const int action_menu_divider = 2131296259;
 			
-			// aapt resource value: 0x7f080004
-			public const int action_menu_presenter = 2131230724;
+			// aapt resource value: 0x7f090004
+			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f080079
-			public const int action_mode_bar = 2131230841;
+			// aapt resource value: 0x7f09007b
+			public const int action_mode_bar = 2131296379;
 			
-			// aapt resource value: 0x7f080078
-			public const int action_mode_bar_stub = 2131230840;
+			// aapt resource value: 0x7f09007a
+			public const int action_mode_bar_stub = 2131296378;
 			
-			// aapt resource value: 0x7f08005c
-			public const int action_mode_close_button = 2131230812;
+			// aapt resource value: 0x7f09005e
+			public const int action_mode_close_button = 2131296350;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int action_text = 2131230905;
+			// aapt resource value: 0x7f0900c1
+			public const int action_text = 2131296449;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int actions = 2131230919;
+			// aapt resource value: 0x7f0900cf
+			public const int actions = 2131296463;
 			
-			// aapt resource value: 0x7f08005d
-			public const int activity_chooser_view_content = 2131230813;
+			// aapt resource value: 0x7f09005f
+			public const int activity_chooser_view_content = 2131296351;
 			
-			// aapt resource value: 0x7f080027
-			public const int add = 2131230759;
+			// aapt resource value: 0x7f090027
+			public const int add = 2131296295;
 			
-			// aapt resource value: 0x7f080070
-			public const int alertTitle = 2131230832;
+			// aapt resource value: 0x7f090072
+			public const int alertTitle = 2131296370;
 			
-			// aapt resource value: 0x7f080052
-			public const int all = 2131230802;
+			// aapt resource value: 0x7f090052
+			public const int all = 2131296338;
 			
-			// aapt resource value: 0x7f080038
-			public const int always = 2131230776;
+			// aapt resource value: 0x7f090038
+			public const int always = 2131296312;
 			
-			// aapt resource value: 0x7f080056
-			public const int async = 2131230806;
+			// aapt resource value: 0x7f090056
+			public const int async = 2131296342;
 			
-			// aapt resource value: 0x7f080044
-			public const int auto = 2131230788;
+			// aapt resource value: 0x7f090044
+			public const int auto = 2131296324;
 			
-			// aapt resource value: 0x7f08002f
-			public const int beginning = 2131230767;
+			// aapt resource value: 0x7f09002f
+			public const int beginning = 2131296303;
 			
-			// aapt resource value: 0x7f080057
-			public const int blocking = 2131230807;
+			// aapt resource value: 0x7f090057
+			public const int blocking = 2131296343;
 			
-			// aapt resource value: 0x7f08003d
-			public const int bottom = 2131230781;
+			// aapt resource value: 0x7f09003d
+			public const int bottom = 2131296317;
 			
-			// aapt resource value: 0x7f08008b
-			public const int bottomtab_navarea = 2131230859;
+			// aapt resource value: 0x7f09008d
+			public const int bottomtab_navarea = 2131296397;
 			
-			// aapt resource value: 0x7f08008c
-			public const int bottomtab_tabbar = 2131230860;
+			// aapt resource value: 0x7f09008e
+			public const int bottomtab_tabbar = 2131296398;
 			
-			// aapt resource value: 0x7f080063
-			public const int buttonPanel = 2131230819;
+			// aapt resource value: 0x7f090065
+			public const int buttonPanel = 2131296357;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int cancel_action = 2131230907;
+			// aapt resource value: 0x7f0900c3
+			public const int cancel_action = 2131296451;
 			
-			// aapt resource value: 0x7f080045
-			public const int center = 2131230789;
+			// aapt resource value: 0x7f090045
+			public const int center = 2131296325;
 			
-			// aapt resource value: 0x7f080046
-			public const int center_horizontal = 2131230790;
+			// aapt resource value: 0x7f090046
+			public const int center_horizontal = 2131296326;
 			
-			// aapt resource value: 0x7f080047
-			public const int center_vertical = 2131230791;
+			// aapt resource value: 0x7f090047
+			public const int center_vertical = 2131296327;
 			
-			// aapt resource value: 0x7f080073
-			public const int checkbox = 2131230835;
+			// aapt resource value: 0x7f090075
+			public const int checkbox = 2131296373;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int chronometer = 2131230915;
+			// aapt resource value: 0x7f0900cb
+			public const int chronometer = 2131296459;
 			
-			// aapt resource value: 0x7f08004e
-			public const int clip_horizontal = 2131230798;
+			// aapt resource value: 0x7f09004e
+			public const int clip_horizontal = 2131296334;
 			
-			// aapt resource value: 0x7f08004f
-			public const int clip_vertical = 2131230799;
+			// aapt resource value: 0x7f09004f
+			public const int clip_vertical = 2131296335;
 			
-			// aapt resource value: 0x7f080039
-			public const int collapseActionView = 2131230777;
+			// aapt resource value: 0x7f090039
+			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f08008f
-			public const int container = 2131230863;
+			// aapt resource value: 0x7f090091
+			public const int container = 2131296401;
 			
-			// aapt resource value: 0x7f080066
-			public const int contentPanel = 2131230822;
+			// aapt resource value: 0x7f090068
+			public const int contentPanel = 2131296360;
 			
-			// aapt resource value: 0x7f080090
-			public const int coordinator = 2131230864;
+			// aapt resource value: 0x7f090092
+			public const int coordinator = 2131296402;
 			
-			// aapt resource value: 0x7f08006d
-			public const int custom = 2131230829;
+			// aapt resource value: 0x7f09006f
+			public const int custom = 2131296367;
 			
-			// aapt resource value: 0x7f08006c
-			public const int customPanel = 2131230828;
+			// aapt resource value: 0x7f09006e
+			public const int customPanel = 2131296366;
 			
-			// aapt resource value: 0x7f08007a
-			public const int decor_content_parent = 2131230842;
+			// aapt resource value: 0x7f09007c
+			public const int decor_content_parent = 2131296380;
 			
-			// aapt resource value: 0x7f080060
-			public const int default_activity_button = 2131230816;
+			// aapt resource value: 0x7f090062
+			public const int default_activity_button = 2131296354;
 			
-			// aapt resource value: 0x7f080092
-			public const int design_bottom_sheet = 2131230866;
+			// aapt resource value: 0x7f090094
+			public const int design_bottom_sheet = 2131296404;
 			
-			// aapt resource value: 0x7f080099
-			public const int design_menu_item_action_area = 2131230873;
+			// aapt resource value: 0x7f09009b
+			public const int design_menu_item_action_area = 2131296411;
 			
-			// aapt resource value: 0x7f080098
-			public const int design_menu_item_action_area_stub = 2131230872;
+			// aapt resource value: 0x7f09009a
+			public const int design_menu_item_action_area_stub = 2131296410;
 			
-			// aapt resource value: 0x7f080097
-			public const int design_menu_item_text = 2131230871;
+			// aapt resource value: 0x7f090099
+			public const int design_menu_item_text = 2131296409;
 			
-			// aapt resource value: 0x7f080096
-			public const int design_navigation_view = 2131230870;
+			// aapt resource value: 0x7f090098
+			public const int design_navigation_view = 2131296408;
 			
-			// aapt resource value: 0x7f080020
-			public const int disableHome = 2131230752;
+			// aapt resource value: 0x7f090020
+			public const int disableHome = 2131296288;
 			
-			// aapt resource value: 0x7f08007e
-			public const int edit_query = 2131230846;
+			// aapt resource value: 0x7f090080
+			public const int edit_query = 2131296384;
 			
-			// aapt resource value: 0x7f080030
-			public const int end = 2131230768;
+			// aapt resource value: 0x7f090030
+			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int end_padder = 2131230921;
+			// aapt resource value: 0x7f0900d1
+			public const int end_padder = 2131296465;
 			
-			// aapt resource value: 0x7f08003f
-			public const int enterAlways = 2131230783;
+			// aapt resource value: 0x7f09003f
+			public const int enterAlways = 2131296319;
 			
-			// aapt resource value: 0x7f080040
-			public const int enterAlwaysCollapsed = 2131230784;
+			// aapt resource value: 0x7f090040
+			public const int enterAlwaysCollapsed = 2131296320;
 			
-			// aapt resource value: 0x7f080041
-			public const int exitUntilCollapsed = 2131230785;
+			// aapt resource value: 0x7f090041
+			public const int exitUntilCollapsed = 2131296321;
 			
-			// aapt resource value: 0x7f08005e
-			public const int expand_activities_button = 2131230814;
+			// aapt resource value: 0x7f090060
+			public const int expand_activities_button = 2131296352;
 			
-			// aapt resource value: 0x7f080072
-			public const int expanded_menu = 2131230834;
+			// aapt resource value: 0x7f090074
+			public const int expanded_menu = 2131296372;
 			
-			// aapt resource value: 0x7f080050
-			public const int fill = 2131230800;
+			// aapt resource value: 0x7f090050
+			public const int fill = 2131296336;
 			
-			// aapt resource value: 0x7f080051
-			public const int fill_horizontal = 2131230801;
+			// aapt resource value: 0x7f090051
+			public const int fill_horizontal = 2131296337;
 			
-			// aapt resource value: 0x7f080048
-			public const int fill_vertical = 2131230792;
+			// aapt resource value: 0x7f090048
+			public const int fill_vertical = 2131296328;
 			
-			// aapt resource value: 0x7f080054
-			public const int @fixed = 2131230804;
+			// aapt resource value: 0x7f090054
+			public const int @fixed = 2131296340;
 			
-			// aapt resource value: 0x7f08009b
-			public const int flyoutcontent_appbar = 2131230875;
+			// aapt resource value: 0x7f09009d
+			public const int flyoutcontent_appbar = 2131296413;
 			
-			// aapt resource value: 0x7f08009c
-			public const int flyoutcontent_recycler = 2131230876;
+			// aapt resource value: 0x7f09009e
+			public const int flyoutcontent_recycler = 2131296414;
 			
-			// aapt resource value: 0x7f080058
-			public const int forever = 2131230808;
+			// aapt resource value: 0x7f090058
+			public const int forever = 2131296344;
 			
-			// aapt resource value: 0x7f08000a
-			public const int ghost_view = 2131230730;
+			// aapt resource value: 0x7f09000a
+			public const int ghost_view = 2131296266;
 			
-			// aapt resource value: 0x7f080005
-			public const int home = 2131230725;
+			// aapt resource value: 0x7f090005
+			public const int home = 2131296261;
 			
-			// aapt resource value: 0x7f080021
-			public const int homeAsUp = 2131230753;
+			// aapt resource value: 0x7f090021
+			public const int homeAsUp = 2131296289;
 			
-			// aapt resource value: 0x7f080062
-			public const int icon = 2131230818;
+			// aapt resource value: 0x7f09005a
+			public const int horizontal = 2131296346;
 			
-			// aapt resource value: 0x7f0800c8
-			public const int icon_group = 2131230920;
+			// aapt resource value: 0x7f090064
+			public const int icon = 2131296356;
 			
-			// aapt resource value: 0x7f08003a
-			public const int ifRoom = 2131230778;
+			// aapt resource value: 0x7f0900d0
+			public const int icon_group = 2131296464;
 			
-			// aapt resource value: 0x7f08005f
-			public const int image = 2131230815;
+			// aapt resource value: 0x7f09003a
+			public const int ifRoom = 2131296314;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int info = 2131230916;
+			// aapt resource value: 0x7f090061
+			public const int image = 2131296353;
 			
-			// aapt resource value: 0x7f080059
-			public const int italic = 2131230809;
+			// aapt resource value: 0x7f0900a4
+			public const int indicator = 2131296420;
 			
-			// aapt resource value: 0x7f080000
-			public const int item_touch_helper_previous_elevation = 2131230720;
+			// aapt resource value: 0x7f0900cc
+			public const int info = 2131296460;
 			
-			// aapt resource value: 0x7f08008e
-			public const int largeLabel = 2131230862;
+			// aapt resource value: 0x7f090059
+			public const int italic = 2131296345;
 			
-			// aapt resource value: 0x7f080049
-			public const int left = 2131230793;
+			// aapt resource value: 0x7f090000
+			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f080017
-			public const int line1 = 2131230743;
+			// aapt resource value: 0x7f090090
+			public const int largeLabel = 2131296400;
 			
-			// aapt resource value: 0x7f080018
-			public const int line3 = 2131230744;
+			// aapt resource value: 0x7f090049
+			public const int left = 2131296329;
 			
-			// aapt resource value: 0x7f08001d
-			public const int listMode = 2131230749;
+			// aapt resource value: 0x7f090017
+			public const int line1 = 2131296279;
 			
-			// aapt resource value: 0x7f080061
-			public const int list_item = 2131230817;
+			// aapt resource value: 0x7f090018
+			public const int line3 = 2131296280;
 			
-			// aapt resource value: 0x7f0800ca
-			public const int main_appbar = 2131230922;
+			// aapt resource value: 0x7f09001d
+			public const int listMode = 2131296285;
 			
-			// aapt resource value: 0x7f0800cd
-			public const int main_scrollview = 2131230925;
+			// aapt resource value: 0x7f090063
+			public const int list_item = 2131296355;
 			
-			// aapt resource value: 0x7f0800cc
-			public const int main_tablayout = 2131230924;
+			// aapt resource value: 0x7f0900d2
+			public const int main_appbar = 2131296466;
 			
-			// aapt resource value: 0x7f0800cb
-			public const int main_toolbar = 2131230923;
+			// aapt resource value: 0x7f0900d5
+			public const int main_scrollview = 2131296469;
 			
-			// aapt resource value: 0x7f0800d5
-			public const int masked = 2131230933;
+			// aapt resource value: 0x7f0900d4
+			public const int main_tablayout = 2131296468;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int media_actions = 2131230909;
+			// aapt resource value: 0x7f0900d3
+			public const int main_toolbar = 2131296467;
 			
-			// aapt resource value: 0x7f0800d3
-			public const int message = 2131230931;
+			// aapt resource value: 0x7f0900dd
+			public const int masked = 2131296477;
 			
-			// aapt resource value: 0x7f080031
-			public const int middle = 2131230769;
+			// aapt resource value: 0x7f0900c5
+			public const int media_actions = 2131296453;
 			
-			// aapt resource value: 0x7f080053
-			public const int mini = 2131230803;
+			// aapt resource value: 0x7f0900db
+			public const int message = 2131296475;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int mr_art = 2131230889;
+			// aapt resource value: 0x7f090031
+			public const int middle = 2131296305;
 			
-			// aapt resource value: 0x7f08009e
-			public const int mr_chooser_list = 2131230878;
+			// aapt resource value: 0x7f090053
+			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int mr_chooser_route_desc = 2131230881;
+			// aapt resource value: 0x7f0900b1
+			public const int mr_art = 2131296433;
 			
-			// aapt resource value: 0x7f08009f
-			public const int mr_chooser_route_icon = 2131230879;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_chooser_list = 2131296422;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int mr_chooser_route_name = 2131230880;
+			// aapt resource value: 0x7f0900a9
+			public const int mr_chooser_route_desc = 2131296425;
 			
-			// aapt resource value: 0x7f08009d
-			public const int mr_chooser_title = 2131230877;
+			// aapt resource value: 0x7f0900a7
+			public const int mr_chooser_route_icon = 2131296423;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int mr_close = 2131230886;
+			// aapt resource value: 0x7f0900a8
+			public const int mr_chooser_route_name = 2131296424;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int mr_control_divider = 2131230892;
+			// aapt resource value: 0x7f0900a5
+			public const int mr_chooser_title = 2131296421;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int mr_control_playback_ctrl = 2131230898;
+			// aapt resource value: 0x7f0900ae
+			public const int mr_close = 2131296430;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int mr_control_subtitle = 2131230901;
+			// aapt resource value: 0x7f0900b4
+			public const int mr_control_divider = 2131296436;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int mr_control_title = 2131230900;
+			// aapt resource value: 0x7f0900ba
+			public const int mr_control_playback_ctrl = 2131296442;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int mr_control_title_container = 2131230899;
+			// aapt resource value: 0x7f0900bd
+			public const int mr_control_subtitle = 2131296445;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int mr_custom_control = 2131230887;
+			// aapt resource value: 0x7f0900bc
+			public const int mr_control_title = 2131296444;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int mr_default_control = 2131230888;
+			// aapt resource value: 0x7f0900bb
+			public const int mr_control_title_container = 2131296443;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int mr_dialog_area = 2131230883;
+			// aapt resource value: 0x7f0900af
+			public const int mr_custom_control = 2131296431;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int mr_expandable_area = 2131230882;
+			// aapt resource value: 0x7f0900b0
+			public const int mr_default_control = 2131296432;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int mr_group_expand_collapse = 2131230902;
+			// aapt resource value: 0x7f0900ab
+			public const int mr_dialog_area = 2131296427;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int mr_media_main_control = 2131230890;
+			// aapt resource value: 0x7f0900aa
+			public const int mr_expandable_area = 2131296426;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int mr_name = 2131230885;
+			// aapt resource value: 0x7f0900be
+			public const int mr_group_expand_collapse = 2131296446;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int mr_playback_control = 2131230891;
+			// aapt resource value: 0x7f0900b2
+			public const int mr_media_main_control = 2131296434;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int mr_title_bar = 2131230884;
+			// aapt resource value: 0x7f0900ad
+			public const int mr_name = 2131296429;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int mr_volume_control = 2131230893;
+			// aapt resource value: 0x7f0900b3
+			public const int mr_playback_control = 2131296435;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int mr_volume_group_list = 2131230894;
+			// aapt resource value: 0x7f0900ac
+			public const int mr_title_bar = 2131296428;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int mr_volume_item_icon = 2131230896;
+			// aapt resource value: 0x7f0900b5
+			public const int mr_volume_control = 2131296437;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int mr_volume_slider = 2131230897;
+			// aapt resource value: 0x7f0900b6
+			public const int mr_volume_group_list = 2131296438;
 			
-			// aapt resource value: 0x7f080028
-			public const int multiply = 2131230760;
+			// aapt resource value: 0x7f0900b8
+			public const int mr_volume_item_icon = 2131296440;
 			
-			// aapt resource value: 0x7f080095
-			public const int navigation_header_container = 2131230869;
+			// aapt resource value: 0x7f0900b9
+			public const int mr_volume_slider = 2131296441;
 			
-			// aapt resource value: 0x7f08003b
-			public const int never = 2131230779;
+			// aapt resource value: 0x7f090028
+			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f080022
-			public const int none = 2131230754;
+			// aapt resource value: 0x7f090097
+			public const int navigation_header_container = 2131296407;
 			
-			// aapt resource value: 0x7f08001e
-			public const int normal = 2131230750;
+			// aapt resource value: 0x7f09003b
+			public const int never = 2131296315;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int notification_background = 2131230918;
+			// aapt resource value: 0x7f0900a2
+			public const int next = 2131296418;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int notification_main_column = 2131230912;
+			// aapt resource value: 0x7f0900a3
+			public const int nextArrow = 2131296419;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int notification_main_column_container = 2131230911;
+			// aapt resource value: 0x7f090022
+			public const int none = 2131296290;
 			
-			// aapt resource value: 0x7f08004c
-			public const int parallax = 2131230796;
+			// aapt resource value: 0x7f09001e
+			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f080065
-			public const int parentPanel = 2131230821;
+			// aapt resource value: 0x7f0900ce
+			public const int notification_background = 2131296462;
 			
-			// aapt resource value: 0x7f08000b
-			public const int parent_matrix = 2131230731;
+			// aapt resource value: 0x7f0900c8
+			public const int notification_main_column = 2131296456;
 			
-			// aapt resource value: 0x7f08004d
-			public const int pin = 2131230797;
+			// aapt resource value: 0x7f0900c7
+			public const int notification_main_column_container = 2131296455;
 			
-			// aapt resource value: 0x7f080006
-			public const int progress_circular = 2131230726;
+			// aapt resource value: 0x7f09009f
+			public const int pager = 2131296415;
 			
-			// aapt resource value: 0x7f080007
-			public const int progress_horizontal = 2131230727;
+			// aapt resource value: 0x7f09004c
+			public const int parallax = 2131296332;
 			
-			// aapt resource value: 0x7f080075
-			public const int radio = 2131230837;
+			// aapt resource value: 0x7f090067
+			public const int parentPanel = 2131296359;
 			
-			// aapt resource value: 0x7f08004a
-			public const int right = 2131230794;
+			// aapt resource value: 0x7f09000b
+			public const int parent_matrix = 2131296267;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int right_icon = 2131230917;
+			// aapt resource value: 0x7f09004d
+			public const int pin = 2131296333;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int right_side = 2131230913;
+			// aapt resource value: 0x7f0900a0
+			public const int prev = 2131296416;
 			
-			// aapt resource value: 0x7f08000c
-			public const int save_image_matrix = 2131230732;
+			// aapt resource value: 0x7f0900a1
+			public const int prevArrow = 2131296417;
 			
-			// aapt resource value: 0x7f08000d
-			public const int save_non_transition_alpha = 2131230733;
+			// aapt resource value: 0x7f090006
+			public const int progress_circular = 2131296262;
 			
-			// aapt resource value: 0x7f08000e
-			public const int save_scale_type = 2131230734;
+			// aapt resource value: 0x7f090007
+			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f080029
-			public const int screen = 2131230761;
+			// aapt resource value: 0x7f090077
+			public const int radio = 2131296375;
 			
-			// aapt resource value: 0x7f080042
-			public const int scroll = 2131230786;
+			// aapt resource value: 0x7f09004a
+			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f08006b
-			public const int scrollIndicatorDown = 2131230827;
+			// aapt resource value: 0x7f0900cd
+			public const int right_icon = 2131296461;
 			
-			// aapt resource value: 0x7f080067
-			public const int scrollIndicatorUp = 2131230823;
+			// aapt resource value: 0x7f0900c9
+			public const int right_side = 2131296457;
 			
-			// aapt resource value: 0x7f080068
-			public const int scrollView = 2131230824;
+			// aapt resource value: 0x7f09000c
+			public const int save_image_matrix = 2131296268;
 			
-			// aapt resource value: 0x7f080055
-			public const int scrollable = 2131230805;
+			// aapt resource value: 0x7f09000d
+			public const int save_non_transition_alpha = 2131296269;
 			
-			// aapt resource value: 0x7f080080
-			public const int search_badge = 2131230848;
+			// aapt resource value: 0x7f09000e
+			public const int save_scale_type = 2131296270;
 			
-			// aapt resource value: 0x7f08007f
-			public const int search_bar = 2131230847;
+			// aapt resource value: 0x7f090029
+			public const int screen = 2131296297;
 			
-			// aapt resource value: 0x7f080081
-			public const int search_button = 2131230849;
+			// aapt resource value: 0x7f090042
+			public const int scroll = 2131296322;
 			
-			// aapt resource value: 0x7f080086
-			public const int search_close_btn = 2131230854;
+			// aapt resource value: 0x7f09006d
+			public const int scrollIndicatorDown = 2131296365;
 			
-			// aapt resource value: 0x7f080082
-			public const int search_edit_frame = 2131230850;
+			// aapt resource value: 0x7f090069
+			public const int scrollIndicatorUp = 2131296361;
 			
-			// aapt resource value: 0x7f080088
-			public const int search_go_btn = 2131230856;
+			// aapt resource value: 0x7f09006a
+			public const int scrollView = 2131296362;
 			
-			// aapt resource value: 0x7f080083
-			public const int search_mag_icon = 2131230851;
+			// aapt resource value: 0x7f090055
+			public const int scrollable = 2131296341;
 			
-			// aapt resource value: 0x7f080084
-			public const int search_plate = 2131230852;
+			// aapt resource value: 0x7f090082
+			public const int search_badge = 2131296386;
 			
-			// aapt resource value: 0x7f080085
-			public const int search_src_text = 2131230853;
+			// aapt resource value: 0x7f090081
+			public const int search_bar = 2131296385;
 			
-			// aapt resource value: 0x7f080089
-			public const int search_voice_btn = 2131230857;
+			// aapt resource value: 0x7f090083
+			public const int search_button = 2131296387;
 			
-			// aapt resource value: 0x7f08008a
-			public const int select_dialog_listview = 2131230858;
+			// aapt resource value: 0x7f090088
+			public const int search_close_btn = 2131296392;
 			
-			// aapt resource value: 0x7f0800ce
-			public const int shellcontent_appbar = 2131230926;
+			// aapt resource value: 0x7f090084
+			public const int search_edit_frame = 2131296388;
 			
-			// aapt resource value: 0x7f0800d0
-			public const int shellcontent_scrollview = 2131230928;
+			// aapt resource value: 0x7f09008a
+			public const int search_go_btn = 2131296394;
 			
-			// aapt resource value: 0x7f0800cf
-			public const int shellcontent_toolbar = 2131230927;
+			// aapt resource value: 0x7f090085
+			public const int search_mag_icon = 2131296389;
 			
-			// aapt resource value: 0x7f080074
-			public const int shortcut = 2131230836;
+			// aapt resource value: 0x7f090086
+			public const int search_plate = 2131296390;
 			
-			// aapt resource value: 0x7f080023
-			public const int showCustom = 2131230755;
+			// aapt resource value: 0x7f090087
+			public const int search_src_text = 2131296391;
 			
-			// aapt resource value: 0x7f080024
-			public const int showHome = 2131230756;
+			// aapt resource value: 0x7f09008b
+			public const int search_voice_btn = 2131296395;
 			
-			// aapt resource value: 0x7f080025
-			public const int showTitle = 2131230757;
+			// aapt resource value: 0x7f09008c
+			public const int select_dialog_listview = 2131296396;
 			
-			// aapt resource value: 0x7f0800d1
-			public const int sliding_tabs = 2131230929;
+			// aapt resource value: 0x7f0900d6
+			public const int shellcontent_appbar = 2131296470;
 			
-			// aapt resource value: 0x7f08008d
-			public const int smallLabel = 2131230861;
+			// aapt resource value: 0x7f0900d8
+			public const int shellcontent_scrollview = 2131296472;
 			
-			// aapt resource value: 0x7f080094
-			public const int snackbar_action = 2131230868;
+			// aapt resource value: 0x7f0900d7
+			public const int shellcontent_toolbar = 2131296471;
 			
-			// aapt resource value: 0x7f080093
-			public const int snackbar_text = 2131230867;
+			// aapt resource value: 0x7f090076
+			public const int shortcut = 2131296374;
 			
-			// aapt resource value: 0x7f080043
-			public const int snap = 2131230787;
+			// aapt resource value: 0x7f090023
+			public const int showCustom = 2131296291;
 			
-			// aapt resource value: 0x7f080064
-			public const int spacer = 2131230820;
+			// aapt resource value: 0x7f090024
+			public const int showHome = 2131296292;
 			
-			// aapt resource value: 0x7f080008
-			public const int split_action_bar = 2131230728;
+			// aapt resource value: 0x7f090025
+			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f08002a
-			public const int src_atop = 2131230762;
+			// aapt resource value: 0x7f0900d9
+			public const int sliding_tabs = 2131296473;
 			
-			// aapt resource value: 0x7f08002b
-			public const int src_in = 2131230763;
+			// aapt resource value: 0x7f09008f
+			public const int smallLabel = 2131296399;
 			
-			// aapt resource value: 0x7f08002c
-			public const int src_over = 2131230764;
+			// aapt resource value: 0x7f090096
+			public const int snackbar_action = 2131296406;
 			
-			// aapt resource value: 0x7f08004b
-			public const int start = 2131230795;
+			// aapt resource value: 0x7f090095
+			public const int snackbar_text = 2131296405;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int status_bar_latest_event_content = 2131230908;
+			// aapt resource value: 0x7f090043
+			public const int snap = 2131296323;
 			
-			// aapt resource value: 0x7f080076
-			public const int submenuarrow = 2131230838;
+			// aapt resource value: 0x7f090066
+			public const int spacer = 2131296358;
 			
-			// aapt resource value: 0x7f080087
-			public const int submit_area = 2131230855;
+			// aapt resource value: 0x7f090008
+			public const int split_action_bar = 2131296264;
 			
-			// aapt resource value: 0x7f08001f
-			public const int tabMode = 2131230751;
+			// aapt resource value: 0x7f09002a
+			public const int src_atop = 2131296298;
 			
-			// aapt resource value: 0x7f080019
-			public const int tag_transition_group = 2131230745;
+			// aapt resource value: 0x7f09002b
+			public const int src_in = 2131296299;
 			
-			// aapt resource value: 0x7f08001a
-			public const int text = 2131230746;
+			// aapt resource value: 0x7f09002c
+			public const int src_over = 2131296300;
 			
-			// aapt resource value: 0x7f08001b
-			public const int text2 = 2131230747;
+			// aapt resource value: 0x7f09004b
+			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f08006a
-			public const int textSpacerNoButtons = 2131230826;
+			// aapt resource value: 0x7f0900c4
+			public const int status_bar_latest_event_content = 2131296452;
 			
-			// aapt resource value: 0x7f080069
-			public const int textSpacerNoTitle = 2131230825;
+			// aapt resource value: 0x7f090078
+			public const int submenuarrow = 2131296376;
 			
-			// aapt resource value: 0x7f08009a
-			public const int text_input_password_toggle = 2131230874;
+			// aapt resource value: 0x7f090089
+			public const int submit_area = 2131296393;
 			
-			// aapt resource value: 0x7f080014
-			public const int textinput_counter = 2131230740;
+			// aapt resource value: 0x7f09001f
+			public const int tabMode = 2131296287;
 			
-			// aapt resource value: 0x7f080015
-			public const int textinput_error = 2131230741;
+			// aapt resource value: 0x7f090019
+			public const int tag_transition_group = 2131296281;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int time = 2131230914;
+			// aapt resource value: 0x7f09001a
+			public const int text = 2131296282;
 			
-			// aapt resource value: 0x7f08001c
-			public const int title = 2131230748;
+			// aapt resource value: 0x7f09001b
+			public const int text2 = 2131296283;
 			
-			// aapt resource value: 0x7f080071
-			public const int titleDividerNoCustom = 2131230833;
+			// aapt resource value: 0x7f09006c
+			public const int textSpacerNoButtons = 2131296364;
 			
-			// aapt resource value: 0x7f08006f
-			public const int title_template = 2131230831;
+			// aapt resource value: 0x7f09006b
+			public const int textSpacerNoTitle = 2131296363;
 			
-			// aapt resource value: 0x7f0800d2
-			public const int toolbar = 2131230930;
+			// aapt resource value: 0x7f09009c
+			public const int text_input_password_toggle = 2131296412;
 			
-			// aapt resource value: 0x7f08003e
-			public const int top = 2131230782;
+			// aapt resource value: 0x7f090014
+			public const int textinput_counter = 2131296276;
 			
-			// aapt resource value: 0x7f08006e
-			public const int topPanel = 2131230830;
+			// aapt resource value: 0x7f090015
+			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f080091
-			public const int touch_outside = 2131230865;
+			// aapt resource value: 0x7f0900ca
+			public const int time = 2131296458;
 			
-			// aapt resource value: 0x7f08000f
-			public const int transition_current_scene = 2131230735;
+			// aapt resource value: 0x7f09001c
+			public const int title = 2131296284;
 			
-			// aapt resource value: 0x7f080010
-			public const int transition_layout_save = 2131230736;
+			// aapt resource value: 0x7f090073
+			public const int titleDividerNoCustom = 2131296371;
 			
-			// aapt resource value: 0x7f080011
-			public const int transition_position = 2131230737;
+			// aapt resource value: 0x7f090071
+			public const int title_template = 2131296369;
 			
-			// aapt resource value: 0x7f080012
-			public const int transition_scene_layoutid_cache = 2131230738;
+			// aapt resource value: 0x7f0900da
+			public const int toolbar = 2131296474;
 			
-			// aapt resource value: 0x7f080013
-			public const int transition_transform = 2131230739;
+			// aapt resource value: 0x7f09003e
+			public const int top = 2131296318;
 			
-			// aapt resource value: 0x7f08002d
-			public const int uniform = 2131230765;
+			// aapt resource value: 0x7f090070
+			public const int topPanel = 2131296368;
 			
-			// aapt resource value: 0x7f080009
-			public const int up = 2131230729;
+			// aapt resource value: 0x7f090093
+			public const int touch_outside = 2131296403;
 			
-			// aapt resource value: 0x7f080026
-			public const int useLogo = 2131230758;
+			// aapt resource value: 0x7f09000f
+			public const int transition_current_scene = 2131296271;
 			
-			// aapt resource value: 0x7f080016
-			public const int view_offset_helper = 2131230742;
+			// aapt resource value: 0x7f090010
+			public const int transition_layout_save = 2131296272;
 			
-			// aapt resource value: 0x7f0800d4
-			public const int visible = 2131230932;
+			// aapt resource value: 0x7f090011
+			public const int transition_position = 2131296273;
 			
-			// aapt resource value: 0x7f0800af
-			public const int volume_item_container = 2131230895;
+			// aapt resource value: 0x7f090012
+			public const int transition_scene_layoutid_cache = 2131296274;
 			
-			// aapt resource value: 0x7f08003c
-			public const int withText = 2131230780;
+			// aapt resource value: 0x7f090013
+			public const int transition_transform = 2131296275;
 			
-			// aapt resource value: 0x7f08002e
-			public const int wrap_content = 2131230766;
+			// aapt resource value: 0x7f09002d
+			public const int uniform = 2131296301;
+			
+			// aapt resource value: 0x7f090009
+			public const int up = 2131296265;
+			
+			// aapt resource value: 0x7f090026
+			public const int useLogo = 2131296294;
+			
+			// aapt resource value: 0x7f09005b
+			public const int vertical = 2131296347;
+			
+			// aapt resource value: 0x7f090016
+			public const int view_offset_helper = 2131296278;
+			
+			// aapt resource value: 0x7f0900dc
+			public const int visible = 2131296476;
+			
+			// aapt resource value: 0x7f0900b7
+			public const int volume_item_container = 2131296439;
+			
+			// aapt resource value: 0x7f09003c
+			public const int withText = 2131296316;
+			
+			// aapt resource value: 0x7f09002e
+			public const int wrap_content = 2131296302;
 			
 			static Id()
 			{
@@ -5766,44 +8412,47 @@ namespace Nubank.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f0a0003
-			public const int abc_config_activityDefaultDur = 2131361795;
+			// aapt resource value: 0x7f0b0003
+			public const int abc_config_activityDefaultDur = 2131427331;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int abc_config_activityShortDur = 2131361796;
+			// aapt resource value: 0x7f0b0004
+			public const int abc_config_activityShortDur = 2131427332;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int app_bar_elevation_anim_duration = 2131361800;
+			// aapt resource value: 0x7f0b0008
+			public const int app_bar_elevation_anim_duration = 2131427336;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int bottom_sheet_slide_duration = 2131361801;
+			// aapt resource value: 0x7f0b0009
+			public const int bottom_sheet_slide_duration = 2131427337;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int cancel_button_image_alpha = 2131361797;
+			// aapt resource value: 0x7f0b0005
+			public const int cancel_button_image_alpha = 2131427333;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int config_tooltipAnimTime = 2131361798;
+			// aapt resource value: 0x7f0b0006
+			public const int config_tooltipAnimTime = 2131427334;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int design_snackbar_text_max_lines = 2131361799;
+			// aapt resource value: 0x7f0b000d
+			public const int default_circle_indicator_orientation = 2131427341;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int hide_password_duration = 2131361802;
+			// aapt resource value: 0x7f0b0007
+			public const int design_snackbar_text_max_lines = 2131427335;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131361792;
+			// aapt resource value: 0x7f0b000a
+			public const int hide_password_duration = 2131427338;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131361793;
+			// aapt resource value: 0x7f0b0000
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131427328;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131361794;
+			// aapt resource value: 0x7f0b0001
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131427329;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int show_password_duration = 2131361803;
+			// aapt resource value: 0x7f0b0002
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131427330;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int status_bar_notification_info_maxnum = 2131361804;
+			// aapt resource value: 0x7f0b000b
+			public const int show_password_duration = 2131427339;
+			
+			// aapt resource value: 0x7f0b000c
+			public const int status_bar_notification_info_maxnum = 2131427340;
 			
 			static Integer()
 			{
@@ -5818,11 +8467,11 @@ namespace Nubank.Droid
 		public partial class Interpolator
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int mr_fast_out_slow_in = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int mr_fast_out_slow_in = 2131165184;
 			
-			// aapt resource value: 0x7f060001
-			public const int mr_linear_out_slow_in = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int mr_linear_out_slow_in = 2131165185;
 			
 			static Interpolator()
 			{
@@ -5837,221 +8486,227 @@ namespace Nubank.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int abc_action_bar_title_item = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int abc_action_bar_title_item = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int abc_action_bar_up_container = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int abc_action_bar_up_container = 2130968577;
 			
-			// aapt resource value: 0x7f030002
-			public const int abc_action_menu_item_layout = 2130903042;
+			// aapt resource value: 0x7f040002
+			public const int abc_action_menu_item_layout = 2130968578;
 			
-			// aapt resource value: 0x7f030003
-			public const int abc_action_menu_layout = 2130903043;
+			// aapt resource value: 0x7f040003
+			public const int abc_action_menu_layout = 2130968579;
 			
-			// aapt resource value: 0x7f030004
-			public const int abc_action_mode_bar = 2130903044;
+			// aapt resource value: 0x7f040004
+			public const int abc_action_mode_bar = 2130968580;
 			
-			// aapt resource value: 0x7f030005
-			public const int abc_action_mode_close_item_material = 2130903045;
+			// aapt resource value: 0x7f040005
+			public const int abc_action_mode_close_item_material = 2130968581;
 			
-			// aapt resource value: 0x7f030006
-			public const int abc_activity_chooser_view = 2130903046;
+			// aapt resource value: 0x7f040006
+			public const int abc_activity_chooser_view = 2130968582;
 			
-			// aapt resource value: 0x7f030007
-			public const int abc_activity_chooser_view_list_item = 2130903047;
+			// aapt resource value: 0x7f040007
+			public const int abc_activity_chooser_view_list_item = 2130968583;
 			
-			// aapt resource value: 0x7f030008
-			public const int abc_alert_dialog_button_bar_material = 2130903048;
+			// aapt resource value: 0x7f040008
+			public const int abc_alert_dialog_button_bar_material = 2130968584;
 			
-			// aapt resource value: 0x7f030009
-			public const int abc_alert_dialog_material = 2130903049;
+			// aapt resource value: 0x7f040009
+			public const int abc_alert_dialog_material = 2130968585;
 			
-			// aapt resource value: 0x7f03000a
-			public const int abc_alert_dialog_title_material = 2130903050;
+			// aapt resource value: 0x7f04000a
+			public const int abc_alert_dialog_title_material = 2130968586;
 			
-			// aapt resource value: 0x7f03000b
-			public const int abc_dialog_title_material = 2130903051;
+			// aapt resource value: 0x7f04000b
+			public const int abc_dialog_title_material = 2130968587;
 			
-			// aapt resource value: 0x7f03000c
-			public const int abc_expanded_menu_layout = 2130903052;
+			// aapt resource value: 0x7f04000c
+			public const int abc_expanded_menu_layout = 2130968588;
 			
-			// aapt resource value: 0x7f03000d
-			public const int abc_list_menu_item_checkbox = 2130903053;
+			// aapt resource value: 0x7f04000d
+			public const int abc_list_menu_item_checkbox = 2130968589;
 			
-			// aapt resource value: 0x7f03000e
-			public const int abc_list_menu_item_icon = 2130903054;
+			// aapt resource value: 0x7f04000e
+			public const int abc_list_menu_item_icon = 2130968590;
 			
-			// aapt resource value: 0x7f03000f
-			public const int abc_list_menu_item_layout = 2130903055;
+			// aapt resource value: 0x7f04000f
+			public const int abc_list_menu_item_layout = 2130968591;
 			
-			// aapt resource value: 0x7f030010
-			public const int abc_list_menu_item_radio = 2130903056;
+			// aapt resource value: 0x7f040010
+			public const int abc_list_menu_item_radio = 2130968592;
 			
-			// aapt resource value: 0x7f030011
-			public const int abc_popup_menu_header_item_layout = 2130903057;
+			// aapt resource value: 0x7f040011
+			public const int abc_popup_menu_header_item_layout = 2130968593;
 			
-			// aapt resource value: 0x7f030012
-			public const int abc_popup_menu_item_layout = 2130903058;
+			// aapt resource value: 0x7f040012
+			public const int abc_popup_menu_item_layout = 2130968594;
 			
-			// aapt resource value: 0x7f030013
-			public const int abc_screen_content_include = 2130903059;
+			// aapt resource value: 0x7f040013
+			public const int abc_screen_content_include = 2130968595;
 			
-			// aapt resource value: 0x7f030014
-			public const int abc_screen_simple = 2130903060;
+			// aapt resource value: 0x7f040014
+			public const int abc_screen_simple = 2130968596;
 			
-			// aapt resource value: 0x7f030015
-			public const int abc_screen_simple_overlay_action_mode = 2130903061;
+			// aapt resource value: 0x7f040015
+			public const int abc_screen_simple_overlay_action_mode = 2130968597;
 			
-			// aapt resource value: 0x7f030016
-			public const int abc_screen_toolbar = 2130903062;
+			// aapt resource value: 0x7f040016
+			public const int abc_screen_toolbar = 2130968598;
 			
-			// aapt resource value: 0x7f030017
-			public const int abc_search_dropdown_item_icons_2line = 2130903063;
+			// aapt resource value: 0x7f040017
+			public const int abc_search_dropdown_item_icons_2line = 2130968599;
 			
-			// aapt resource value: 0x7f030018
-			public const int abc_search_view = 2130903064;
+			// aapt resource value: 0x7f040018
+			public const int abc_search_view = 2130968600;
 			
-			// aapt resource value: 0x7f030019
-			public const int abc_select_dialog_material = 2130903065;
+			// aapt resource value: 0x7f040019
+			public const int abc_select_dialog_material = 2130968601;
 			
-			// aapt resource value: 0x7f03001a
-			public const int BottomTabLayout = 2130903066;
+			// aapt resource value: 0x7f04001a
+			public const int BottomTabLayout = 2130968602;
 			
-			// aapt resource value: 0x7f03001b
-			public const int design_bottom_navigation_item = 2130903067;
+			// aapt resource value: 0x7f04001b
+			public const int design_bottom_navigation_item = 2130968603;
 			
-			// aapt resource value: 0x7f03001c
-			public const int design_bottom_sheet_dialog = 2130903068;
+			// aapt resource value: 0x7f04001c
+			public const int design_bottom_sheet_dialog = 2130968604;
 			
-			// aapt resource value: 0x7f03001d
-			public const int design_layout_snackbar = 2130903069;
+			// aapt resource value: 0x7f04001d
+			public const int design_layout_snackbar = 2130968605;
 			
-			// aapt resource value: 0x7f03001e
-			public const int design_layout_snackbar_include = 2130903070;
+			// aapt resource value: 0x7f04001e
+			public const int design_layout_snackbar_include = 2130968606;
 			
-			// aapt resource value: 0x7f03001f
-			public const int design_layout_tab_icon = 2130903071;
+			// aapt resource value: 0x7f04001f
+			public const int design_layout_tab_icon = 2130968607;
 			
-			// aapt resource value: 0x7f030020
-			public const int design_layout_tab_text = 2130903072;
+			// aapt resource value: 0x7f040020
+			public const int design_layout_tab_text = 2130968608;
 			
-			// aapt resource value: 0x7f030021
-			public const int design_menu_item_action_area = 2130903073;
+			// aapt resource value: 0x7f040021
+			public const int design_menu_item_action_area = 2130968609;
 			
-			// aapt resource value: 0x7f030022
-			public const int design_navigation_item = 2130903074;
+			// aapt resource value: 0x7f040022
+			public const int design_navigation_item = 2130968610;
 			
-			// aapt resource value: 0x7f030023
-			public const int design_navigation_item_header = 2130903075;
+			// aapt resource value: 0x7f040023
+			public const int design_navigation_item_header = 2130968611;
 			
-			// aapt resource value: 0x7f030024
-			public const int design_navigation_item_separator = 2130903076;
+			// aapt resource value: 0x7f040024
+			public const int design_navigation_item_separator = 2130968612;
 			
-			// aapt resource value: 0x7f030025
-			public const int design_navigation_item_subheader = 2130903077;
+			// aapt resource value: 0x7f040025
+			public const int design_navigation_item_subheader = 2130968613;
 			
-			// aapt resource value: 0x7f030026
-			public const int design_navigation_menu = 2130903078;
+			// aapt resource value: 0x7f040026
+			public const int design_navigation_menu = 2130968614;
 			
-			// aapt resource value: 0x7f030027
-			public const int design_navigation_menu_item = 2130903079;
+			// aapt resource value: 0x7f040027
+			public const int design_navigation_menu_item = 2130968615;
 			
-			// aapt resource value: 0x7f030028
-			public const int design_text_input_password_icon = 2130903080;
+			// aapt resource value: 0x7f040028
+			public const int design_text_input_password_icon = 2130968616;
 			
-			// aapt resource value: 0x7f030029
-			public const int FlyoutContent = 2130903081;
+			// aapt resource value: 0x7f040029
+			public const int FlyoutContent = 2130968617;
 			
-			// aapt resource value: 0x7f03002a
-			public const int mr_chooser_dialog = 2130903082;
+			// aapt resource value: 0x7f04002a
+			public const int horizontal_viewpager = 2130968618;
 			
-			// aapt resource value: 0x7f03002b
-			public const int mr_chooser_list_item = 2130903083;
+			// aapt resource value: 0x7f04002b
+			public const int mr_chooser_dialog = 2130968619;
 			
-			// aapt resource value: 0x7f03002c
-			public const int mr_controller_material_dialog_b = 2130903084;
+			// aapt resource value: 0x7f04002c
+			public const int mr_chooser_list_item = 2130968620;
 			
-			// aapt resource value: 0x7f03002d
-			public const int mr_controller_volume_item = 2130903085;
+			// aapt resource value: 0x7f04002d
+			public const int mr_controller_material_dialog_b = 2130968621;
 			
-			// aapt resource value: 0x7f03002e
-			public const int mr_playback_control = 2130903086;
+			// aapt resource value: 0x7f04002e
+			public const int mr_controller_volume_item = 2130968622;
 			
-			// aapt resource value: 0x7f03002f
-			public const int mr_volume_control = 2130903087;
+			// aapt resource value: 0x7f04002f
+			public const int mr_playback_control = 2130968623;
 			
-			// aapt resource value: 0x7f030030
-			public const int notification_action = 2130903088;
+			// aapt resource value: 0x7f040030
+			public const int mr_volume_control = 2130968624;
 			
-			// aapt resource value: 0x7f030031
-			public const int notification_action_tombstone = 2130903089;
+			// aapt resource value: 0x7f040031
+			public const int notification_action = 2130968625;
 			
-			// aapt resource value: 0x7f030032
-			public const int notification_media_action = 2130903090;
+			// aapt resource value: 0x7f040032
+			public const int notification_action_tombstone = 2130968626;
 			
-			// aapt resource value: 0x7f030033
-			public const int notification_media_cancel_action = 2130903091;
+			// aapt resource value: 0x7f040033
+			public const int notification_media_action = 2130968627;
 			
-			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media = 2130903092;
+			// aapt resource value: 0x7f040034
+			public const int notification_media_cancel_action = 2130968628;
 			
-			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_custom = 2130903093;
+			// aapt resource value: 0x7f040035
+			public const int notification_template_big_media = 2130968629;
 			
-			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow = 2130903094;
+			// aapt resource value: 0x7f040036
+			public const int notification_template_big_media_custom = 2130968630;
 			
-			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_narrow_custom = 2130903095;
+			// aapt resource value: 0x7f040037
+			public const int notification_template_big_media_narrow = 2130968631;
 			
-			// aapt resource value: 0x7f030038
-			public const int notification_template_custom_big = 2130903096;
+			// aapt resource value: 0x7f040038
+			public const int notification_template_big_media_narrow_custom = 2130968632;
 			
-			// aapt resource value: 0x7f030039
-			public const int notification_template_icon_group = 2130903097;
+			// aapt resource value: 0x7f040039
+			public const int notification_template_custom_big = 2130968633;
 			
-			// aapt resource value: 0x7f03003a
-			public const int notification_template_lines_media = 2130903098;
+			// aapt resource value: 0x7f04003a
+			public const int notification_template_icon_group = 2130968634;
 			
-			// aapt resource value: 0x7f03003b
-			public const int notification_template_media = 2130903099;
+			// aapt resource value: 0x7f04003b
+			public const int notification_template_lines_media = 2130968635;
 			
-			// aapt resource value: 0x7f03003c
-			public const int notification_template_media_custom = 2130903100;
+			// aapt resource value: 0x7f04003c
+			public const int notification_template_media = 2130968636;
 			
-			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_chronometer = 2130903101;
+			// aapt resource value: 0x7f04003d
+			public const int notification_template_media_custom = 2130968637;
 			
-			// aapt resource value: 0x7f03003e
-			public const int notification_template_part_time = 2130903102;
+			// aapt resource value: 0x7f04003e
+			public const int notification_template_part_chronometer = 2130968638;
 			
-			// aapt resource value: 0x7f03003f
-			public const int RootLayout = 2130903103;
+			// aapt resource value: 0x7f04003f
+			public const int notification_template_part_time = 2130968639;
 			
-			// aapt resource value: 0x7f030040
-			public const int select_dialog_item_material = 2130903104;
+			// aapt resource value: 0x7f040040
+			public const int RootLayout = 2130968640;
 			
-			// aapt resource value: 0x7f030041
-			public const int select_dialog_multichoice_material = 2130903105;
+			// aapt resource value: 0x7f040041
+			public const int select_dialog_item_material = 2130968641;
 			
-			// aapt resource value: 0x7f030042
-			public const int select_dialog_singlechoice_material = 2130903106;
+			// aapt resource value: 0x7f040042
+			public const int select_dialog_multichoice_material = 2130968642;
 			
-			// aapt resource value: 0x7f030043
-			public const int ShellContent = 2130903107;
+			// aapt resource value: 0x7f040043
+			public const int select_dialog_singlechoice_material = 2130968643;
 			
-			// aapt resource value: 0x7f030044
-			public const int support_simple_spinner_dropdown_item = 2130903108;
+			// aapt resource value: 0x7f040044
+			public const int ShellContent = 2130968644;
 			
-			// aapt resource value: 0x7f030045
-			public const int Tabbar = 2130903109;
+			// aapt resource value: 0x7f040045
+			public const int support_simple_spinner_dropdown_item = 2130968645;
 			
-			// aapt resource value: 0x7f030046
-			public const int Toolbar = 2130903110;
+			// aapt resource value: 0x7f040046
+			public const int Tabbar = 2130968646;
 			
-			// aapt resource value: 0x7f030047
-			public const int tooltip = 2130903111;
+			// aapt resource value: 0x7f040047
+			public const int Toolbar = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int tooltip = 2130968648;
+			
+			// aapt resource value: 0x7f040049
+			public const int vertical_viewpager = 2130968649;
 			
 			static Layout()
 			{
@@ -6063,188 +8718,210 @@ namespace Nubank.Droid
 			}
 		}
 		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int icon = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int launcher_foreground = 2130903041;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f090015
-			public const int abc_action_bar_home_description = 2131296277;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_action_bar_home_description = 2131361813;
 			
-			// aapt resource value: 0x7f090016
-			public const int abc_action_bar_up_description = 2131296278;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_action_bar_up_description = 2131361814;
 			
-			// aapt resource value: 0x7f090017
-			public const int abc_action_menu_overflow_description = 2131296279;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_action_menu_overflow_description = 2131361815;
 			
-			// aapt resource value: 0x7f090018
-			public const int abc_action_mode_done = 2131296280;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_action_mode_done = 2131361816;
 			
-			// aapt resource value: 0x7f090019
-			public const int abc_activity_chooser_view_see_all = 2131296281;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_activity_chooser_view_see_all = 2131361817;
 			
-			// aapt resource value: 0x7f09001a
-			public const int abc_activitychooserview_choose_application = 2131296282;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_activitychooserview_choose_application = 2131361818;
 			
-			// aapt resource value: 0x7f09001b
-			public const int abc_capital_off = 2131296283;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_capital_off = 2131361819;
 			
-			// aapt resource value: 0x7f09001c
-			public const int abc_capital_on = 2131296284;
+			// aapt resource value: 0x7f0a001c
+			public const int abc_capital_on = 2131361820;
 			
-			// aapt resource value: 0x7f090027
-			public const int abc_font_family_body_1_material = 2131296295;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_font_family_body_1_material = 2131361831;
 			
-			// aapt resource value: 0x7f090028
-			public const int abc_font_family_body_2_material = 2131296296;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_font_family_body_2_material = 2131361832;
 			
-			// aapt resource value: 0x7f090029
-			public const int abc_font_family_button_material = 2131296297;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_font_family_button_material = 2131361833;
 			
-			// aapt resource value: 0x7f09002a
-			public const int abc_font_family_caption_material = 2131296298;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_font_family_caption_material = 2131361834;
 			
-			// aapt resource value: 0x7f09002b
-			public const int abc_font_family_display_1_material = 2131296299;
+			// aapt resource value: 0x7f0a002b
+			public const int abc_font_family_display_1_material = 2131361835;
 			
-			// aapt resource value: 0x7f09002c
-			public const int abc_font_family_display_2_material = 2131296300;
+			// aapt resource value: 0x7f0a002c
+			public const int abc_font_family_display_2_material = 2131361836;
 			
-			// aapt resource value: 0x7f09002d
-			public const int abc_font_family_display_3_material = 2131296301;
+			// aapt resource value: 0x7f0a002d
+			public const int abc_font_family_display_3_material = 2131361837;
 			
-			// aapt resource value: 0x7f09002e
-			public const int abc_font_family_display_4_material = 2131296302;
+			// aapt resource value: 0x7f0a002e
+			public const int abc_font_family_display_4_material = 2131361838;
 			
-			// aapt resource value: 0x7f09002f
-			public const int abc_font_family_headline_material = 2131296303;
+			// aapt resource value: 0x7f0a002f
+			public const int abc_font_family_headline_material = 2131361839;
 			
-			// aapt resource value: 0x7f090030
-			public const int abc_font_family_menu_material = 2131296304;
+			// aapt resource value: 0x7f0a0030
+			public const int abc_font_family_menu_material = 2131361840;
 			
-			// aapt resource value: 0x7f090031
-			public const int abc_font_family_subhead_material = 2131296305;
+			// aapt resource value: 0x7f0a0031
+			public const int abc_font_family_subhead_material = 2131361841;
 			
-			// aapt resource value: 0x7f090032
-			public const int abc_font_family_title_material = 2131296306;
+			// aapt resource value: 0x7f0a0032
+			public const int abc_font_family_title_material = 2131361842;
 			
-			// aapt resource value: 0x7f09001d
-			public const int abc_search_hint = 2131296285;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_search_hint = 2131361821;
 			
-			// aapt resource value: 0x7f09001e
-			public const int abc_searchview_description_clear = 2131296286;
+			// aapt resource value: 0x7f0a001e
+			public const int abc_searchview_description_clear = 2131361822;
 			
-			// aapt resource value: 0x7f09001f
-			public const int abc_searchview_description_query = 2131296287;
+			// aapt resource value: 0x7f0a001f
+			public const int abc_searchview_description_query = 2131361823;
 			
-			// aapt resource value: 0x7f090020
-			public const int abc_searchview_description_search = 2131296288;
+			// aapt resource value: 0x7f0a0020
+			public const int abc_searchview_description_search = 2131361824;
 			
-			// aapt resource value: 0x7f090021
-			public const int abc_searchview_description_submit = 2131296289;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_searchview_description_submit = 2131361825;
 			
-			// aapt resource value: 0x7f090022
-			public const int abc_searchview_description_voice = 2131296290;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_searchview_description_voice = 2131361826;
 			
-			// aapt resource value: 0x7f090023
-			public const int abc_shareactionprovider_share_with = 2131296291;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_shareactionprovider_share_with = 2131361827;
 			
-			// aapt resource value: 0x7f090024
-			public const int abc_shareactionprovider_share_with_application = 2131296292;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_shareactionprovider_share_with_application = 2131361828;
 			
-			// aapt resource value: 0x7f090025
-			public const int abc_toolbar_collapse_description = 2131296293;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_toolbar_collapse_description = 2131361829;
 			
-			// aapt resource value: 0x7f090033
-			public const int appbar_scrolling_view_behavior = 2131296307;
+			// aapt resource value: 0x7f0a0033
+			public const int appbar_scrolling_view_behavior = 2131361843;
 			
-			// aapt resource value: 0x7f090034
-			public const int bottom_sheet_behavior = 2131296308;
+			// aapt resource value: 0x7f0a0034
+			public const int bottom_sheet_behavior = 2131361844;
 			
-			// aapt resource value: 0x7f090035
-			public const int character_counter_pattern = 2131296309;
+			// aapt resource value: 0x7f0a0035
+			public const int character_counter_pattern = 2131361845;
 			
-			// aapt resource value: 0x7f090000
-			public const int mr_button_content_description = 2131296256;
+			// aapt resource value: 0x7f0a003c
+			public const int library_name = 2131361852;
 			
-			// aapt resource value: 0x7f090001
-			public const int mr_cast_button_connected = 2131296257;
+			// aapt resource value: 0x7f0a0000
+			public const int mr_button_content_description = 2131361792;
 			
-			// aapt resource value: 0x7f090002
-			public const int mr_cast_button_connecting = 2131296258;
+			// aapt resource value: 0x7f0a0001
+			public const int mr_cast_button_connected = 2131361793;
 			
-			// aapt resource value: 0x7f090003
-			public const int mr_cast_button_disconnected = 2131296259;
+			// aapt resource value: 0x7f0a0002
+			public const int mr_cast_button_connecting = 2131361794;
 			
-			// aapt resource value: 0x7f090004
-			public const int mr_chooser_searching = 2131296260;
+			// aapt resource value: 0x7f0a0003
+			public const int mr_cast_button_disconnected = 2131361795;
 			
-			// aapt resource value: 0x7f090005
-			public const int mr_chooser_title = 2131296261;
+			// aapt resource value: 0x7f0a0004
+			public const int mr_chooser_searching = 2131361796;
 			
-			// aapt resource value: 0x7f090006
-			public const int mr_controller_album_art = 2131296262;
+			// aapt resource value: 0x7f0a0005
+			public const int mr_chooser_title = 2131361797;
 			
-			// aapt resource value: 0x7f090007
-			public const int mr_controller_casting_screen = 2131296263;
+			// aapt resource value: 0x7f0a0006
+			public const int mr_controller_album_art = 2131361798;
 			
-			// aapt resource value: 0x7f090008
-			public const int mr_controller_close_description = 2131296264;
+			// aapt resource value: 0x7f0a0007
+			public const int mr_controller_casting_screen = 2131361799;
 			
-			// aapt resource value: 0x7f090009
-			public const int mr_controller_collapse_group = 2131296265;
+			// aapt resource value: 0x7f0a0008
+			public const int mr_controller_close_description = 2131361800;
 			
-			// aapt resource value: 0x7f09000a
-			public const int mr_controller_disconnect = 2131296266;
+			// aapt resource value: 0x7f0a0009
+			public const int mr_controller_collapse_group = 2131361801;
 			
-			// aapt resource value: 0x7f09000b
-			public const int mr_controller_expand_group = 2131296267;
+			// aapt resource value: 0x7f0a000a
+			public const int mr_controller_disconnect = 2131361802;
 			
-			// aapt resource value: 0x7f09000c
-			public const int mr_controller_no_info_available = 2131296268;
+			// aapt resource value: 0x7f0a000b
+			public const int mr_controller_expand_group = 2131361803;
 			
-			// aapt resource value: 0x7f09000d
-			public const int mr_controller_no_media_selected = 2131296269;
+			// aapt resource value: 0x7f0a000c
+			public const int mr_controller_no_info_available = 2131361804;
 			
-			// aapt resource value: 0x7f09000e
-			public const int mr_controller_pause = 2131296270;
+			// aapt resource value: 0x7f0a000d
+			public const int mr_controller_no_media_selected = 2131361805;
 			
-			// aapt resource value: 0x7f09000f
-			public const int mr_controller_play = 2131296271;
+			// aapt resource value: 0x7f0a000e
+			public const int mr_controller_pause = 2131361806;
 			
-			// aapt resource value: 0x7f090010
-			public const int mr_controller_stop = 2131296272;
+			// aapt resource value: 0x7f0a000f
+			public const int mr_controller_play = 2131361807;
 			
-			// aapt resource value: 0x7f090011
-			public const int mr_controller_stop_casting = 2131296273;
+			// aapt resource value: 0x7f0a0010
+			public const int mr_controller_stop = 2131361808;
 			
-			// aapt resource value: 0x7f090012
-			public const int mr_controller_volume_slider = 2131296274;
+			// aapt resource value: 0x7f0a0011
+			public const int mr_controller_stop_casting = 2131361809;
 			
-			// aapt resource value: 0x7f090013
-			public const int mr_system_route_name = 2131296275;
+			// aapt resource value: 0x7f0a0012
+			public const int mr_controller_volume_slider = 2131361810;
 			
-			// aapt resource value: 0x7f090014
-			public const int mr_user_route_category_name = 2131296276;
+			// aapt resource value: 0x7f0a0013
+			public const int mr_system_route_name = 2131361811;
 			
-			// aapt resource value: 0x7f090036
-			public const int password_toggle_content_description = 2131296310;
+			// aapt resource value: 0x7f0a0014
+			public const int mr_user_route_category_name = 2131361812;
 			
-			// aapt resource value: 0x7f090037
-			public const int path_password_eye = 2131296311;
+			// aapt resource value: 0x7f0a0036
+			public const int password_toggle_content_description = 2131361846;
 			
-			// aapt resource value: 0x7f090038
-			public const int path_password_eye_mask_strike_through = 2131296312;
+			// aapt resource value: 0x7f0a0037
+			public const int path_password_eye = 2131361847;
 			
-			// aapt resource value: 0x7f090039
-			public const int path_password_eye_mask_visible = 2131296313;
+			// aapt resource value: 0x7f0a0038
+			public const int path_password_eye_mask_strike_through = 2131361848;
 			
-			// aapt resource value: 0x7f09003a
-			public const int path_password_strike_through = 2131296314;
+			// aapt resource value: 0x7f0a0039
+			public const int path_password_eye_mask_visible = 2131361849;
 			
-			// aapt resource value: 0x7f090026
-			public const int search_menu_title = 2131296294;
+			// aapt resource value: 0x7f0a003a
+			public const int path_password_strike_through = 2131361850;
 			
-			// aapt resource value: 0x7f09003b
-			public const int status_bar_notification_info_overflow = 2131296315;
+			// aapt resource value: 0x7f0a0026
+			public const int search_menu_title = 2131361830;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int status_bar_notification_info_overflow = 2131361851;
 			
 			static String()
 			{
@@ -6259,1211 +8936,1220 @@ namespace Nubank.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int AlertDialog_AppCompat = 2131427492;
+			// aapt resource value: 0x7f0c00a4
+			public const int AlertDialog_AppCompat = 2131493028;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int AlertDialog_AppCompat_Light = 2131427493;
+			// aapt resource value: 0x7f0c00a5
+			public const int AlertDialog_AppCompat_Light = 2131493029;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int Animation_AppCompat_Dialog = 2131427494;
+			// aapt resource value: 0x7f0c00a6
+			public const int Animation_AppCompat_Dialog = 2131493030;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int Animation_AppCompat_DropDownUp = 2131427495;
+			// aapt resource value: 0x7f0c00a7
+			public const int Animation_AppCompat_DropDownUp = 2131493031;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int Animation_AppCompat_Tooltip = 2131427496;
+			// aapt resource value: 0x7f0c00a8
+			public const int Animation_AppCompat_Tooltip = 2131493032;
 			
-			// aapt resource value: 0x7f0b016e
-			public const int Animation_Design_BottomSheetDialog = 2131427694;
+			// aapt resource value: 0x7f0c016e
+			public const int Animation_Design_BottomSheetDialog = 2131493230;
 			
-			// aapt resource value: 0x7f0b0191
-			public const int AppCompatDialogStyle = 2131427729;
+			// aapt resource value: 0x7f0c0194
+			public const int AppCompatDialogStyle = 2131493268;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int Base_AlertDialog_AppCompat = 2131427497;
+			// aapt resource value: 0x7f0c00a9
+			public const int Base_AlertDialog_AppCompat = 2131493033;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int Base_AlertDialog_AppCompat_Light = 2131427498;
+			// aapt resource value: 0x7f0c00aa
+			public const int Base_AlertDialog_AppCompat_Light = 2131493034;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int Base_Animation_AppCompat_Dialog = 2131427499;
+			// aapt resource value: 0x7f0c00ab
+			public const int Base_Animation_AppCompat_Dialog = 2131493035;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int Base_Animation_AppCompat_DropDownUp = 2131427500;
+			// aapt resource value: 0x7f0c00ac
+			public const int Base_Animation_AppCompat_DropDownUp = 2131493036;
 			
-			// aapt resource value: 0x7f0b00ad
-			public const int Base_Animation_AppCompat_Tooltip = 2131427501;
+			// aapt resource value: 0x7f0c00ad
+			public const int Base_Animation_AppCompat_Tooltip = 2131493037;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int Base_CardView = 2131427340;
+			// aapt resource value: 0x7f0c000c
+			public const int Base_CardView = 2131492876;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int Base_DialogWindowTitle_AppCompat = 2131427502;
+			// aapt resource value: 0x7f0c00ae
+			public const int Base_DialogWindowTitle_AppCompat = 2131493038;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131427503;
+			// aapt resource value: 0x7f0c00af
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131493039;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int Base_TextAppearance_AppCompat = 2131427400;
+			// aapt resource value: 0x7f0c0048
+			public const int Base_TextAppearance_AppCompat = 2131492936;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131427401;
+			// aapt resource value: 0x7f0c0049
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131492937;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131427402;
+			// aapt resource value: 0x7f0c004a
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131492938;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int Base_TextAppearance_AppCompat_Button = 2131427382;
+			// aapt resource value: 0x7f0c0036
+			public const int Base_TextAppearance_AppCompat_Button = 2131492918;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int Base_TextAppearance_AppCompat_Caption = 2131427403;
+			// aapt resource value: 0x7f0c004b
+			public const int Base_TextAppearance_AppCompat_Caption = 2131492939;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131427404;
+			// aapt resource value: 0x7f0c004c
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131492940;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131427405;
+			// aapt resource value: 0x7f0c004d
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131492941;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131427406;
+			// aapt resource value: 0x7f0c004e
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131492942;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131427407;
+			// aapt resource value: 0x7f0c004f
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131492943;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int Base_TextAppearance_AppCompat_Headline = 2131427408;
+			// aapt resource value: 0x7f0c0050
+			public const int Base_TextAppearance_AppCompat_Headline = 2131492944;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131427354;
+			// aapt resource value: 0x7f0c001a
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131492890;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int Base_TextAppearance_AppCompat_Large = 2131427409;
+			// aapt resource value: 0x7f0c0051
+			public const int Base_TextAppearance_AppCompat_Large = 2131492945;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131427355;
+			// aapt resource value: 0x7f0c001b
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131492891;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427410;
+			// aapt resource value: 0x7f0c0052
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131492946;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427411;
+			// aapt resource value: 0x7f0c0053
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131492947;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int Base_TextAppearance_AppCompat_Medium = 2131427412;
+			// aapt resource value: 0x7f0c0054
+			public const int Base_TextAppearance_AppCompat_Medium = 2131492948;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131427356;
+			// aapt resource value: 0x7f0c001c
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131492892;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int Base_TextAppearance_AppCompat_Menu = 2131427413;
+			// aapt resource value: 0x7f0c0055
+			public const int Base_TextAppearance_AppCompat_Menu = 2131492949;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131427504;
+			// aapt resource value: 0x7f0c00b0
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131493040;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131427414;
+			// aapt resource value: 0x7f0c0056
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131492950;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131427415;
+			// aapt resource value: 0x7f0c0057
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131492951;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int Base_TextAppearance_AppCompat_Small = 2131427416;
+			// aapt resource value: 0x7f0c0058
+			public const int Base_TextAppearance_AppCompat_Small = 2131492952;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131427357;
+			// aapt resource value: 0x7f0c001d
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131492893;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131427417;
+			// aapt resource value: 0x7f0c0059
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131492953;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131427358;
+			// aapt resource value: 0x7f0c001e
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131492894;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int Base_TextAppearance_AppCompat_Title = 2131427418;
+			// aapt resource value: 0x7f0c005a
+			public const int Base_TextAppearance_AppCompat_Title = 2131492954;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131427359;
+			// aapt resource value: 0x7f0c001f
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131492895;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131427505;
+			// aapt resource value: 0x7f0c00b1
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131493041;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427477;
+			// aapt resource value: 0x7f0c0095
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493013;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427419;
+			// aapt resource value: 0x7f0c005b
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131492955;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427420;
+			// aapt resource value: 0x7f0c005c
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131492956;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427421;
+			// aapt resource value: 0x7f0c005d
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131492957;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427422;
+			// aapt resource value: 0x7f0c005e
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131492958;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427423;
+			// aapt resource value: 0x7f0c005f
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131492959;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427424;
+			// aapt resource value: 0x7f0c0060
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131492960;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131427425;
+			// aapt resource value: 0x7f0c0061
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131492961;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427484;
+			// aapt resource value: 0x7f0c009c
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493020;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131427485;
+			// aapt resource value: 0x7f0c009d
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131493021;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131427478;
+			// aapt resource value: 0x7f0c0096
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131493014;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131427506;
+			// aapt resource value: 0x7f0c00b2
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131493042;
 			
-			// aapt resource value: 0x7f0b0062
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131427426;
+			// aapt resource value: 0x7f0c0062
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131492962;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427427;
+			// aapt resource value: 0x7f0c0063
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131492963;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427428;
+			// aapt resource value: 0x7f0c0064
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131492964;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131427429;
+			// aapt resource value: 0x7f0c0065
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131492965;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427430;
+			// aapt resource value: 0x7f0c0066
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131492966;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427507;
+			// aapt resource value: 0x7f0c00b3
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493043;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427431;
+			// aapt resource value: 0x7f0c0067
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131492967;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427432;
+			// aapt resource value: 0x7f0c0068
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131492968;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int Base_Theme_AppCompat = 2131427433;
+			// aapt resource value: 0x7f0c0069
+			public const int Base_Theme_AppCompat = 2131492969;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int Base_Theme_AppCompat_CompactMenu = 2131427508;
+			// aapt resource value: 0x7f0c00b4
+			public const int Base_Theme_AppCompat_CompactMenu = 2131493044;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int Base_Theme_AppCompat_Dialog = 2131427360;
+			// aapt resource value: 0x7f0c0020
+			public const int Base_Theme_AppCompat_Dialog = 2131492896;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131427361;
+			// aapt resource value: 0x7f0c0021
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131492897;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131427509;
+			// aapt resource value: 0x7f0c00b5
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131493045;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131427362;
+			// aapt resource value: 0x7f0c0022
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131492898;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131427344;
+			// aapt resource value: 0x7f0c0010
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131492880;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int Base_Theme_AppCompat_Light = 2131427434;
+			// aapt resource value: 0x7f0c006a
+			public const int Base_Theme_AppCompat_Light = 2131492970;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131427510;
+			// aapt resource value: 0x7f0c00b6
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131493046;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131427363;
+			// aapt resource value: 0x7f0c0023
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131492899;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131427364;
+			// aapt resource value: 0x7f0c0024
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131492900;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131427511;
+			// aapt resource value: 0x7f0c00b7
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131493047;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131427365;
+			// aapt resource value: 0x7f0c0025
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131492901;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131427345;
+			// aapt resource value: 0x7f0c0011
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131492881;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int Base_ThemeOverlay_AppCompat = 2131427512;
+			// aapt resource value: 0x7f0c00b8
+			public const int Base_ThemeOverlay_AppCompat = 2131493048;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131427513;
+			// aapt resource value: 0x7f0c00b9
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131493049;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131427514;
+			// aapt resource value: 0x7f0c00ba
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131493050;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131427515;
+			// aapt resource value: 0x7f0c00bb
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131493051;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131427366;
+			// aapt resource value: 0x7f0c0026
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131492902;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131427367;
+			// aapt resource value: 0x7f0c0027
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131492903;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131427516;
+			// aapt resource value: 0x7f0c00bc
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131493052;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131427368;
+			// aapt resource value: 0x7f0c0028
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131492904;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131427369;
+			// aapt resource value: 0x7f0c0029
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131492905;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131427370;
+			// aapt resource value: 0x7f0c002a
+			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131492906;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131427378;
+			// aapt resource value: 0x7f0c0032
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131492914;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int Base_V12_Widget_AppCompat_EditText = 2131427379;
+			// aapt resource value: 0x7f0c0033
+			public const int Base_V12_Widget_AppCompat_EditText = 2131492915;
 			
-			// aapt resource value: 0x7f0b016f
-			public const int Base_V14_Widget_Design_AppBarLayout = 2131427695;
+			// aapt resource value: 0x7f0c016f
+			public const int Base_V14_Widget_Design_AppBarLayout = 2131493231;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int Base_V21_Theme_AppCompat = 2131427435;
+			// aapt resource value: 0x7f0c006b
+			public const int Base_V21_Theme_AppCompat = 2131492971;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131427436;
+			// aapt resource value: 0x7f0c006c
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131492972;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int Base_V21_Theme_AppCompat_Light = 2131427437;
+			// aapt resource value: 0x7f0c006d
+			public const int Base_V21_Theme_AppCompat_Light = 2131492973;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131427438;
+			// aapt resource value: 0x7f0c006e
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131492974;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131427439;
+			// aapt resource value: 0x7f0c006f
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131492975;
 			
-			// aapt resource value: 0x7f0b016b
-			public const int Base_V21_Widget_Design_AppBarLayout = 2131427691;
+			// aapt resource value: 0x7f0c016b
+			public const int Base_V21_Widget_Design_AppBarLayout = 2131493227;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int Base_V22_Theme_AppCompat = 2131427475;
+			// aapt resource value: 0x7f0c0093
+			public const int Base_V22_Theme_AppCompat = 2131493011;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int Base_V22_Theme_AppCompat_Light = 2131427476;
+			// aapt resource value: 0x7f0c0094
+			public const int Base_V22_Theme_AppCompat_Light = 2131493012;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int Base_V23_Theme_AppCompat = 2131427479;
+			// aapt resource value: 0x7f0c0097
+			public const int Base_V23_Theme_AppCompat = 2131493015;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int Base_V23_Theme_AppCompat_Light = 2131427480;
+			// aapt resource value: 0x7f0c0098
+			public const int Base_V23_Theme_AppCompat_Light = 2131493016;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int Base_V26_Theme_AppCompat = 2131427488;
+			// aapt resource value: 0x7f0c00a0
+			public const int Base_V26_Theme_AppCompat = 2131493024;
 			
-			// aapt resource value: 0x7f0b00a1
-			public const int Base_V26_Theme_AppCompat_Light = 2131427489;
+			// aapt resource value: 0x7f0c00a1
+			public const int Base_V26_Theme_AppCompat_Light = 2131493025;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131427490;
+			// aapt resource value: 0x7f0c00a2
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131493026;
 			
-			// aapt resource value: 0x7f0b016d
-			public const int Base_V26_Widget_Design_AppBarLayout = 2131427693;
+			// aapt resource value: 0x7f0c016d
+			public const int Base_V26_Widget_Design_AppBarLayout = 2131493229;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int Base_V7_Theme_AppCompat = 2131427517;
+			// aapt resource value: 0x7f0c00bd
+			public const int Base_V7_Theme_AppCompat = 2131493053;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131427518;
+			// aapt resource value: 0x7f0c00be
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131493054;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int Base_V7_Theme_AppCompat_Light = 2131427519;
+			// aapt resource value: 0x7f0c00bf
+			public const int Base_V7_Theme_AppCompat_Light = 2131493055;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131427520;
+			// aapt resource value: 0x7f0c00c0
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131493056;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131427521;
+			// aapt resource value: 0x7f0c00c1
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131493057;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131427522;
+			// aapt resource value: 0x7f0c00c2
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131493058;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int Base_V7_Widget_AppCompat_EditText = 2131427523;
+			// aapt resource value: 0x7f0c00c3
+			public const int Base_V7_Widget_AppCompat_EditText = 2131493059;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131427524;
+			// aapt resource value: 0x7f0c00c4
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131493060;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int Base_Widget_AppCompat_ActionBar = 2131427525;
+			// aapt resource value: 0x7f0c00c5
+			public const int Base_Widget_AppCompat_ActionBar = 2131493061;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131427526;
+			// aapt resource value: 0x7f0c00c6
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131493062;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131427527;
+			// aapt resource value: 0x7f0c00c7
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131493063;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131427440;
+			// aapt resource value: 0x7f0c0070
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131492976;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131427441;
+			// aapt resource value: 0x7f0c0071
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131492977;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int Base_Widget_AppCompat_ActionButton = 2131427442;
+			// aapt resource value: 0x7f0c0072
+			public const int Base_Widget_AppCompat_ActionButton = 2131492978;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131427443;
+			// aapt resource value: 0x7f0c0073
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131492979;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131427444;
+			// aapt resource value: 0x7f0c0074
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131492980;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int Base_Widget_AppCompat_ActionMode = 2131427528;
+			// aapt resource value: 0x7f0c00c8
+			public const int Base_Widget_AppCompat_ActionMode = 2131493064;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131427529;
+			// aapt resource value: 0x7f0c00c9
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131493065;
 			
-			// aapt resource value: 0x7f0b0034
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131427380;
+			// aapt resource value: 0x7f0c0034
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131492916;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int Base_Widget_AppCompat_Button = 2131427445;
+			// aapt resource value: 0x7f0c0075
+			public const int Base_Widget_AppCompat_Button = 2131492981;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131427446;
+			// aapt resource value: 0x7f0c0076
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131492982;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131427447;
+			// aapt resource value: 0x7f0c0077
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131492983;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427530;
+			// aapt resource value: 0x7f0c00ca
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493066;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int Base_Widget_AppCompat_Button_Colored = 2131427481;
+			// aapt resource value: 0x7f0c0099
+			public const int Base_Widget_AppCompat_Button_Colored = 2131493017;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int Base_Widget_AppCompat_Button_Small = 2131427448;
+			// aapt resource value: 0x7f0c0078
+			public const int Base_Widget_AppCompat_Button_Small = 2131492984;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int Base_Widget_AppCompat_ButtonBar = 2131427449;
+			// aapt resource value: 0x7f0c0079
+			public const int Base_Widget_AppCompat_ButtonBar = 2131492985;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131427531;
+			// aapt resource value: 0x7f0c00cb
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131493067;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131427450;
+			// aapt resource value: 0x7f0c007a
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131492986;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131427451;
+			// aapt resource value: 0x7f0c007b
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131492987;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131427532;
+			// aapt resource value: 0x7f0c00cc
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131493068;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131427343;
+			// aapt resource value: 0x7f0c000f
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131492879;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131427533;
+			// aapt resource value: 0x7f0c00cd
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131493069;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131427452;
+			// aapt resource value: 0x7f0c007c
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131492988;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int Base_Widget_AppCompat_EditText = 2131427381;
+			// aapt resource value: 0x7f0c0035
+			public const int Base_Widget_AppCompat_EditText = 2131492917;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int Base_Widget_AppCompat_ImageButton = 2131427453;
+			// aapt resource value: 0x7f0c007d
+			public const int Base_Widget_AppCompat_ImageButton = 2131492989;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131427534;
+			// aapt resource value: 0x7f0c00ce
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131493070;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131427535;
+			// aapt resource value: 0x7f0c00cf
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131493071;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131427536;
+			// aapt resource value: 0x7f0c00d0
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131493072;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131427454;
+			// aapt resource value: 0x7f0c007e
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131492990;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427455;
+			// aapt resource value: 0x7f0c007f
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131492991;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131427456;
+			// aapt resource value: 0x7f0c0080
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131492992;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131427457;
+			// aapt resource value: 0x7f0c0081
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131492993;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131427458;
+			// aapt resource value: 0x7f0c0082
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131492994;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int Base_Widget_AppCompat_ListMenuView = 2131427537;
+			// aapt resource value: 0x7f0c00d1
+			public const int Base_Widget_AppCompat_ListMenuView = 2131493073;
 			
-			// aapt resource value: 0x7f0b0083
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131427459;
+			// aapt resource value: 0x7f0c0083
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131492995;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int Base_Widget_AppCompat_ListView = 2131427460;
+			// aapt resource value: 0x7f0c0084
+			public const int Base_Widget_AppCompat_ListView = 2131492996;
 			
-			// aapt resource value: 0x7f0b0085
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131427461;
+			// aapt resource value: 0x7f0c0085
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131492997;
 			
-			// aapt resource value: 0x7f0b0086
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131427462;
+			// aapt resource value: 0x7f0c0086
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131492998;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int Base_Widget_AppCompat_PopupMenu = 2131427463;
+			// aapt resource value: 0x7f0c0087
+			public const int Base_Widget_AppCompat_PopupMenu = 2131492999;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131427464;
+			// aapt resource value: 0x7f0c0088
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131493000;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int Base_Widget_AppCompat_PopupWindow = 2131427538;
+			// aapt resource value: 0x7f0c00d2
+			public const int Base_Widget_AppCompat_PopupWindow = 2131493074;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int Base_Widget_AppCompat_ProgressBar = 2131427371;
+			// aapt resource value: 0x7f0c002b
+			public const int Base_Widget_AppCompat_ProgressBar = 2131492907;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131427372;
+			// aapt resource value: 0x7f0c002c
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131492908;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int Base_Widget_AppCompat_RatingBar = 2131427465;
+			// aapt resource value: 0x7f0c0089
+			public const int Base_Widget_AppCompat_RatingBar = 2131493001;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131427482;
+			// aapt resource value: 0x7f0c009a
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131493018;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131427483;
+			// aapt resource value: 0x7f0c009b
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131493019;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int Base_Widget_AppCompat_SearchView = 2131427539;
+			// aapt resource value: 0x7f0c00d3
+			public const int Base_Widget_AppCompat_SearchView = 2131493075;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131427540;
+			// aapt resource value: 0x7f0c00d4
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131493076;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int Base_Widget_AppCompat_SeekBar = 2131427466;
+			// aapt resource value: 0x7f0c008a
+			public const int Base_Widget_AppCompat_SeekBar = 2131493002;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131427541;
+			// aapt resource value: 0x7f0c00d5
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131493077;
 			
-			// aapt resource value: 0x7f0b008b
-			public const int Base_Widget_AppCompat_Spinner = 2131427467;
+			// aapt resource value: 0x7f0c008b
+			public const int Base_Widget_AppCompat_Spinner = 2131493003;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131427346;
+			// aapt resource value: 0x7f0c0012
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131492882;
 			
-			// aapt resource value: 0x7f0b008c
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131427468;
+			// aapt resource value: 0x7f0c008c
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131493004;
 			
-			// aapt resource value: 0x7f0b00a3
-			public const int Base_Widget_AppCompat_Toolbar = 2131427491;
+			// aapt resource value: 0x7f0c00a3
+			public const int Base_Widget_AppCompat_Toolbar = 2131493027;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131427469;
+			// aapt resource value: 0x7f0c008d
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131493005;
 			
-			// aapt resource value: 0x7f0b016c
-			public const int Base_Widget_Design_AppBarLayout = 2131427692;
+			// aapt resource value: 0x7f0c016c
+			public const int Base_Widget_Design_AppBarLayout = 2131493228;
 			
-			// aapt resource value: 0x7f0b0170
-			public const int Base_Widget_Design_TabLayout = 2131427696;
+			// aapt resource value: 0x7f0c0170
+			public const int Base_Widget_Design_TabLayout = 2131493232;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int CardView = 2131427339;
+			// aapt resource value: 0x7f0c000b
+			public const int CardView = 2131492875;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int CardView_Dark = 2131427341;
+			// aapt resource value: 0x7f0c000d
+			public const int CardView_Dark = 2131492877;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int CardView_Light = 2131427342;
+			// aapt resource value: 0x7f0c000e
+			public const int CardView_Light = 2131492878;
 			
-			// aapt resource value: 0x7f0b018f
-			public const int MainTheme = 2131427727;
+			// aapt resource value: 0x7f0c0192
+			public const int MainTheme = 2131493266;
 			
-			// aapt resource value: 0x7f0b0190
-			public const int MainTheme_Base = 2131427728;
+			// aapt resource value: 0x7f0c0193
+			public const int MainTheme_Base = 2131493267;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int Platform_AppCompat = 2131427373;
+			// aapt resource value: 0x7f0c002d
+			public const int Platform_AppCompat = 2131492909;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int Platform_AppCompat_Light = 2131427374;
+			// aapt resource value: 0x7f0c002e
+			public const int Platform_AppCompat_Light = 2131492910;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int Platform_ThemeOverlay_AppCompat = 2131427470;
+			// aapt resource value: 0x7f0c008e
+			public const int Platform_ThemeOverlay_AppCompat = 2131493006;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131427471;
+			// aapt resource value: 0x7f0c008f
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131493007;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131427472;
+			// aapt resource value: 0x7f0c0090
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131493008;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int Platform_V11_AppCompat = 2131427375;
+			// aapt resource value: 0x7f0c002f
+			public const int Platform_V11_AppCompat = 2131492911;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int Platform_V11_AppCompat_Light = 2131427376;
+			// aapt resource value: 0x7f0c0030
+			public const int Platform_V11_AppCompat_Light = 2131492912;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int Platform_V14_AppCompat = 2131427383;
+			// aapt resource value: 0x7f0c0037
+			public const int Platform_V14_AppCompat = 2131492919;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int Platform_V14_AppCompat_Light = 2131427384;
+			// aapt resource value: 0x7f0c0038
+			public const int Platform_V14_AppCompat_Light = 2131492920;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int Platform_V21_AppCompat = 2131427473;
+			// aapt resource value: 0x7f0c0091
+			public const int Platform_V21_AppCompat = 2131493009;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int Platform_V21_AppCompat_Light = 2131427474;
+			// aapt resource value: 0x7f0c0092
+			public const int Platform_V21_AppCompat_Light = 2131493010;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int Platform_V25_AppCompat = 2131427486;
+			// aapt resource value: 0x7f0c009e
+			public const int Platform_V25_AppCompat = 2131493022;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int Platform_V25_AppCompat_Light = 2131427487;
+			// aapt resource value: 0x7f0c009f
+			public const int Platform_V25_AppCompat_Light = 2131493023;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int Platform_Widget_AppCompat_Spinner = 2131427377;
+			// aapt resource value: 0x7f0c0031
+			public const int Platform_Widget_AppCompat_Spinner = 2131492913;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131427386;
+			// aapt resource value: 0x7f0c003a
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131492922;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131427387;
+			// aapt resource value: 0x7f0c003b
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131492923;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131427388;
+			// aapt resource value: 0x7f0c003c
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131492924;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131427389;
+			// aapt resource value: 0x7f0c003d
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131492925;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131427390;
+			// aapt resource value: 0x7f0c003e
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131492926;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131427391;
+			// aapt resource value: 0x7f0c003f
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131492927;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131427392;
+			// aapt resource value: 0x7f0c0040
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131492928;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131427393;
+			// aapt resource value: 0x7f0c0041
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131492929;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131427394;
+			// aapt resource value: 0x7f0c0042
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131492930;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131427395;
+			// aapt resource value: 0x7f0c0043
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131492931;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131427396;
+			// aapt resource value: 0x7f0c0044
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131492932;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131427397;
+			// aapt resource value: 0x7f0c0045
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131492933;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131427398;
+			// aapt resource value: 0x7f0c0046
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131492934;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131427399;
+			// aapt resource value: 0x7f0c0047
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131492935;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int TextAppearance_AppCompat = 2131427542;
+			// aapt resource value: 0x7f0c00d6
+			public const int TextAppearance_AppCompat = 2131493078;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int TextAppearance_AppCompat_Body1 = 2131427543;
+			// aapt resource value: 0x7f0c00d7
+			public const int TextAppearance_AppCompat_Body1 = 2131493079;
 			
-			// aapt resource value: 0x7f0b00d8
-			public const int TextAppearance_AppCompat_Body2 = 2131427544;
+			// aapt resource value: 0x7f0c00d8
+			public const int TextAppearance_AppCompat_Body2 = 2131493080;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int TextAppearance_AppCompat_Button = 2131427545;
+			// aapt resource value: 0x7f0c00d9
+			public const int TextAppearance_AppCompat_Button = 2131493081;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int TextAppearance_AppCompat_Caption = 2131427546;
+			// aapt resource value: 0x7f0c00da
+			public const int TextAppearance_AppCompat_Caption = 2131493082;
 			
-			// aapt resource value: 0x7f0b00db
-			public const int TextAppearance_AppCompat_Display1 = 2131427547;
+			// aapt resource value: 0x7f0c00db
+			public const int TextAppearance_AppCompat_Display1 = 2131493083;
 			
-			// aapt resource value: 0x7f0b00dc
-			public const int TextAppearance_AppCompat_Display2 = 2131427548;
+			// aapt resource value: 0x7f0c00dc
+			public const int TextAppearance_AppCompat_Display2 = 2131493084;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int TextAppearance_AppCompat_Display3 = 2131427549;
+			// aapt resource value: 0x7f0c00dd
+			public const int TextAppearance_AppCompat_Display3 = 2131493085;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int TextAppearance_AppCompat_Display4 = 2131427550;
+			// aapt resource value: 0x7f0c00de
+			public const int TextAppearance_AppCompat_Display4 = 2131493086;
 			
-			// aapt resource value: 0x7f0b00df
-			public const int TextAppearance_AppCompat_Headline = 2131427551;
+			// aapt resource value: 0x7f0c00df
+			public const int TextAppearance_AppCompat_Headline = 2131493087;
 			
-			// aapt resource value: 0x7f0b00e0
-			public const int TextAppearance_AppCompat_Inverse = 2131427552;
+			// aapt resource value: 0x7f0c00e0
+			public const int TextAppearance_AppCompat_Inverse = 2131493088;
 			
-			// aapt resource value: 0x7f0b00e1
-			public const int TextAppearance_AppCompat_Large = 2131427553;
+			// aapt resource value: 0x7f0c00e1
+			public const int TextAppearance_AppCompat_Large = 2131493089;
 			
-			// aapt resource value: 0x7f0b00e2
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131427554;
+			// aapt resource value: 0x7f0c00e2
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131493090;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131427555;
+			// aapt resource value: 0x7f0c00e3
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131493091;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131427556;
+			// aapt resource value: 0x7f0c00e4
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131493092;
 			
-			// aapt resource value: 0x7f0b00e5
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131427557;
+			// aapt resource value: 0x7f0c00e5
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131493093;
 			
-			// aapt resource value: 0x7f0b00e6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131427558;
+			// aapt resource value: 0x7f0c00e6
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131493094;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int TextAppearance_AppCompat_Medium = 2131427559;
+			// aapt resource value: 0x7f0c00e7
+			public const int TextAppearance_AppCompat_Medium = 2131493095;
 			
-			// aapt resource value: 0x7f0b00e8
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131427560;
+			// aapt resource value: 0x7f0c00e8
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131493096;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int TextAppearance_AppCompat_Menu = 2131427561;
+			// aapt resource value: 0x7f0c00e9
+			public const int TextAppearance_AppCompat_Menu = 2131493097;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131427562;
+			// aapt resource value: 0x7f0c00ea
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131493098;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131427563;
+			// aapt resource value: 0x7f0c00eb
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131493099;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int TextAppearance_AppCompat_Small = 2131427564;
+			// aapt resource value: 0x7f0c00ec
+			public const int TextAppearance_AppCompat_Small = 2131493100;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131427565;
+			// aapt resource value: 0x7f0c00ed
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131493101;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int TextAppearance_AppCompat_Subhead = 2131427566;
+			// aapt resource value: 0x7f0c00ee
+			public const int TextAppearance_AppCompat_Subhead = 2131493102;
 			
-			// aapt resource value: 0x7f0b00ef
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131427567;
+			// aapt resource value: 0x7f0c00ef
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131493103;
 			
-			// aapt resource value: 0x7f0b00f0
-			public const int TextAppearance_AppCompat_Title = 2131427568;
+			// aapt resource value: 0x7f0c00f0
+			public const int TextAppearance_AppCompat_Title = 2131493104;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131427569;
+			// aapt resource value: 0x7f0c00f1
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131493105;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int TextAppearance_AppCompat_Tooltip = 2131427385;
+			// aapt resource value: 0x7f0c0039
+			public const int TextAppearance_AppCompat_Tooltip = 2131492921;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131427570;
+			// aapt resource value: 0x7f0c00f2
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131493106;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131427571;
+			// aapt resource value: 0x7f0c00f3
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131493107;
 			
-			// aapt resource value: 0x7f0b00f4
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131427572;
+			// aapt resource value: 0x7f0c00f4
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131493108;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131427573;
+			// aapt resource value: 0x7f0c00f5
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131493109;
 			
-			// aapt resource value: 0x7f0b00f6
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131427574;
+			// aapt resource value: 0x7f0c00f6
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131493110;
 			
-			// aapt resource value: 0x7f0b00f7
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131427575;
+			// aapt resource value: 0x7f0c00f7
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131493111;
 			
-			// aapt resource value: 0x7f0b00f8
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131427576;
+			// aapt resource value: 0x7f0c00f8
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131493112;
 			
-			// aapt resource value: 0x7f0b00f9
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131427577;
+			// aapt resource value: 0x7f0c00f9
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131493113;
 			
-			// aapt resource value: 0x7f0b00fa
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131427578;
+			// aapt resource value: 0x7f0c00fa
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131493114;
 			
-			// aapt resource value: 0x7f0b00fb
-			public const int TextAppearance_AppCompat_Widget_Button = 2131427579;
+			// aapt resource value: 0x7f0c00fb
+			public const int TextAppearance_AppCompat_Widget_Button = 2131493115;
 			
-			// aapt resource value: 0x7f0b00fc
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131427580;
+			// aapt resource value: 0x7f0c00fc
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131493116;
 			
-			// aapt resource value: 0x7f0b00fd
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131427581;
+			// aapt resource value: 0x7f0c00fd
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131493117;
 			
-			// aapt resource value: 0x7f0b00fe
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131427582;
+			// aapt resource value: 0x7f0c00fe
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131493118;
 			
-			// aapt resource value: 0x7f0b00ff
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131427583;
+			// aapt resource value: 0x7f0c00ff
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131493119;
 			
-			// aapt resource value: 0x7f0b0100
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131427584;
+			// aapt resource value: 0x7f0c0100
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131493120;
 			
-			// aapt resource value: 0x7f0b0101
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131427585;
+			// aapt resource value: 0x7f0c0101
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131493121;
 			
-			// aapt resource value: 0x7f0b0102
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131427586;
+			// aapt resource value: 0x7f0c0102
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131493122;
 			
-			// aapt resource value: 0x7f0b0103
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131427587;
+			// aapt resource value: 0x7f0c0103
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131493123;
 			
-			// aapt resource value: 0x7f0b0104
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131427588;
+			// aapt resource value: 0x7f0c0104
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131493124;
 			
-			// aapt resource value: 0x7f0b0188
-			public const int TextAppearance_Compat_Notification = 2131427720;
+			// aapt resource value: 0x7f0c0188
+			public const int TextAppearance_Compat_Notification = 2131493256;
 			
-			// aapt resource value: 0x7f0b0189
-			public const int TextAppearance_Compat_Notification_Info = 2131427721;
+			// aapt resource value: 0x7f0c0189
+			public const int TextAppearance_Compat_Notification_Info = 2131493257;
 			
-			// aapt resource value: 0x7f0b0165
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131427685;
+			// aapt resource value: 0x7f0c0165
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131493221;
 			
-			// aapt resource value: 0x7f0b018e
-			public const int TextAppearance_Compat_Notification_Line2 = 2131427726;
+			// aapt resource value: 0x7f0c018e
+			public const int TextAppearance_Compat_Notification_Line2 = 2131493262;
 			
-			// aapt resource value: 0x7f0b0169
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131427689;
+			// aapt resource value: 0x7f0c0169
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131493225;
 			
-			// aapt resource value: 0x7f0b0166
-			public const int TextAppearance_Compat_Notification_Media = 2131427686;
+			// aapt resource value: 0x7f0c0166
+			public const int TextAppearance_Compat_Notification_Media = 2131493222;
 			
-			// aapt resource value: 0x7f0b018a
-			public const int TextAppearance_Compat_Notification_Time = 2131427722;
+			// aapt resource value: 0x7f0c018a
+			public const int TextAppearance_Compat_Notification_Time = 2131493258;
 			
-			// aapt resource value: 0x7f0b0167
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131427687;
+			// aapt resource value: 0x7f0c0167
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131493223;
 			
-			// aapt resource value: 0x7f0b018b
-			public const int TextAppearance_Compat_Notification_Title = 2131427723;
+			// aapt resource value: 0x7f0c018b
+			public const int TextAppearance_Compat_Notification_Title = 2131493259;
 			
-			// aapt resource value: 0x7f0b0168
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131427688;
+			// aapt resource value: 0x7f0c0168
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131493224;
 			
-			// aapt resource value: 0x7f0b0171
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131427697;
+			// aapt resource value: 0x7f0c0171
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131493233;
 			
-			// aapt resource value: 0x7f0b0172
-			public const int TextAppearance_Design_Counter = 2131427698;
+			// aapt resource value: 0x7f0c0172
+			public const int TextAppearance_Design_Counter = 2131493234;
 			
-			// aapt resource value: 0x7f0b0173
-			public const int TextAppearance_Design_Counter_Overflow = 2131427699;
+			// aapt resource value: 0x7f0c0173
+			public const int TextAppearance_Design_Counter_Overflow = 2131493235;
 			
-			// aapt resource value: 0x7f0b0174
-			public const int TextAppearance_Design_Error = 2131427700;
+			// aapt resource value: 0x7f0c0174
+			public const int TextAppearance_Design_Error = 2131493236;
 			
-			// aapt resource value: 0x7f0b0175
-			public const int TextAppearance_Design_Hint = 2131427701;
+			// aapt resource value: 0x7f0c0175
+			public const int TextAppearance_Design_Hint = 2131493237;
 			
-			// aapt resource value: 0x7f0b0176
-			public const int TextAppearance_Design_Snackbar_Message = 2131427702;
+			// aapt resource value: 0x7f0c0176
+			public const int TextAppearance_Design_Snackbar_Message = 2131493238;
 			
-			// aapt resource value: 0x7f0b0177
-			public const int TextAppearance_Design_Tab = 2131427703;
+			// aapt resource value: 0x7f0c0177
+			public const int TextAppearance_Design_Tab = 2131493239;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131427328;
+			// aapt resource value: 0x7f0c0000
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131492864;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131427329;
+			// aapt resource value: 0x7f0c0001
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131492865;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int TextAppearance_MediaRouter_Title = 2131427330;
+			// aapt resource value: 0x7f0c0002
+			public const int TextAppearance_MediaRouter_Title = 2131492866;
 			
-			// aapt resource value: 0x7f0b0105
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427589;
+			// aapt resource value: 0x7f0c0105
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131493125;
 			
-			// aapt resource value: 0x7f0b0106
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131427590;
+			// aapt resource value: 0x7f0c0106
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131493126;
 			
-			// aapt resource value: 0x7f0b0107
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131427591;
+			// aapt resource value: 0x7f0c0107
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131493127;
 			
-			// aapt resource value: 0x7f0b0108
-			public const int Theme_AppCompat = 2131427592;
+			// aapt resource value: 0x7f0c0108
+			public const int Theme_AppCompat = 2131493128;
 			
-			// aapt resource value: 0x7f0b0109
-			public const int Theme_AppCompat_CompactMenu = 2131427593;
+			// aapt resource value: 0x7f0c0109
+			public const int Theme_AppCompat_CompactMenu = 2131493129;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int Theme_AppCompat_DayNight = 2131427347;
+			// aapt resource value: 0x7f0c0013
+			public const int Theme_AppCompat_DayNight = 2131492883;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131427348;
+			// aapt resource value: 0x7f0c0014
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131492884;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int Theme_AppCompat_DayNight_Dialog = 2131427349;
+			// aapt resource value: 0x7f0c0015
+			public const int Theme_AppCompat_DayNight_Dialog = 2131492885;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131427350;
+			// aapt resource value: 0x7f0c0016
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131492886;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131427351;
+			// aapt resource value: 0x7f0c0017
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131492887;
 			
-			// aapt resource value: 0x7f0b0018
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131427352;
+			// aapt resource value: 0x7f0c0018
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131492888;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131427353;
+			// aapt resource value: 0x7f0c0019
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131492889;
 			
-			// aapt resource value: 0x7f0b010a
-			public const int Theme_AppCompat_Dialog = 2131427594;
+			// aapt resource value: 0x7f0c010a
+			public const int Theme_AppCompat_Dialog = 2131493130;
 			
-			// aapt resource value: 0x7f0b010b
-			public const int Theme_AppCompat_Dialog_Alert = 2131427595;
+			// aapt resource value: 0x7f0c010b
+			public const int Theme_AppCompat_Dialog_Alert = 2131493131;
 			
-			// aapt resource value: 0x7f0b010c
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131427596;
+			// aapt resource value: 0x7f0c010c
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131493132;
 			
-			// aapt resource value: 0x7f0b010d
-			public const int Theme_AppCompat_DialogWhenLarge = 2131427597;
+			// aapt resource value: 0x7f0c010d
+			public const int Theme_AppCompat_DialogWhenLarge = 2131493133;
 			
-			// aapt resource value: 0x7f0b010e
-			public const int Theme_AppCompat_Light = 2131427598;
+			// aapt resource value: 0x7f0c010e
+			public const int Theme_AppCompat_Light = 2131493134;
 			
-			// aapt resource value: 0x7f0b010f
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131427599;
+			// aapt resource value: 0x7f0c010f
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131493135;
 			
-			// aapt resource value: 0x7f0b0110
-			public const int Theme_AppCompat_Light_Dialog = 2131427600;
+			// aapt resource value: 0x7f0c0110
+			public const int Theme_AppCompat_Light_Dialog = 2131493136;
 			
-			// aapt resource value: 0x7f0b0111
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131427601;
+			// aapt resource value: 0x7f0c0111
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131493137;
 			
-			// aapt resource value: 0x7f0b0112
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131427602;
+			// aapt resource value: 0x7f0c0112
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131493138;
 			
-			// aapt resource value: 0x7f0b0113
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131427603;
+			// aapt resource value: 0x7f0c0113
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131493139;
 			
-			// aapt resource value: 0x7f0b0114
-			public const int Theme_AppCompat_Light_NoActionBar = 2131427604;
+			// aapt resource value: 0x7f0c0114
+			public const int Theme_AppCompat_Light_NoActionBar = 2131493140;
 			
-			// aapt resource value: 0x7f0b0115
-			public const int Theme_AppCompat_NoActionBar = 2131427605;
+			// aapt resource value: 0x7f0c0115
+			public const int Theme_AppCompat_NoActionBar = 2131493141;
 			
-			// aapt resource value: 0x7f0b0178
-			public const int Theme_Design = 2131427704;
+			// aapt resource value: 0x7f0c0178
+			public const int Theme_Design = 2131493240;
 			
-			// aapt resource value: 0x7f0b0179
-			public const int Theme_Design_BottomSheetDialog = 2131427705;
+			// aapt resource value: 0x7f0c0179
+			public const int Theme_Design_BottomSheetDialog = 2131493241;
 			
-			// aapt resource value: 0x7f0b017a
-			public const int Theme_Design_Light = 2131427706;
+			// aapt resource value: 0x7f0c017a
+			public const int Theme_Design_Light = 2131493242;
 			
-			// aapt resource value: 0x7f0b017b
-			public const int Theme_Design_Light_BottomSheetDialog = 2131427707;
+			// aapt resource value: 0x7f0c017b
+			public const int Theme_Design_Light_BottomSheetDialog = 2131493243;
 			
-			// aapt resource value: 0x7f0b017c
-			public const int Theme_Design_Light_NoActionBar = 2131427708;
+			// aapt resource value: 0x7f0c017c
+			public const int Theme_Design_Light_NoActionBar = 2131493244;
 			
-			// aapt resource value: 0x7f0b017d
-			public const int Theme_Design_NoActionBar = 2131427709;
+			// aapt resource value: 0x7f0c017d
+			public const int Theme_Design_NoActionBar = 2131493245;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int Theme_MediaRouter = 2131427331;
+			// aapt resource value: 0x7f0c0003
+			public const int Theme_MediaRouter = 2131492867;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int Theme_MediaRouter_Light = 2131427332;
+			// aapt resource value: 0x7f0c0004
+			public const int Theme_MediaRouter_Light = 2131492868;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131427333;
+			// aapt resource value: 0x7f0c0005
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131492869;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int Theme_MediaRouter_LightControlPanel = 2131427334;
+			// aapt resource value: 0x7f0c0006
+			public const int Theme_MediaRouter_LightControlPanel = 2131492870;
 			
-			// aapt resource value: 0x7f0b0116
-			public const int ThemeOverlay_AppCompat = 2131427606;
+			// aapt resource value: 0x7f0c018f
+			public const int Theme_PageIndicatorDefaults = 2131493263;
 			
-			// aapt resource value: 0x7f0b0117
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131427607;
+			// aapt resource value: 0x7f0c0116
+			public const int ThemeOverlay_AppCompat = 2131493142;
 			
-			// aapt resource value: 0x7f0b0118
-			public const int ThemeOverlay_AppCompat_Dark = 2131427608;
+			// aapt resource value: 0x7f0c0117
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131493143;
 			
-			// aapt resource value: 0x7f0b0119
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131427609;
+			// aapt resource value: 0x7f0c0118
+			public const int ThemeOverlay_AppCompat_Dark = 2131493144;
 			
-			// aapt resource value: 0x7f0b011a
-			public const int ThemeOverlay_AppCompat_Dialog = 2131427610;
+			// aapt resource value: 0x7f0c0119
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131493145;
 			
-			// aapt resource value: 0x7f0b011b
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131427611;
+			// aapt resource value: 0x7f0c011a
+			public const int ThemeOverlay_AppCompat_Dialog = 2131493146;
 			
-			// aapt resource value: 0x7f0b011c
-			public const int ThemeOverlay_AppCompat_Light = 2131427612;
+			// aapt resource value: 0x7f0c011b
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131493147;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int ThemeOverlay_MediaRouter_Dark = 2131427335;
+			// aapt resource value: 0x7f0c011c
+			public const int ThemeOverlay_AppCompat_Light = 2131493148;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int ThemeOverlay_MediaRouter_Light = 2131427336;
+			// aapt resource value: 0x7f0c0007
+			public const int ThemeOverlay_MediaRouter_Dark = 2131492871;
 			
-			// aapt resource value: 0x7f0b011d
-			public const int Widget_AppCompat_ActionBar = 2131427613;
+			// aapt resource value: 0x7f0c0008
+			public const int ThemeOverlay_MediaRouter_Light = 2131492872;
 			
-			// aapt resource value: 0x7f0b011e
-			public const int Widget_AppCompat_ActionBar_Solid = 2131427614;
+			// aapt resource value: 0x7f0c0190
+			public const int Widget = 2131493264;
 			
-			// aapt resource value: 0x7f0b011f
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131427615;
+			// aapt resource value: 0x7f0c011d
+			public const int Widget_AppCompat_ActionBar = 2131493149;
 			
-			// aapt resource value: 0x7f0b0120
-			public const int Widget_AppCompat_ActionBar_TabText = 2131427616;
+			// aapt resource value: 0x7f0c011e
+			public const int Widget_AppCompat_ActionBar_Solid = 2131493150;
 			
-			// aapt resource value: 0x7f0b0121
-			public const int Widget_AppCompat_ActionBar_TabView = 2131427617;
+			// aapt resource value: 0x7f0c011f
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131493151;
 			
-			// aapt resource value: 0x7f0b0122
-			public const int Widget_AppCompat_ActionButton = 2131427618;
+			// aapt resource value: 0x7f0c0120
+			public const int Widget_AppCompat_ActionBar_TabText = 2131493152;
 			
-			// aapt resource value: 0x7f0b0123
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131427619;
+			// aapt resource value: 0x7f0c0121
+			public const int Widget_AppCompat_ActionBar_TabView = 2131493153;
 			
-			// aapt resource value: 0x7f0b0124
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131427620;
+			// aapt resource value: 0x7f0c0122
+			public const int Widget_AppCompat_ActionButton = 2131493154;
 			
-			// aapt resource value: 0x7f0b0125
-			public const int Widget_AppCompat_ActionMode = 2131427621;
+			// aapt resource value: 0x7f0c0123
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131493155;
 			
-			// aapt resource value: 0x7f0b0126
-			public const int Widget_AppCompat_ActivityChooserView = 2131427622;
+			// aapt resource value: 0x7f0c0124
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131493156;
 			
-			// aapt resource value: 0x7f0b0127
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131427623;
+			// aapt resource value: 0x7f0c0125
+			public const int Widget_AppCompat_ActionMode = 2131493157;
 			
-			// aapt resource value: 0x7f0b0128
-			public const int Widget_AppCompat_Button = 2131427624;
+			// aapt resource value: 0x7f0c0126
+			public const int Widget_AppCompat_ActivityChooserView = 2131493158;
 			
-			// aapt resource value: 0x7f0b0129
-			public const int Widget_AppCompat_Button_Borderless = 2131427625;
+			// aapt resource value: 0x7f0c0127
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131493159;
 			
-			// aapt resource value: 0x7f0b012a
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131427626;
+			// aapt resource value: 0x7f0c0128
+			public const int Widget_AppCompat_Button = 2131493160;
 			
-			// aapt resource value: 0x7f0b012b
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131427627;
+			// aapt resource value: 0x7f0c0129
+			public const int Widget_AppCompat_Button_Borderless = 2131493161;
 			
-			// aapt resource value: 0x7f0b012c
-			public const int Widget_AppCompat_Button_Colored = 2131427628;
+			// aapt resource value: 0x7f0c012a
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131493162;
 			
-			// aapt resource value: 0x7f0b012d
-			public const int Widget_AppCompat_Button_Small = 2131427629;
+			// aapt resource value: 0x7f0c012b
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131493163;
 			
-			// aapt resource value: 0x7f0b012e
-			public const int Widget_AppCompat_ButtonBar = 2131427630;
+			// aapt resource value: 0x7f0c012c
+			public const int Widget_AppCompat_Button_Colored = 2131493164;
 			
-			// aapt resource value: 0x7f0b012f
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131427631;
+			// aapt resource value: 0x7f0c012d
+			public const int Widget_AppCompat_Button_Small = 2131493165;
 			
-			// aapt resource value: 0x7f0b0130
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131427632;
+			// aapt resource value: 0x7f0c012e
+			public const int Widget_AppCompat_ButtonBar = 2131493166;
 			
-			// aapt resource value: 0x7f0b0131
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131427633;
+			// aapt resource value: 0x7f0c012f
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131493167;
 			
-			// aapt resource value: 0x7f0b0132
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131427634;
+			// aapt resource value: 0x7f0c0130
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131493168;
 			
-			// aapt resource value: 0x7f0b0133
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131427635;
+			// aapt resource value: 0x7f0c0131
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131493169;
 			
-			// aapt resource value: 0x7f0b0134
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131427636;
+			// aapt resource value: 0x7f0c0132
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131493170;
 			
-			// aapt resource value: 0x7f0b0135
-			public const int Widget_AppCompat_EditText = 2131427637;
+			// aapt resource value: 0x7f0c0133
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131493171;
 			
-			// aapt resource value: 0x7f0b0136
-			public const int Widget_AppCompat_ImageButton = 2131427638;
+			// aapt resource value: 0x7f0c0134
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131493172;
 			
-			// aapt resource value: 0x7f0b0137
-			public const int Widget_AppCompat_Light_ActionBar = 2131427639;
+			// aapt resource value: 0x7f0c0135
+			public const int Widget_AppCompat_EditText = 2131493173;
 			
-			// aapt resource value: 0x7f0b0138
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131427640;
+			// aapt resource value: 0x7f0c0136
+			public const int Widget_AppCompat_ImageButton = 2131493174;
 			
-			// aapt resource value: 0x7f0b0139
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131427641;
+			// aapt resource value: 0x7f0c0137
+			public const int Widget_AppCompat_Light_ActionBar = 2131493175;
 			
-			// aapt resource value: 0x7f0b013a
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131427642;
+			// aapt resource value: 0x7f0c0138
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131493176;
 			
-			// aapt resource value: 0x7f0b013b
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131427643;
+			// aapt resource value: 0x7f0c0139
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131493177;
 			
-			// aapt resource value: 0x7f0b013c
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131427644;
+			// aapt resource value: 0x7f0c013a
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131493178;
 			
-			// aapt resource value: 0x7f0b013d
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131427645;
+			// aapt resource value: 0x7f0c013b
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131493179;
 			
-			// aapt resource value: 0x7f0b013e
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131427646;
+			// aapt resource value: 0x7f0c013c
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131493180;
 			
-			// aapt resource value: 0x7f0b013f
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131427647;
+			// aapt resource value: 0x7f0c013d
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131493181;
 			
-			// aapt resource value: 0x7f0b0140
-			public const int Widget_AppCompat_Light_ActionButton = 2131427648;
+			// aapt resource value: 0x7f0c013e
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131493182;
 			
-			// aapt resource value: 0x7f0b0141
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131427649;
+			// aapt resource value: 0x7f0c013f
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131493183;
 			
-			// aapt resource value: 0x7f0b0142
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131427650;
+			// aapt resource value: 0x7f0c0140
+			public const int Widget_AppCompat_Light_ActionButton = 2131493184;
 			
-			// aapt resource value: 0x7f0b0143
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131427651;
+			// aapt resource value: 0x7f0c0141
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131493185;
 			
-			// aapt resource value: 0x7f0b0144
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131427652;
+			// aapt resource value: 0x7f0c0142
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131493186;
 			
-			// aapt resource value: 0x7f0b0145
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131427653;
+			// aapt resource value: 0x7f0c0143
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131493187;
 			
-			// aapt resource value: 0x7f0b0146
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131427654;
+			// aapt resource value: 0x7f0c0144
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131493188;
 			
-			// aapt resource value: 0x7f0b0147
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131427655;
+			// aapt resource value: 0x7f0c0145
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131493189;
 			
-			// aapt resource value: 0x7f0b0148
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131427656;
+			// aapt resource value: 0x7f0c0146
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131493190;
 			
-			// aapt resource value: 0x7f0b0149
-			public const int Widget_AppCompat_Light_PopupMenu = 2131427657;
+			// aapt resource value: 0x7f0c0147
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131493191;
 			
-			// aapt resource value: 0x7f0b014a
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131427658;
+			// aapt resource value: 0x7f0c0148
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131493192;
 			
-			// aapt resource value: 0x7f0b014b
-			public const int Widget_AppCompat_Light_SearchView = 2131427659;
+			// aapt resource value: 0x7f0c0149
+			public const int Widget_AppCompat_Light_PopupMenu = 2131493193;
 			
-			// aapt resource value: 0x7f0b014c
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131427660;
+			// aapt resource value: 0x7f0c014a
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131493194;
 			
-			// aapt resource value: 0x7f0b014d
-			public const int Widget_AppCompat_ListMenuView = 2131427661;
+			// aapt resource value: 0x7f0c014b
+			public const int Widget_AppCompat_Light_SearchView = 2131493195;
 			
-			// aapt resource value: 0x7f0b014e
-			public const int Widget_AppCompat_ListPopupWindow = 2131427662;
+			// aapt resource value: 0x7f0c014c
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131493196;
 			
-			// aapt resource value: 0x7f0b014f
-			public const int Widget_AppCompat_ListView = 2131427663;
+			// aapt resource value: 0x7f0c014d
+			public const int Widget_AppCompat_ListMenuView = 2131493197;
 			
-			// aapt resource value: 0x7f0b0150
-			public const int Widget_AppCompat_ListView_DropDown = 2131427664;
+			// aapt resource value: 0x7f0c014e
+			public const int Widget_AppCompat_ListPopupWindow = 2131493198;
 			
-			// aapt resource value: 0x7f0b0151
-			public const int Widget_AppCompat_ListView_Menu = 2131427665;
+			// aapt resource value: 0x7f0c014f
+			public const int Widget_AppCompat_ListView = 2131493199;
 			
-			// aapt resource value: 0x7f0b0152
-			public const int Widget_AppCompat_PopupMenu = 2131427666;
+			// aapt resource value: 0x7f0c0150
+			public const int Widget_AppCompat_ListView_DropDown = 2131493200;
 			
-			// aapt resource value: 0x7f0b0153
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131427667;
+			// aapt resource value: 0x7f0c0151
+			public const int Widget_AppCompat_ListView_Menu = 2131493201;
 			
-			// aapt resource value: 0x7f0b0154
-			public const int Widget_AppCompat_PopupWindow = 2131427668;
+			// aapt resource value: 0x7f0c0152
+			public const int Widget_AppCompat_PopupMenu = 2131493202;
 			
-			// aapt resource value: 0x7f0b0155
-			public const int Widget_AppCompat_ProgressBar = 2131427669;
+			// aapt resource value: 0x7f0c0153
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131493203;
 			
-			// aapt resource value: 0x7f0b0156
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131427670;
+			// aapt resource value: 0x7f0c0154
+			public const int Widget_AppCompat_PopupWindow = 2131493204;
 			
-			// aapt resource value: 0x7f0b0157
-			public const int Widget_AppCompat_RatingBar = 2131427671;
+			// aapt resource value: 0x7f0c0155
+			public const int Widget_AppCompat_ProgressBar = 2131493205;
 			
-			// aapt resource value: 0x7f0b0158
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131427672;
+			// aapt resource value: 0x7f0c0156
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131493206;
 			
-			// aapt resource value: 0x7f0b0159
-			public const int Widget_AppCompat_RatingBar_Small = 2131427673;
+			// aapt resource value: 0x7f0c0157
+			public const int Widget_AppCompat_RatingBar = 2131493207;
 			
-			// aapt resource value: 0x7f0b015a
-			public const int Widget_AppCompat_SearchView = 2131427674;
+			// aapt resource value: 0x7f0c0158
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131493208;
 			
-			// aapt resource value: 0x7f0b015b
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131427675;
+			// aapt resource value: 0x7f0c0159
+			public const int Widget_AppCompat_RatingBar_Small = 2131493209;
 			
-			// aapt resource value: 0x7f0b015c
-			public const int Widget_AppCompat_SeekBar = 2131427676;
+			// aapt resource value: 0x7f0c015a
+			public const int Widget_AppCompat_SearchView = 2131493210;
 			
-			// aapt resource value: 0x7f0b015d
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131427677;
+			// aapt resource value: 0x7f0c015b
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131493211;
 			
-			// aapt resource value: 0x7f0b015e
-			public const int Widget_AppCompat_Spinner = 2131427678;
+			// aapt resource value: 0x7f0c015c
+			public const int Widget_AppCompat_SeekBar = 2131493212;
 			
-			// aapt resource value: 0x7f0b015f
-			public const int Widget_AppCompat_Spinner_DropDown = 2131427679;
+			// aapt resource value: 0x7f0c015d
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131493213;
 			
-			// aapt resource value: 0x7f0b0160
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131427680;
+			// aapt resource value: 0x7f0c015e
+			public const int Widget_AppCompat_Spinner = 2131493214;
 			
-			// aapt resource value: 0x7f0b0161
-			public const int Widget_AppCompat_Spinner_Underlined = 2131427681;
+			// aapt resource value: 0x7f0c015f
+			public const int Widget_AppCompat_Spinner_DropDown = 2131493215;
 			
-			// aapt resource value: 0x7f0b0162
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131427682;
+			// aapt resource value: 0x7f0c0160
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131493216;
 			
-			// aapt resource value: 0x7f0b0163
-			public const int Widget_AppCompat_Toolbar = 2131427683;
+			// aapt resource value: 0x7f0c0161
+			public const int Widget_AppCompat_Spinner_Underlined = 2131493217;
 			
-			// aapt resource value: 0x7f0b0164
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131427684;
+			// aapt resource value: 0x7f0c0162
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131493218;
 			
-			// aapt resource value: 0x7f0b018c
-			public const int Widget_Compat_NotificationActionContainer = 2131427724;
+			// aapt resource value: 0x7f0c0163
+			public const int Widget_AppCompat_Toolbar = 2131493219;
 			
-			// aapt resource value: 0x7f0b018d
-			public const int Widget_Compat_NotificationActionText = 2131427725;
+			// aapt resource value: 0x7f0c0164
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131493220;
 			
-			// aapt resource value: 0x7f0b017e
-			public const int Widget_Design_AppBarLayout = 2131427710;
+			// aapt resource value: 0x7f0c0191
+			public const int Widget_CirclePageIndicator = 2131493265;
 			
-			// aapt resource value: 0x7f0b017f
-			public const int Widget_Design_BottomNavigationView = 2131427711;
+			// aapt resource value: 0x7f0c018c
+			public const int Widget_Compat_NotificationActionContainer = 2131493260;
 			
-			// aapt resource value: 0x7f0b0180
-			public const int Widget_Design_BottomSheet_Modal = 2131427712;
+			// aapt resource value: 0x7f0c018d
+			public const int Widget_Compat_NotificationActionText = 2131493261;
 			
-			// aapt resource value: 0x7f0b0181
-			public const int Widget_Design_CollapsingToolbar = 2131427713;
+			// aapt resource value: 0x7f0c017e
+			public const int Widget_Design_AppBarLayout = 2131493246;
 			
-			// aapt resource value: 0x7f0b0182
-			public const int Widget_Design_CoordinatorLayout = 2131427714;
+			// aapt resource value: 0x7f0c017f
+			public const int Widget_Design_BottomNavigationView = 2131493247;
 			
-			// aapt resource value: 0x7f0b0183
-			public const int Widget_Design_FloatingActionButton = 2131427715;
+			// aapt resource value: 0x7f0c0180
+			public const int Widget_Design_BottomSheet_Modal = 2131493248;
 			
-			// aapt resource value: 0x7f0b0184
-			public const int Widget_Design_NavigationView = 2131427716;
+			// aapt resource value: 0x7f0c0181
+			public const int Widget_Design_CollapsingToolbar = 2131493249;
 			
-			// aapt resource value: 0x7f0b0185
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131427717;
+			// aapt resource value: 0x7f0c0182
+			public const int Widget_Design_CoordinatorLayout = 2131493250;
 			
-			// aapt resource value: 0x7f0b0186
-			public const int Widget_Design_Snackbar = 2131427718;
+			// aapt resource value: 0x7f0c0183
+			public const int Widget_Design_FloatingActionButton = 2131493251;
 			
-			// aapt resource value: 0x7f0b016a
-			public const int Widget_Design_TabLayout = 2131427690;
+			// aapt resource value: 0x7f0c0184
+			public const int Widget_Design_NavigationView = 2131493252;
 			
-			// aapt resource value: 0x7f0b0187
-			public const int Widget_Design_TextInputLayout = 2131427719;
+			// aapt resource value: 0x7f0c0185
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131493253;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131427337;
+			// aapt resource value: 0x7f0c0186
+			public const int Widget_Design_Snackbar = 2131493254;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int Widget_MediaRouter_MediaRouteButton = 2131427338;
+			// aapt resource value: 0x7f0c016a
+			public const int Widget_Design_TabLayout = 2131493226;
+			
+			// aapt resource value: 0x7f0c0187
+			public const int Widget_Design_TextInputLayout = 2131493255;
+			
+			// aapt resource value: 0x7f0c0009
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131492873;
+			
+			// aapt resource value: 0x7f0c000a
+			public const int Widget_MediaRouter_MediaRouteButton = 2131492874;
 			
 			static Style()
 			{
@@ -8391,6 +11077,40 @@ namespace Nubank.Droid
 			
 			// aapt resource value: 11
 			public const int CardView_contentPaddingTop = 11;
+			
+			public static int[] CirclePageIndicator = new int[] {
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347};
+			
+			// aapt resource value: 0
+			public const int CirclePageIndicator_vpiCentered = 0;
+			
+			// aapt resource value: 5
+			public const int CirclePageIndicator_vpiFillColor = 5;
+			
+			// aapt resource value: 2
+			public const int CirclePageIndicator_vpiOrientation = 2;
+			
+			// aapt resource value: 1
+			public const int CirclePageIndicator_vpiPageColor = 1;
+			
+			// aapt resource value: 4
+			public const int CirclePageIndicator_vpiRadius = 4;
+			
+			// aapt resource value: 3
+			public const int CirclePageIndicator_vpiSnap = 3;
+			
+			// aapt resource value: 6
+			public const int CirclePageIndicator_vpiStrokeColor = 6;
+			
+			// aapt resource value: 7
+			public const int CirclePageIndicator_vpiStrokeWidth = 7;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130772005,
@@ -9579,6 +12299,12 @@ namespace Nubank.Droid
 			
 			// aapt resource value: 2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
+			
+			public static int[] ViewPagerIndicator = new int[] {
+					2130772339};
+			
+			// aapt resource value: 0
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
 			
 			public static int[] ViewStubCompat = new int[] {
 					16842960,

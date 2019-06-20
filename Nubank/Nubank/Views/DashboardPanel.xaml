@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="Nubank.Views.DashboardPanel">
+  <ViewCell.View>
+        <Frame Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                   BackgroundColor="#ffeeff">
+            
+            <Grid BackgroundColor="Transparent" 
+                      HorizontalOptions="FillAndExpand"
+                      VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="30*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="15*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Grid.Row="0" Grid.Column="0" Source="ic_eye_hide.png"
+                           VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+                
+                <Image Grid.Row="0" Grid.Column="2" Source="ic_eye_hide.png"
+                           VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+                
+                <Label Text="Saldo disponível" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Small"
+                        HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" TextColor="#ffeeff"/>
+            </Grid>
+        </Frame>
+    </ViewCell.View>
+</ViewCell>
