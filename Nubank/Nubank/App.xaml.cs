@@ -1,16 +1,41 @@
-﻿using System;
+﻿using Nubank.Abstractions;
+using Nubank.Helpers;
+using Nubank.ViewModels;
+using Prism;
+using Prism.DryIoc;
+using Prism.Ioc;
+using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Nubank
 {
-    public partial class App : Application
+    public partial class App : PrismApplication
     {
-        public App()
+        public App() : this(null) { }
+
+        public App(IPlatformInitializer platformInitializer) : base(platformInitializer)
         {
             InitializeComponent();
+#if DEBUG
+            HotReloader.Current.Run(this);
+#endif
+        }
+        protected override async void OnInitialized()
+        {
+            InitializeComponent();
+            await InitializeNavigationAsync();
+        }
 
-            MainPage = new MainPage();
+        private Task InitializeNavigationAsync()
+            => NavigationService.NavigateAsync(nameof(MainPage));
+
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            containerRegistry.RegisterSingleton<ILogger, Logger>();
+            containerRegistry.RegisterForNavigation<NavigationPage>();
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
         }
 
         protected override void OnStart()
