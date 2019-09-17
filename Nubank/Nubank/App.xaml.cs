@@ -5,6 +5,7 @@ using Prism;
 using Prism.DryIoc;
 using Prism.Ioc;
 using System;
+using System.Net;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -19,7 +20,9 @@ namespace Nubank
         {
             InitializeComponent();
 #if DEBUG
-            HotReloader.Current.Run(this);
+            HotReloader.Current.Run(this, new HotReloader.Configuration {
+                ExtensionIpAddress = IPAddress.Parse("192.168.104.2")
+            });
 #endif
         }
         protected override async void OnInitialized()
