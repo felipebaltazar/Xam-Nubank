@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using UIKit;
 
@@ -22,8 +21,8 @@ namespace Nubank.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            global::Xamarin.Forms.Forms.SetFlags("CollectionView_Experimental");
             global::Xamarin.Forms.Forms.Init();
-            CarouselViewRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

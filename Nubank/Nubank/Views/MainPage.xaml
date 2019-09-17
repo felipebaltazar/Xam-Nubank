@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Nubank"
-             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              xmlns:views="clr-namespace:Nubank.Views"
+             xmlns:helpers="clr-namespace:Nubank.Helpers"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Nubank.MainPage"
@@ -21,64 +21,133 @@
             <Setter Property="HorizontalOptions" Value="Center" />
             <Setter Property="TextColor" Value="{StaticResource ThirtyColor}" />
         </Style>
+        <DataTemplate x:Key="balanceTemplate">
+            <StackLayout Padding="20,0">
+                <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                   BackgroundColor="#ffeeff">
+                    <Grid BackgroundColor="Transparent"
+                                      HorizontalOptions="FillAndExpand"
+                                      VerticalOptions="FillAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="45*"/>
+                            <RowDefinition Height="15*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15*"/>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="15*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Row="0" Grid.Column="0" Source="ic_balance_ico.png"
+                                           VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+
+                        <Image Grid.Row="0" Grid.Column="2" Source="ic_eye_hide.png"
+                                           VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
+
+                        <Label Text="Saldo disponível" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Small"
+                                           HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
+                                           Style="{StaticResource Key=LabelPageBodyStyle}"/>
+
+                        <Label Text="R$ 1.000.000,00" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large"
+                                HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" TextColor="Black"/>
+
+                        <Frame BackgroundColor="#e5f1fb" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"
+                                           HasShadow="False" Margin="-20">
+                        </Frame>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </DataTemplate>
+        <DataTemplate x:Key="infoTemplate">
+            <StackLayout Padding="20,0">
+                <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                       BackgroundColor="#ffeeff">
+                    <Grid BackgroundColor="Transparent" Padding="25,0"
+                                      HorizontalOptions="FillAndExpand"
+                                      VerticalOptions="FillAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="15*"/>
+                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="15*"/>
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                               Text="cartao de credito" TextColor="{StaticResource PrimaryColor}" FontAttributes="Bold" FontSize="Large" />
+                        
+                        <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                               Text="Simplificando o controle da sua vida.Como sempre deveria ter sido." TextColor="Black" 
+                               FontSize="Medium" HorizontalTextAlignment="Center" />
+                        
+                        <Button Grid.Row="3" BackgroundColor="Transparent" TextColor="{StaticResource PrimaryColor}"
+                                Text="Peca o seu" BorderColor="Black" BorderWidth="1"/>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </DataTemplate>
+        <helpers:BalanceTemplateSelector x:Key="balanceDataTemplateSelector"
+                ValidTemplate="{StaticResource balanceTemplate}"
+                InvalidTemplate="{StaticResource infoTemplate}" />
     </ContentPage.Resources>
-
-    <StackLayout>
-        <Grid BackgroundColor="Transparent"
-              HorizontalOptions="FillAndExpand"
-              VerticalOptions="FillAndExpand">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="8*"/>
-                <RowDefinition Height="62*"/>
-                <RowDefinition Height="20*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="30*"/>
-                <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="50*"/>
-            </Grid.ColumnDefinitions>
-
-            <Image Grid.Row="0" Grid.Column="1"
-                   Source="ic_nu_log_white.png" />
-
-            <Label Text="Felipe" Grid.Row="0" Grid.Column="2" FontSize="Medium"
-                   HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand"
+    <Grid BackgroundColor="Transparent"
+          HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image Grid.Row="0" Grid.Column="1" VerticalOptions="Start"
+               Margin="0,20,0,0" Source="ic_nu_log_white.png" />
+        
+        <Label Text="Felipe" Grid.Row="0" Grid.Column="2" FontSize="Medium" Margin="0,20,0,0"
+                   HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"
                    Style="{StaticResource Key=LabelPageHeadingStyle}"/>
-
-            <Frame Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="20,30,20,0" 
-                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
-                   BackgroundColor="{StaticResource Key=SecondaryColor}">
-            
-            <Grid BackgroundColor="Transparent" 
-                      HorizontalOptions="FillAndExpand"
-                      VerticalOptions="FillAndExpand">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="10*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="30*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="15*"/>
-                    <ColumnDefinition Width="70*"/>
-                    <ColumnDefinition Width="15*"/>
-                </Grid.ColumnDefinitions>
-                
-                <Image Grid.Row="0" Grid.Column="0" Source="ic_balance_ico.png"
-                       VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
-                
-                <Image Grid.Row="0" Grid.Column="2" Source="ic_eye_hide.png"
-                       VerticalOptions="StartAndExpand" Margin="0,15,0,0" />
-                
-                <Label Text="Saldo disponível" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Small"
-                       HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"
-                       Style="{StaticResource Key=LabelPageBodyStyle}"/>
-
-                <Label Text="R$ 1.000.000,00" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large"
-                       HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" TextColor="Black"/>
-                </Grid>
-        </Frame>
-        </Grid>
-    </StackLayout>
-
+        
+        <CarouselView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,30,0,0"
+                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                      ItemTemplate="{StaticResource balanceDataTemplateSelector}"
+                      ItemsSource="{Binding InfoSource}" PeekAreaInsets="80" HorizontalScrollBarVisibility="Never">
+            <CarouselView.ItemsLayout>
+                <GridItemsLayout Orientation="Horizontal" SnapPointsAlignment="Center"
+                                 SnapPointsType="Mandatory" />
+            </CarouselView.ItemsLayout>
+        </CarouselView>
+        
+        <CarouselView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,30,0,0"
+                      ItemsSource="{Binding NavigationItemSource}" ItemSizingStrategy="None" PeekAreaInsets="50">
+            <CarouselView.ItemsLayout>
+                <GridItemsLayout Orientation="Horizontal" />
+            </CarouselView.ItemsLayout>
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout HeightRequest="100" Padding="20" HorizontalOptions="Center" WidthRequest="100">
+                        <Frame BackgroundColor="#8D2DA8" WidthRequest="100" HasShadow="False"
+                               VerticalOptions="FillAndExpand" CornerRadius="4">
+                            <Grid VerticalOptions="FillAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="10*"/>
+                                    <ColumnDefinition Width="90*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                       Aspect="AspectFit" Grid.Row="0" Grid.Column="0" Source="{Binding Icon}" />
+                                <Label TextColor="White" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Title}"
+                                       VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </Grid>
 </ContentPage>
