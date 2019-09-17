@@ -28,9 +28,12 @@ namespace Nubank.ViewModels
             NavigationItemSource = new ObservableCollection<NavigationViewModel>
             {
                 new NavigationViewModel(navigationService, logger, "Indicar amigos", ImageSource.FromFile("ic_invite.png")),
-                new NavigationViewModel(navigationService, logger, "Cobrar amigos", ImageSource.FromFile("ic_cash.png")),
-                new NavigationViewModel(navigationService, logger, "Depositar", ImageSource.FromFile("ic_transaction.png")),
-                new NavigationViewModel(navigationService, logger, "Transferir", ImageSource.FromFile("ic_transaction.png"))
+                new NavigationViewModel(navigationService, logger, "Cobrar amigos", ImageSource.FromFile("ic_charge.png")),
+                new NavigationViewModel(navigationService, logger, "Depositar", ImageSource.FromFile("ic_deposit.png")),
+                new NavigationViewModel(navigationService, logger, "Transferir", ImageSource.FromFile("ic_transfer_sent.png")),
+                new NavigationViewModel(navigationService, logger, "Pagar", ImageSource.FromFile("ic_payment.png")),
+                new NavigationViewModel(navigationService, logger, "Bloquear cartão", ImageSource.FromFile("ic_block.png")),
+                new NavigationViewModel(navigationService, logger, "Organizar atalhos", ImageSource.FromFile("ic_order.png"))
             };
 
             InfoSource = new ObservableCollection<DashBoardViewModel>

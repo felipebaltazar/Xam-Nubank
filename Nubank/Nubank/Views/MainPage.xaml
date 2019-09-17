@@ -68,11 +68,13 @@
                                       HorizontalOptions="FillAndExpand"
                                       VerticalOptions="FillAndExpand">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="30*"/>
                             <RowDefinition Height="15*"/>
-                            <RowDefinition Height="30*"/>
+                            <RowDefinition Height="25*"/>
+                            <RowDefinition Height="35*"/>
                             <RowDefinition Height="15*"/>
                         </Grid.RowDefinitions>
+                        <Image VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                                       Aspect="AspectFit" Grid.Row="0" Source="ic_nucard.png" />
                         <Label Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
                                Text="cartao de credito" TextColor="{StaticResource PrimaryColor}" FontAttributes="Bold" FontSize="Large" />
                         
@@ -95,7 +97,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="12*"/>
             <RowDefinition Height="42*"/>
-            <RowDefinition Height="20*"/>
+            <RowDefinition Height="15*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="30*"/>
@@ -130,19 +132,19 @@
                     <StackLayout HeightRequest="100" Padding="20" HorizontalOptions="Center" WidthRequest="100">
                         <Frame BackgroundColor="#8D2DA8" WidthRequest="100" HasShadow="False"
                                VerticalOptions="FillAndExpand" CornerRadius="4">
-                            <Grid VerticalOptions="FillAndExpand">
+                            <Grid VerticalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0" Padding="0">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="50*"/>
                                     <RowDefinition Height="50*"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="10*"/>
-                                    <ColumnDefinition Width="90*"/>
+                                    <ColumnDefinition Width="18*"/>
+                                    <ColumnDefinition Width="82*"/>
                                 </Grid.ColumnDefinitions>
                                 <Image VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                                        Aspect="AspectFit" Grid.Row="0" Grid.Column="0" Source="{Binding Icon}" />
-                                <Label TextColor="White" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Title}"
-                                       VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+                                <Label TextColor="White" Grid.Row="1" Grid.Column="0" Text="{Binding Title}"
+                                       VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand"/>
                             </Grid>
                         </Frame>
                     </StackLayout>
