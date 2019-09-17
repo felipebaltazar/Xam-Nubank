@@ -29,6 +29,9 @@
                 
                 <Label Text="Saldo disponível" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Small"
                         HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" TextColor="#ffeeff"/>
+                
+                <Label Text="R$ 1.000.000,00" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="Large"
+                       HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" TextColor="Black"/>
             </Grid>
         </Frame>
     </ViewCell.View>
