@@ -77,11 +77,11 @@
                                        Aspect="AspectFit" Grid.Row="0" Source="ic_nucard.png" />
                         <Label Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
                                Text="cartao de credito" TextColor="{StaticResource PrimaryColor}" FontAttributes="Bold" FontSize="Large" />
-                        
+
                         <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
                                Text="Simplificando o controle da sua vida.Como sempre deveria ter sido." TextColor="Black" 
                                FontSize="Medium" HorizontalTextAlignment="Center" />
-                        
+
                         <Button Grid.Row="3" BackgroundColor="Transparent" TextColor="{StaticResource PrimaryColor}"
                                 Text="Peca o seu" BorderColor="Black" BorderWidth="1"/>
                     </Grid>
@@ -96,54 +96,60 @@
           HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Grid.RowDefinitions>
             <RowDefinition Height="12*"/>
-            <RowDefinition Height="42*"/>
-            <RowDefinition Height="15*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="12*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="30*"/>
             <ColumnDefinition Width="10*"/>
             <ColumnDefinition Width="50*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Image Grid.Row="0" Grid.Column="1" VerticalOptions="Start"
                Margin="0,20,0,0" Source="ic_nu_log_white.png" />
-        
+
         <Label Text="Felipe" Grid.Row="0" Grid.Column="2" FontSize="Medium" Margin="0,20,0,0"
                    HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"
                    Style="{StaticResource Key=LabelPageHeadingStyle}"/>
-        
+
         <CarouselView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,30,0,0"
                       HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                       ItemTemplate="{StaticResource balanceDataTemplateSelector}"
-                      ItemsSource="{Binding InfoSource}" PeekAreaInsets="80" HorizontalScrollBarVisibility="Never">
+                      ItemsSource="{Binding InfoSource}" PeekAreaInsets="0" HorizontalScrollBarVisibility="Never">
             <CarouselView.ItemsLayout>
-                <GridItemsLayout Orientation="Horizontal" SnapPointsAlignment="Center"
+                <LinearItemsLayout Orientation="Horizontal" SnapPointsAlignment="Center"
                                  SnapPointsType="Mandatory" />
             </CarouselView.ItemsLayout>
         </CarouselView>
-        
-        <CarouselView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,30,0,0"
-                      ItemsSource="{Binding NavigationItemSource}" ItemSizingStrategy="None" PeekAreaInsets="50">
+
+        <CarouselView x:Name="navigation" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,15,0,0"
+                      ItemsSource="{Binding NavigationItemSource}"
+                      PeekAreaInsets="500" >
             <CarouselView.ItemsLayout>
-                <GridItemsLayout Orientation="Horizontal" />
+                <LinearItemsLayout Orientation="Horizontal" />
             </CarouselView.ItemsLayout>
             <CarouselView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout HeightRequest="100" Padding="20" HorizontalOptions="Center" WidthRequest="100">
+                    <StackLayout Padding="10,10,0,10" WidthRequest="100" Spacing="0">
                         <Frame BackgroundColor="#8D2DA8" WidthRequest="100" HasShadow="False"
-                               VerticalOptions="FillAndExpand" CornerRadius="4">
-                            <Grid VerticalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0" Padding="0">
+                               VerticalOptions="Fill" CornerRadius="4" Padding="0">
+                            <Grid VerticalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0" Padding="5,5,0,5">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="50*"/>
                                     <RowDefinition Height="50*"/>
                                 </Grid.RowDefinitions>
+
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="18*"/>
-                                    <ColumnDefinition Width="82*"/>
+                                    <ColumnDefinition Width="30*"/>
+                                    <ColumnDefinition Width="35*"/>
+                                    <ColumnDefinition Width="35*"/>
                                 </Grid.ColumnDefinitions>
+
                                 <Image VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
                                        Aspect="AspectFit" Grid.Row="0" Grid.Column="0" Source="{Binding Icon}" />
-                                <Label TextColor="White" Grid.Row="1" Grid.Column="0" Text="{Binding Title}"
+
+                                <Label TextColor="White" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding Title}"
                                        VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand"/>
                             </Grid>
                         </Frame>
