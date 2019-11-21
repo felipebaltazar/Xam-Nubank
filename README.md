@@ -1,6 +1,8 @@
 # Xam-Nubank
 
-Nubank app made with xamarin forms
+<img width="15%" alt="snpp badge" src="https://camo.githubusercontent.com/b72b502eb8f3df149f75f8a72f7d0f9f35728827/68747470733a2f2f7777772e736e707074732e6465762f696d672f736e707074732d62616467652e6a7067" />
+
+_Nubank app made with xamarin forms_
 
 ## Build Status
 
