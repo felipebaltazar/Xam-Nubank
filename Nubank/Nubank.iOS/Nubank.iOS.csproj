@@ -125,7 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Prism.DryIoc.Forms">
-      <Version>7.2.0.1367</Version>
+      <Version>8.1.97</Version>
     </PackageReference>
     <PackageReference Include="System.Threading.Tasks.Extensions">
       <Version>4.6.0-preview.18571.3</Version>
